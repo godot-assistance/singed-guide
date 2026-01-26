@@ -1222,5 +1222,125 @@ window.matchups = [
             "Save your R for after he ults."
         ],
         keyPoints: "Sustain fighter. Build grievous. Don't fight when low HP."
+    },
+    {
+        name: "Akshan",
+        difficulty: "hard",
+        icon: "🪝",
+        runeSetup: {
+            primary: {
+                tree: "Sorcery",
+                keystone: "Phase Rush",
+                slot1: "Nimbus Cloak",
+                slot2: "Celerity",
+                slot3: "Gathering Storm"
+            },
+            secondary: {
+                tree: "Resolve",
+                slot1: "Second Wind",
+                slot2: "Overgrowth"
+            },
+            shards: ["Adaptive Force", "Armor", "Health"]
+        },
+        runes: "Phase Rush + Second Wind + Doran's Shield. Survive the lane.",
+        laningPhase: "One of the most annoying ADC tops. He pokes with passive double-shot autos, has a dash AND stealth with W, and his E grappling hook lets him kite you endlessly. Start Doran's Shield + Second Wind mandatory. You literally cannot catch him - when you run at him, he E's away or goes invis. Don't try to fight him. Give up CS if needed. Ask for jungle pressure but even with ganks he can E away or W stealth. Rush tier 2 boots and Oracle Lens for his stealth. Your goal: SURVIVE lane, don't feed. Post-6, look for roams mid/bot. He will outpoke and outscale you in sidelane. Build HP and armor. Consider Randuin's vs his crit.",
+        tips: [
+            "Doran's Shield + Second Wind mandatory - his poke is brutal.",
+            "You cannot catch him - E dash + W stealth.",
+            "Oracle Lens reveals his W stealth circle.",
+            "Give up CS, don't int. Farm safely under tower.",
+            "Roam post-6 - you can't beat him sidelane."
+        ],
+        keyPoints: "Cancer ADC top. Survive, don't feed. Roam and impact map."
+    },
+    {
+        name: "Lucian",
+        difficulty: "hard",
+        icon: "🔫",
+        runeSetup: {
+            primary: {
+                tree: "Sorcery",
+                keystone: "Phase Rush",
+                slot1: "Nimbus Cloak",
+                slot2: "Celerity",
+                slot3: "Gathering Storm"
+            },
+            secondary: {
+                tree: "Resolve",
+                slot1: "Second Wind",
+                slot2: "Overgrowth"
+            },
+            shards: ["Adaptive Force", "Armor", "Health"]
+        },
+        runes: "Phase Rush + sustain. Doran's Shield start. You can't catch him.",
+        laningPhase: "Another nightmare ranged ADC top. His passive double-shot after every ability means insane poke damage. His E dash has a low cooldown that resets on kills. You CANNOT catch him - when you run at him, he E's away and kites you to death. Start Doran's Shield + Second Wind. Give up CS. Farm what you can safely. Call jungle but even with ganks he can E away. Rush Plated Steelcaps to reduce his auto damage. Don't fight him 1v1 ever. Your mission: survive lane without feeding, hit 6, proxy or roam. He falls off late vs tanks. Build armor and HP. Randuin's cuts his crit damage.",
+        tips: [
+            "He pokes with passive double-autos - brutal early.",
+            "His E dash cooldown is too short - you can't catch him.",
+            "Doran's Shield + Second Wind mandatory.",
+            "Rush Plated Steelcaps.",
+            "Don't fight. Farm safely. Ask for jungle pressure."
+        ],
+        keyPoints: "Uncatchable ADC. Survive lane. He falls off late vs your tankiness."
+    },
+    {
+        name: "Tristana",
+        difficulty: "hard",
+        icon: "💣",
+        runeSetup: {
+            primary: {
+                tree: "Sorcery",
+                keystone: "Phase Rush",
+                slot1: "Nimbus Cloak",
+                slot2: "Celerity",
+                slot3: "Gathering Storm"
+            },
+            secondary: {
+                tree: "Resolve",
+                slot1: "Second Wind",
+                slot2: "Overgrowth"
+            },
+            shards: ["Adaptive Force", "Armor", "Health"]
+        },
+        runes: "Phase Rush + Second Wind. Survive the explosive damage.",
+        laningPhase: "Explosive damage ADC top. She auto-attacks you, places bomb (E), then autos more to stack it. When it explodes, you lose half your HP. Her W rocket jump is a long-range escape/engage - you can't catch her. If you try to flip her, she just W's away or Rs you back. Start Doran's Shield + Second Wind. Farm safely, give up CS. Don't stand in minion waves when you have her E bomb on you (it AOE damages). Ask jungle for ganks but she can W away. Rush tier 2 boots and armor. Post-6, she can tower dive you with bomb + ult knockback. Play safe. Survive lane. You outscale in teamfights.",
+        tips: [
+            "Her E bomb explodes for massive damage - don't let her stack it.",
+            "Don't stand in minion waves with bomb on you.",
+            "Her W jump and R knockback make her uncatchable.",
+            "Doran's Shield + Second Wind mandatory.",
+            "Rush armor. Play safe. Don't feed."
+        ],
+        keyPoints: "Explosive poke. Uncatchable. Survive lane. Teamfights > 1v1."
+    },
+    {
+        name: "Kalista",
+        difficulty: "hard",
+        icon: "👻",
+        runeSetup: {
+            primary: {
+                tree: "Sorcery",
+                keystone: "Phase Rush",
+                slot1: "Nimbus Cloak",
+                slot2: "Celerity",
+                slot3: "Gathering Storm"
+            },
+            secondary: {
+                tree: "Resolve",
+                slot1: "Second Wind",
+                slot2: "Overgrowth"
+            },
+            shards: ["Adaptive Force", "Armor", "Health"]
+        },
+        runes: "Phase Rush + sustain. Pray your jungler comes.",
+        laningPhase: "Rare but absolutely cancer if you face her top. She hops after every auto-attack - you CANNOT catch her. Her E (Rend) stacks spears in you and when she pulls, it does massive damage and slows you. If she gets 2-3 autos on you, you're slowed and she kites you to death. Start Doran's Shield + Second Wind mandatory. Give up CS. Farm under tower. Don't try to fight her - you will never land flip because she hops away. Call jungle for ganks but even then it's hard. Rush Plated Steelcaps to reduce auto damage. Proxy if you can get between towers. Your goal: SURVIVE. Don't feed. She's useless in teamfights without her support. You win late.",
+        tips: [
+            "She hops after EVERY auto - impossible to catch.",
+            "Her E spears stack on you - back off before she rends.",
+            "Doran's Shield + Second Wind mandatory.",
+            "Give up CS. Farm safely. Call jungle.",
+            "Proxy if possible. You're more useful in teamfights."
+        ],
+        keyPoints: "Impossible to catch. Don't feed. Survive. Win teamfights late."
     }
 ];
