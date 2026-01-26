@@ -415,6 +415,56 @@ function resetFilters() {
     renderMatchups();
 }
 
+function generateRuneTreeHTML(runeSetup) {
+    if (!runeSetup) return '';
+    
+    return `
+        <div class="rune-trees">
+            <div class="rune-tree">
+                <h4 class="tree-name">${runeSetup.primary.tree}</h4>
+                <div class="rune-row keystone">
+                    <span class="rune-icon">🔸</span>
+                    <span class="rune-name">${runeSetup.primary.keystone}</span>
+                </div>
+                <div class="rune-row">
+                    <span class="rune-icon">•</span>
+                    <span class="rune-name">${runeSetup.primary.slot1}</span>
+                </div>
+                <div class="rune-row">
+                    <span class="rune-icon">•</span>
+                    <span class="rune-name">${runeSetup.primary.slot2}</span>
+                </div>
+                <div class="rune-row">
+                    <span class="rune-icon">•</span>
+                    <span class="rune-name">${runeSetup.primary.slot3}</span>
+                </div>
+            </div>
+            
+            <div class="rune-tree">
+                <h4 class="tree-name">${runeSetup.secondary.tree}</h4>
+                <div class="rune-row">
+                    <span class="rune-icon">•</span>
+                    <span class="rune-name">${runeSetup.secondary.slot1}</span>
+                </div>
+                <div class="rune-row">
+                    <span class="rune-icon">•</span>
+                    <span class="rune-name">${runeSetup.secondary.slot2}</span>
+                </div>
+            </div>
+            
+            <div class="stat-shards">
+                <h4 class="tree-name">Stat Shards</h4>
+                ${runeSetup.shards.map(shard => `
+                    <div class="rune-row shard">
+                        <span class="rune-icon">⬡</span>
+                        <span class="rune-name">${shard}</span>
+                    </div>
+                `).join('')}
+            </div>
+        </div>
+    `;
+}
+
 function showMatchupDetails(matchup) {
     const modal = document.getElementById('matchupModal');
     const modalBody = document.getElementById('modalBody');
@@ -433,7 +483,13 @@ function showMatchupDetails(matchup) {
             <p>${matchup.keyPoints}</p>
         </div>
         
-        ${matchup.runes ? `
+        ${matchup.runeSetup ? `
+        <div class="modal-section">
+            <h3>📜 Recommended Runes</h3>
+            ${generateRuneTreeHTML(matchup.runeSetup)}
+            ${matchup.runes ? `<p class="rune-notes">${matchup.runes}</p>` : ''}
+        </div>
+        ` : matchup.runes ? `
         <div class="modal-section">
             <h3>📜 Recommended Runes</h3>
             <p>${matchup.runes}</p>

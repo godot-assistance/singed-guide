@@ -386,6 +386,88 @@ body {
     font-size: 0.9rem;
 }
 
+/* Rune Trees Display */
+.rune-trees {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.rune-tree,
+.stat-shards {
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid rgba(95, 167, 101, 0.3);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.tree-name {
+    color: #c8ff8e;
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+    text-align: center;
+    border-bottom: 2px solid rgba(95, 167, 101, 0.3);
+    padding-bottom: 8px;
+}
+
+.rune-row {
+    display: flex;
+    align-items: center;
+    padding: 8px 10px;
+    margin: 5px 0;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+.rune-row:hover {
+    background: rgba(95, 167, 101, 0.2);
+    transform: translateX(5px);
+}
+
+.rune-row.keystone {
+    background: linear-gradient(135deg, rgba(200, 255, 142, 0.15), rgba(95, 167, 101, 0.15));
+    border-left: 3px solid #c8ff8e;
+    font-weight: bold;
+}
+
+.rune-row.shard {
+    background: rgba(184, 233, 148, 0.1);
+}
+
+.rune-icon {
+    font-size: 1.2rem;
+    margin-right: 10px;
+    color: #5fa765;
+}
+
+.rune-row.keystone .rune-icon {
+    color: #c8ff8e;
+    font-size: 1.4rem;
+}
+
+.rune-name {
+    color: #e0e0e0;
+    font-size: 0.95rem;
+}
+
+.rune-row.keystone .rune-name {
+    color: #c8ff8e;
+    font-size: 1.05rem;
+}
+
+.rune-notes {
+    margin-top: 15px;
+    padding: 12px;
+    background: rgba(200, 255, 142, 0.1);
+    border-left: 3px solid #c8ff8e;
+    border-radius: 5px;
+    color: #b8e994;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
 /* Mobile */
 @media (max-width: 768px) {
     .hero h1 {
@@ -402,5 +484,9 @@ body {
     
     .matchup-grid {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    
+    .rune-trees {
+        grid-template-columns: 1fr;
     }
 }
