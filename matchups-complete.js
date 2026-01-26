@@ -932,5 +932,295 @@ window.matchups = [
             "He E's away when you engage - hard to kill."
         ],
         keyPoints: "Ranged AP poke. Survive lane. Mercury Treads mandatory."
+    },
+    {
+        name: "Gnar",
+        difficulty: "hard",
+        icon: "🦘",
+        runeSetup: {
+            primary: {
+                tree: "Sorcery",
+                keystone: "Phase Rush",
+                slot1: "Nimbus Cloak",
+                slot2: "Celerity",
+                slot3: "Gathering Storm"
+            },
+            secondary: {
+                tree: "Resolve",
+                slot1: "Second Wind",
+                slot2: "Overgrowth"
+            },
+            shards: ["Adaptive Force", "Armor", "Health"]
+        },
+        runes: "Phase Rush + Second Wind. You need sustain and escape from his kiting.",
+        laningPhase: "Nightmare ranged matchup. Mini Gnar kites you endlessly with auto attacks and Q poke. He builds rage while harassing you. When he transforms to Mega Gnar, he becomes a massive threat with CC. Start Doran's Shield + Second Wind. Give up CS to avoid free poke. You literally cannot catch Mini Gnar - he has E hop and slows. When he's Mega Gnar, stay away from walls (his R will stun you). Rush tier 2 boots and try to survive. Ask for jungle ganks when his E is down. Your goal: don't feed, farm what you can, be useful in teamfights. Post-6, bait his Mega form, let it expire, then engage when he's Mini again.",
+        tips: [
+            "You can't catch Mini Gnar - he hops away.",
+            "When he's Mega, stay away from walls (his R stun).",
+            "Doran's Shield + Second Wind mandatory.",
+            "Farm safely, wait for jungle help."
+        ],
+        keyPoints: "Ranged kiting nightmare. Survive lane. Can't 1v1 him."
+    },
+    {
+        name: "Jayce",
+        difficulty: "hard",
+        icon: "⚡",
+        runeSetup: {
+            primary: {
+                tree: "Sorcery",
+                keystone: "Phase Rush",
+                slot1: "Nimbus Cloak",
+                slot2: "Celerity",
+                slot3: "Gathering Storm"
+            },
+            secondary: {
+                tree: "Resolve",
+                slot1: "Second Wind",
+                slot2: "Overgrowth"
+            },
+            shards: ["Adaptive Force", "Armor", "Health"]
+        },
+        runes: "Phase Rush + Second Wind. You need sustain against constant poke.",
+        laningPhase: "One of the worst matchups. Jayce pokes you with Q+E combo from range, then hammer form all-ins you. Start Doran's Shield + Second Wind. Farm with Q poison and give up CS to avoid his shock blast. When he transforms to hammer form and jumps on you, fling him away immediately and disengage. Don't extended trade - he wins. Rush tier 2 boots and try to survive. His poke wears you down over time. Post-6, he has no R but his damage is still insane. Ask for jungle help. Your job: survive, don't feed, be useful in teamfights. Proxy when his E knockback is down.",
+        tips: [
+            "His ranged Q+E poke chunks you hard.",
+            "When he hammer jumps, fling and run.",
+            "Doran's Shield + Second Wind mandatory.",
+            "He has no R - all basic abilities hurt."
+        ],
+        keyPoints: "Poke nightmare. Can't engage, can't escape. Survive and scale."
+    },
+    {
+        name: "Akali",
+        difficulty: "hard",
+        icon: "🥷",
+        runeSetup: {
+            primary: {
+                tree: "Precision",
+                keystone: "Conqueror",
+                slot1: "Triumph",
+                slot2: "Legend: Tenacity",
+                slot3: "Last Stand"
+            },
+            secondary: {
+                tree: "Resolve",
+                slot1: "Second Wind",
+                slot2: "Unflinching"
+            },
+            shards: ["Attack Speed", "Magic Resist", "Health"]
+        },
+        runes: "Conqueror + Mercury Treads. She does magic damage and has tons of mobility.",
+        laningPhase: "High mobility assassin. She Q's you on cooldown for energy restore. Her W shroud makes her invisible - you can't target her. When she shrouds, just leave the smoke. Don't stay in it. She E's (dash) to you, combos, then E's back out. You can fling her mid-combo if you time it right. Post-6, her R gives her two dashes - you can't escape. Start Doran's Shield. Build Mercury Treads and MR. Your job: survive, don't let her snowball. Her shroud has a long cooldown - fight when it's down. Proxy when she backs or roams. She's useless if she doesn't get kills early.",
+        tips: [
+            "Leave her shroud - don't fight in it.",
+            "Fling her mid-combo to cancel it.",
+            "Build Mercury Treads + MR.",
+            "She needs kills to scale - don't feed."
+        ],
+        keyPoints: "High mobility assassin. Survive early, she's useless if not fed."
+    },
+    {
+        name: "Heimerdinger",
+        difficulty: "hard",
+        icon: "🔧",
+        runeSetup: {
+            primary: {
+                tree: "Sorcery",
+                keystone: "Phase Rush",
+                slot1: "Nimbus Cloak",
+                slot2: "Celerity",
+                slot3: "Gathering Storm"
+            },
+            secondary: {
+                tree: "Resolve",
+                slot1: "Second Wind",
+                slot2: "Overgrowth"
+            },
+            shards: ["Adaptive Force", "Magic Resist", "Health"]
+        },
+        runes: "Phase Rush + Mercury Treads. You need escape and MR.",
+        laningPhase: "Turret hell. He sets up 3 turrets and zones you from farm. You can't approach without taking massive damage. Start Doran's Shield. Your poison kills his turrets slowly but he just replaces them. When his turrets are down, engage. Post-6, his R upgrades one turret to a mega turret - massive damage. Don't fight near it. Ask for jungle help to clear turrets. Rush Mercury Treads and MR. Your job: survive, farm with Q when safe, proxy when his turrets are focused elsewhere. He's immobile - if you get jungle help, you can kill him.",
+        tips: [
+            "Your poison kills his turrets slowly.",
+            "Don't fight near his R mega turret.",
+            "He's immobile - ask for ganks.",
+            "Build Mercury Treads + MR."
+        ],
+        keyPoints: "Turret zone control. Can't farm near turrets. Ask jungler for help."
+    },
+    {
+        name: "Ryze",
+        difficulty: "hard",
+        icon: "📘",
+        runeSetup: {
+            primary: {
+                tree: "Sorcery",
+                keystone: "Phase Rush",
+                slot1: "Nimbus Cloak",
+                slot2: "Celerity",
+                slot3: "Gathering Storm"
+            },
+            secondary: {
+                tree: "Resolve",
+                slot1: "Second Wind",
+                slot2: "Overgrowth"
+            },
+            shards: ["Adaptive Force", "Magic Resist", "Health"]
+        },
+        runes: "Phase Rush + Mercury Treads. He roots you and kites with Phase Rush.",
+        laningPhase: "Ranged mage with root. He Q's and E's you on cooldown for poke. When he roots you with W, you take a full combo. You can't catch him - he has his own Phase Rush. Start Doran's Shield + Second Wind. Farm safely and give up CS. Don't let him poke you for free. Rush Mercury Treads for tenacity. Post-6, his R is a teleport - not directly combat threatening but gives him map pressure. Ask for jungle help. Your job: survive, don't feed, proxy when safe. He scales hard but you're more useful in teamfights if you don't int lane.",
+        tips: [
+            "He roots you and combos - dodge sideways.",
+            "You can't catch him - he has Phase Rush too.",
+            "Mercury Treads for tenacity against root.",
+            "Farm safely, ask for ganks."
+        ],
+        keyPoints: "Ranged mage with root. Survive and don't feed. Ask for ganks."
+    },
+    {
+        name: "Gragas",
+        difficulty: "skill",
+        icon: "🍺",
+        runeSetup: {
+            primary: {
+                tree: "Precision",
+                keystone: "Conqueror",
+                slot1: "Triumph",
+                slot2: "Legend: Tenacity",
+                slot3: "Last Stand"
+            },
+            secondary: {
+                tree: "Sorcery",
+                slot1: "Nimbus Cloak",
+                slot2: "Celerity"
+            },
+            shards: ["Attack Speed", "Magic Resist", "Health"]
+        },
+        runes: "Conqueror + Mercury Treads. He does magic damage.",
+        laningPhase: "Tanky AP fighter. His W damage reduction makes him deceptively tanky. He E's (body slam) to engage, then Q's and AA's you. Start Doran's Ring. Dodge his E body slam by running perpendicular. If he lands E, he stuns you and wins the trade. Don't fight when his W is active (damage reduction). Your poison outdamages his sustain over time. Post-6, his R knocks you away - he can use it to disengage or engage. Build Mercury Treads and some MR. Proxy when his E is down. Winnable matchup if you respect his E and W.",
+        tips: [
+            "Dodge his E body slam - that's his engage.",
+            "Don't fight when his W is active (damage reduction).",
+            "Build Mercury Treads for MR.",
+            "Proxy when E is down."
+        ],
+        keyPoints: "Tanky AP fighter. Respect his E and W. Winnable if you dodge."
+    },
+    {
+        name: "Pantheon",
+        difficulty: "skill",
+        icon: "🛡️",
+        runeSetup: {
+            primary: {
+                tree: "Precision",
+                keystone: "Conqueror",
+                slot1: "Triumph",
+                slot2: "Legend: Tenacity",
+                slot3: "Last Stand"
+            },
+            secondary: {
+                tree: "Resolve",
+                slot1: "Second Wind",
+                slot2: "Unflinching"
+            },
+            shards: ["Attack Speed", "Armor", "Health"]
+        },
+        runes: "Conqueror + Plated Steelcaps. Early game bully.",
+        laningPhase: "Early game lane bully. His Q poke hurts and his E blocks your AAs. Levels 1-3 he dominates. Don't fight him early. Start Doran's Shield. When he E's (shield blocks front damage), walk around him and poison from behind. His W stun sets up his burst. You outscale him hard - he falls off mid-late game. Just survive early. Build Plated Steelcaps. Post-6, his R is global pressure, not a 1v1 tool. Your job: survive early levels, don't feed, outscale him. By mid game you're way more useful.",
+        tips: [
+            "Levels 1-3 he wins hard - play safe.",
+            "Walk around his E shield to damage him.",
+            "You outscale him - just survive early.",
+            "Build Plated Steelcaps."
+        ],
+        keyPoints: "Early bully, falls off hard. Survive early, dominate mid-late."
+    },
+    {
+        name: "Shen",
+        difficulty: "skill",
+        icon: "⚔️",
+        runeSetup: {
+            primary: {
+                tree: "Precision",
+                keystone: "Conqueror",
+                slot1: "Triumph",
+                slot2: "Legend: Tenacity",
+                slot3: "Last Stand"
+            },
+            secondary: {
+                tree: "Sorcery",
+                slot1: "Nimbus Cloak",
+                slot2: "Celerity"
+            },
+            shards: ["Attack Speed", "Adaptive Force", "Health"]
+        },
+        runes: "Conqueror - Standard. Extended trades favor you.",
+        laningPhase: "Tank support top laner. He Q's through you for damage. His W blocks AAs in a zone - useless against you (your damage is poison). He E taunts if he lands it. Don't get hit by E. His passive shield blocks damage. Post-6, his R teleports to allies - he'll leave lane to save teammates. When he R's away, take plates or proxy. You can't really kill him and he can't really kill you. Just farm and proxy. Build Liandry's for burn. You outscale in side lane. Free matchup as long as you dodge E.",
+        tips: [
+            "His W zone blocks AAs - useless vs your poison.",
+            "Dodge his E taunt.",
+            "When he R's away, take plates.",
+            "Can't kill each other - farm and proxy."
+        ],
+        keyPoints: "Tank support style. Can't kill you, you can't kill him. Free farm."
+    },
+    {
+        name: "Tahm Kench",
+        difficulty: "skill",
+        icon: "🐸",
+        runeSetup: {
+            primary: {
+                tree: "Precision",
+                keystone: "Conqueror",
+                slot1: "Triumph",
+                slot2: "Legend: Tenacity",
+                slot3: "Last Stand"
+            },
+            secondary: {
+                tree: "Sorcery",
+                slot1: "Nimbus Cloak",
+                slot2: "Celerity"
+            },
+            shards: ["Attack Speed", "Adaptive Force", "Health"]
+        },
+        runes: "Conqueror + grievous wounds. He heals and shields a ton.",
+        laningPhase: "Unkillable tank. His passive stacks on you - when he gets 3 stacks, his Q stuns you. Don't let him stack passive. His W shield is massive. He Q's to slow and poke. Post-6, his R lets him dive you or escape. Build Oblivion Orb for grievous wounds - cuts his healing. You can't kill him 1v1. He can't really kill you either unless you int. Just farm and proxy. Build Liandry's for burn. Boring matchup - neither of you dies. Proxy and be more useful in teamfights.",
+        tips: [
+            "Don't let him stack 3 passive on you.",
+            "Build grievous wounds for his healing.",
+            "You can't kill each other - proxy.",
+            "Be more useful in teamfights."
+        ],
+        keyPoints: "Unkillable tank. Farm lane. Proxy and impact teamfights."
+    },
+    {
+        name: "Warwick",
+        difficulty: "skill",
+        icon: "🐺",
+        runeSetup: {
+            primary: {
+                tree: "Precision",
+                keystone: "Conqueror",
+                slot1: "Triumph",
+                slot2: "Legend: Tenacity",
+                slot3: "Last Stand"
+            },
+            secondary: {
+                tree: "Sorcery",
+                slot1: "Nimbus Cloak",
+                slot2: "Celerity"
+            },
+            shards: ["Attack Speed", "Adaptive Force", "Health"]
+        },
+        runes: "Conqueror + grievous wounds. He heals with Q and passive.",
+        laningPhase: "Sustain fighter. His Q heals him and follows you if you flash. His W attack speed buff when you're low is dangerous. His E damage reduction makes trades favor him. Don't fight when you're below 50% HP - his passive healing and W buff make him stronger. Rush Oblivion Orb for grievous wounds. His R suppresses you - you can't do anything. Post-6, save your R for after he ults. Build Plated Steelcaps and grievous. You outscale in teamfights. Proxy when his R is down.",
+        tips: [
+            "Don't fight below 50% HP - his passive and W buff.",
+            "His Q heal follows you even if you flash.",
+            "Rush grievous wounds.",
+            "Save your R for after he ults."
+        ],
+        keyPoints: "Sustain fighter. Build grievous. Don't fight when low HP."
     }
 ];
