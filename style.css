@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0a1428 0%, #1a2f4a 100%);
+    color: #e0e0e0;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(135deg, #2a5233 0%, #4a7c4e 100%);
+    padding: 60px 20px;
+    text-align: center;
+    border-bottom: 4px solid #5fa765;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #c8ff8e;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #b8e994;
+    font-style: italic;
+}
+
+/* Quick Stats */
+.quick-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 30px 20px;
+}
+
+.stat-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.stat-card:hover {
+    border-color: #5fa765;
+    transform: translateY(-3px);
+}
+
+.stat-icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: #999;
+    margin-bottom: 5px;
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5fa765;
+}
+
+/* Filter Bar */
+.filter-bar {
+    padding: 30px 20px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.filter-bar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #c8ff8e;
+}
+
+.filters {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#searchInput, select {
+    padding: 12px 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#searchInput {
+    min-width: 250px;
+}
+
+#searchInput:focus, select:focus {
+    outline: none;
+    border-color: #5fa765;
+}
+
+.btn-secondary {
+    padding: 12px 24px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: #5fa765;
+}
+
+/* Matchups */
+.matchups {
+    padding: 30px 20px;
+}
+
+.matchup-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.matchup-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.matchup-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(95, 167, 101, 0.3);
+}
+
+.matchup-card.easy {
+    border-left: 5px solid #4CAF50;
+}
+
+.matchup-card.skill {
+    border-left: 5px solid #FFC107;
+}
+
+.matchup-card.hard {
+    border-left: 5px solid #F44336;
+}
+
+.matchup-icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.matchup-name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #ffffff;
+}
+
+.matchup-difficulty {
+    font-size: 0.85rem;
+    padding: 4px 10px;
+    border-radius: 12px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.matchup-difficulty.easy {
+    background: #4CAF50;
+    color: white;
+}
+
+.matchup-difficulty.skill {
+    background: #FFC107;
+    color: #333;
+}
+
+.matchup-difficulty.hard {
+    background: #F44336;
+    color: white;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    overflow: auto;
+}
+
+.modal-content {
+    background: linear-gradient(135deg, #1a2f4a 0%, #0a1428 100%);
+    margin: 50px auto;
+    padding: 30px;
+    border: 2px solid #5fa765;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 800px;
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #5fa765;
+}
+
+.modal-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal-header h2 {
+    color: #c8ff8e;
+    margin-bottom: 10px;
+}
+
+.modal-section {
+    margin-bottom: 25px;
+}
+
+.modal-section h3 {
+    color: #5fa765;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.modal-section p, .modal-section ul {
+    color: #e0e0e0;
+    line-height: 1.8;
+}
+
+.modal-section ul {
+    padding-left: 20px;
+}
+
+.modal-section li {
+    margin-bottom: 8px;
+}
+
+/* General Tips */
+.general-tips, .builds, .runes {
+    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.general-tips h2, .builds h2, .runes h2 {
+    text-align: center;
+    color: #c8ff8e;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.tip-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(95, 167, 101, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.tip-card h3 {
+    color: #5fa765;
+    margin-bottom: 10px;
+}
+
+.tip-card p {
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Builds */
+.build-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.build-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(95, 167, 101, 0.3);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.build-card h3 {
+    color: #c8ff8e;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.item {
+    background: rgba(95, 167, 101, 0.2);
+    padding: 8px 12px;
+    border-radius: 6px;
+    border-left: 3px solid #5fa765;
+}
+
+.build-desc {
+    color: #999;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* Runes */
+.rune-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+.rune-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(95, 167, 101, 0.3);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.rune-card h3 {
+    color: #c8ff8e;
+    margin-bottom: 15px;
+}
+
+.rune-tree {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    line-height: 1.8;
+}
+
+.rune-card p {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+    
+    .filters {
+        flex-direction: column;
+    }
+    
+    #searchInput {
+        width: 100%;
+    }
+    
+    .matchup-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singed Top Lane Guide - Mix Mix Swirl Mix!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="hero">
+            <div class="hero-content">
+                <h1>🧪 THE MAD CHEMIST'S LABORATORY</h1>
+                <p class="tagline">Singed Top Lane Matchup Guide</p>
+                <p class="subtitle">"Mix, mix, swirl, mix!"</p>
+            </div>
+        </header>
+
+        <!-- Quick Stats -->
+        <section class="quick-stats">
+            <div class="stat-card">
+                <div class="stat-icon">✅</div>
+                <div class="stat-label">Favorable</div>
+                <div class="stat-value" id="favorableCount">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">⚔️</div>
+                <div class="stat-label">Skill</div>
+                <div class="stat-value" id="skillCount">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-icon">❌</div>
+                <div class="stat-label">Difficult</div>
+                <div class="stat-value" id="hardCount">0</div>
+            </div>
+        </section>
+
+        <!-- Filter Bar -->
+        <section class="filter-bar">
+            <h2>🔍 Find Your Matchup</h2>
+            <div class="filters">
+                <input type="text" id="searchInput" placeholder="Search champion...">
+                <select id="difficultyFilter">
+                    <option value="all">All Difficulties</option>
+                    <option value="easy">Favorable</option>
+                    <option value="skill">Skill Matchup</option>
+                    <option value="hard">Difficult</option>
+                </select>
+                <button onclick="resetFilters()" class="btn-secondary">Reset</button>
+            </div>
+        </section>
+
+        <!-- Matchups Grid -->
+        <section class="matchups">
+            <div id="matchupGrid" class="matchup-grid">
+                <!-- Populated by JS -->
+            </div>
+        </section>
+
+        <!-- Modal for Matchup Details -->
+        <div id="matchupModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <div id="modalBody">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+        </div>
+
+        <!-- General Tips -->
+        <section class="general-tips">
+            <h2>🧪 General Singed Wisdom</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <h3>🏃 Proxy Farming</h3>
+                    <p>Run between enemy towers and farm the wave there. Forces enemy to choose between tower and farm. High risk, high reward.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>🌊 Fling Priority</h3>
+                    <p>Fling carries into your team, not tanks. Flip them into tower or poison trail. Timing > Distance.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>💨 Poison Management</h3>
+                    <p>Your Q costs mana over time. Toggle it strategically. Don't leave it on when farming safely under tower.</p>
+                </div>
+                <div class="tip-card">
+                    <h3>🛡️ Core Philosophy</h3>
+                    <p>Singed is a disruptor, not a duelist. Your job: Run around like a madman, split pressure, draw attention, never die.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Build Guide -->
+        <section class="builds">
+            <h2>⚔️ Core Builds</h2>
+            <div class="build-grid">
+                <div class="build-card">
+                    <h3>Standard Build</h3>
+                    <div class="items">
+                        <span class="item">Liandry's Anguish</span>
+                        <span class="item">Rylai's Crystal Scepter</span>
+                        <span class="item">Demonic Embrace</span>
+                    </div>
+                    <p class="build-desc">Core burn build. Run around, poison everything, never die. Classic Singed.</p>
+                </div>
+                <div class="build-card">
+                    <h3>Tank Singed</h3>
+                    <div class="items">
+                        <span class="item">Heartsteel</span>
+                        <span class="item">Jak'Sho</span>
+                        <span class="item">Thornmail</span>
+                    </div>
+                    <p class="build-desc">Against heavy AD. You become unkillable. Less damage, more chaos.</p>
+                </div>
+                <div class="build-card">
+                    <h3>Proxy Build</h3>
+                    <div class="items">
+                        <span class="item">Dark Seal (x2)</span>
+                        <span class="item">Corrupting Potion</span>
+                        <span class="item">Boots</span>
+                    </div>
+                    <p class="build-desc">Early game proxy setup. Stack Dark Seals, never back, live between their towers.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Runes -->
+        <section class="runes">
+            <h2>📜 Rune Setups</h2>
+            <div class="rune-grid">
+                <div class="rune-card">
+                    <h3>Standard (Conqueror)</h3>
+                    <div class="rune-tree">
+                        <strong>Primary:</strong> Conqueror, Triumph, Legend: Tenacity, Last Stand<br>
+                        <strong>Secondary:</strong> Celerity, Gathering Storm
+                    </div>
+                    <p>General purpose. Scales well, good in extended fights.</p>
+                </div>
+                <div class="rune-card">
+                    <h3>Spellbook</h3>
+                    <div class="rune-tree">
+                        <strong>Primary:</strong> Unsealed Spellbook, Hexflash, Biscuits, Cosmic Insight<br>
+                        <strong>Secondary:</strong> Celerity, Waterwalking
+                    </div>
+                    <p>For proxy/roaming. Swap summs, maximum chaos.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="matchups-complete.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
