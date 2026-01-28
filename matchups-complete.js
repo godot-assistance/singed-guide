@@ -1,11 +1,14 @@
 // Complete Singed Matchup Database - All Top Laners - Season 16 (Patch 16.2)
-// ✅ UPDATED with correct Season 16 runes (Legend: Haste, not Legend: Tenacity)
+// ✅ Includes: Runes, Summoners, Starting Items, Core Build for each matchup
 window.matchups = [
     // EASY MATCHUPS
     {
         name: "Cho'Gath",
         difficulty: "easy",
         icon: "🦖",
+        summonerSpells: ["Flash","Ignite"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -39,6 +42,9 @@ window.matchups = [
         name: "Dr. Mundo",
         difficulty: "easy",
         icon: "💉",
+        summonerSpells: ["Flash","Ignite"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Morellonomicon","Rylai's Crystal Scepter"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -72,6 +78,9 @@ window.matchups = [
         name: "Illaoi",
         difficulty: "easy",
         icon: "🐙",
+        summonerSpells: ["Flash","Ignite"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -105,6 +114,9 @@ window.matchups = [
         name: "Malphite",
         difficulty: "easy",
         icon: "🗿",
+        summonerSpells: ["Flash","Ignite"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Void Staff"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -138,6 +150,9 @@ window.matchups = [
         name: "Maokai",
         difficulty: "easy",
         icon: "🌳",
+        summonerSpells: ["Flash","Ignite"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -171,6 +186,9 @@ window.matchups = [
         name: "Ornn",
         difficulty: "easy",
         icon: "🔨",
+        summonerSpells: ["Flash","Ignite"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -205,6 +223,9 @@ window.matchups = [
         name: "Darius",
         difficulty: "skill",
         icon: "🪓",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -238,6 +259,9 @@ window.matchups = [
         name: "Garen",
         difficulty: "skill",
         icon: "⚔️",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -271,6 +295,9 @@ window.matchups = [
         name: "Gragas",
         difficulty: "skill",
         icon: "🍺",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Morellonomicon","Rylai's Crystal Scepter"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -304,6 +331,9 @@ window.matchups = [
         name: "Gwen",
         difficulty: "skill",
         icon: "✂️",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -337,6 +367,9 @@ window.matchups = [
         name: "Jax",
         difficulty: "skill",
         icon: "🥋",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -370,6 +403,9 @@ window.matchups = [
         name: "K'Sante",
         difficulty: "skill",
         icon: "🛡️",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -403,6 +439,9 @@ window.matchups = [
         name: "Mordekaiser",
         difficulty: "skill",
         icon: "⚒️",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -436,6 +475,9 @@ window.matchups = [
         name: "Nasus",
         difficulty: "skill",
         icon: "🐕",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -469,6 +511,9 @@ window.matchups = [
         name: "Pantheon",
         difficulty: "skill",
         icon: "🛡️",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -502,6 +547,9 @@ window.matchups = [
         name: "Renekton",
         difficulty: "skill",
         icon: "🐊",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -535,6 +583,9 @@ window.matchups = [
         name: "Riven",
         difficulty: "skill",
         icon: "🗡️",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -568,6 +619,9 @@ window.matchups = [
         name: "Sett",
         difficulty: "skill",
         icon: "👊",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -601,6 +655,9 @@ window.matchups = [
         name: "Shen",
         difficulty: "skill",
         icon: "⚔️",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -634,6 +691,9 @@ window.matchups = [
         name: "Sion",
         difficulty: "skill",
         icon: "🧟",
+        summonerSpells: ["Flash","Ignite"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -667,6 +727,9 @@ window.matchups = [
         name: "Tahm Kench",
         difficulty: "skill",
         icon: "🐸",
+        summonerSpells: ["Flash","Ignite"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -700,6 +763,9 @@ window.matchups = [
         name: "Tryndamere",
         difficulty: "skill",
         icon: "⚔️",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -733,6 +799,9 @@ window.matchups = [
         name: "Urgot",
         difficulty: "skill",
         icon: "🦀",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -766,6 +835,9 @@ window.matchups = [
         name: "Volibear",
         difficulty: "skill",
         icon: "🐻",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Morellonomicon","Rylai's Crystal Scepter"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -799,6 +871,9 @@ window.matchups = [
         name: "Warwick",
         difficulty: "skill",
         icon: "🐺",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Morellonomicon","Rylai's Crystal Scepter"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -832,6 +907,9 @@ window.matchups = [
         name: "Yasuo",
         difficulty: "skill",
         icon: "🌪️",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -866,6 +944,9 @@ window.matchups = [
         name: "Aatrox",
         difficulty: "hard",
         icon: "😈",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Morellonomicon","Rylai's Crystal Scepter"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -899,6 +980,9 @@ window.matchups = [
         name: "Akali",
         difficulty: "hard",
         icon: "🥷",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -932,6 +1016,9 @@ window.matchups = [
         name: "Akshan",
         difficulty: "hard",
         icon: "🪝",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Doran's Shield + Health Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Force of Nature"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -966,6 +1053,9 @@ window.matchups = [
         name: "Camille",
         difficulty: "hard",
         icon: "🦵",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -999,6 +1089,9 @@ window.matchups = [
         name: "Fiora",
         difficulty: "hard",
         icon: "🤺",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -1032,6 +1125,9 @@ window.matchups = [
         name: "Gangplank",
         difficulty: "hard",
         icon: "🏴‍☠️",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Doran's Shield + Health Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Force of Nature"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -1065,6 +1161,9 @@ window.matchups = [
         name: "Gnar",
         difficulty: "hard",
         icon: "🦘",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Doran's Shield + Health Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Force of Nature"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -1098,6 +1197,9 @@ window.matchups = [
         name: "Heimerdinger",
         difficulty: "hard",
         icon: "🔧",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Doran's Shield + Health Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Force of Nature"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -1131,6 +1233,9 @@ window.matchups = [
         name: "Irelia",
         difficulty: "hard",
         icon: "🗡️",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -1164,6 +1269,9 @@ window.matchups = [
         name: "Jayce",
         difficulty: "hard",
         icon: "⚡",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Doran's Shield + Health Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Force of Nature"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -1197,6 +1305,9 @@ window.matchups = [
         name: "Kalista",
         difficulty: "hard",
         icon: "👻",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Doran's Shield + Health Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Force of Nature"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -1231,6 +1342,9 @@ window.matchups = [
         name: "Kayle",
         difficulty: "hard",
         icon: "👼",
+        summonerSpells: ["Flash","Ignite"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
@@ -1264,6 +1378,9 @@ window.matchups = [
         name: "Kennen",
         difficulty: "hard",
         icon: "⚡",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Doran's Shield + Health Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Force of Nature"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -1297,6 +1414,9 @@ window.matchups = [
         name: "Lucian",
         difficulty: "hard",
         icon: "🔫",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Doran's Shield + Health Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Force of Nature"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -1331,6 +1451,9 @@ window.matchups = [
         name: "Quinn",
         difficulty: "hard",
         icon: "🦅",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Doran's Shield + Health Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Force of Nature"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -1364,6 +1487,9 @@ window.matchups = [
         name: "Ryze",
         difficulty: "hard",
         icon: "📘",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Doran's Shield + Health Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Force of Nature"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -1397,6 +1523,9 @@ window.matchups = [
         name: "Teemo",
         difficulty: "hard",
         icon: "🍄",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Doran's Shield + Health Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Force of Nature"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -1430,6 +1559,9 @@ window.matchups = [
         name: "Tristana",
         difficulty: "hard",
         icon: "💣",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Doran's Shield + Health Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Force of Nature"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -1464,6 +1596,9 @@ window.matchups = [
         name: "Vayne",
         difficulty: "hard",
         icon: "🏹",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Doran's Shield + Health Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Force of Nature"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -1497,6 +1632,9 @@ window.matchups = [
         name: "Yone",
         difficulty: "hard",
         icon: "⚡",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
