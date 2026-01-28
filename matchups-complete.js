@@ -1,4 +1,5 @@
 // Complete Singed Matchup Database - All Top Laners - Season 16 (Patch 16.2)
+// ✅ UPDATED with correct Season 16 runes (Legend: Haste, not Legend: Tenacity)
 window.matchups = [
     // EASY MATCHUPS
     {
@@ -10,7 +11,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -43,7 +44,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -109,7 +110,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -175,7 +176,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -220,7 +221,7 @@ window.matchups = [
                   "shards": [
                             "Adaptive Force",
                             "Adaptive Force",
-                            "Health"
+                            "Tenacity"
                   ]
         },
         runes: "Phase Rush - MANDATORY. You need it to escape his pull and stacks.",
@@ -242,7 +243,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -275,7 +276,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -308,7 +309,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -341,7 +342,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -374,7 +375,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -407,7 +408,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -418,7 +419,7 @@ window.matchups = [
                   "shards": [
                             "Attack Speed",
                             "Magic Resist",
-                            "Health"
+                            "Tenacity"
                   ]
         },
         runes: "Conqueror - Standard. You need the damage to fight in his R. Phase Rush alternative for kiting.",
@@ -440,7 +441,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -473,7 +474,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -484,7 +485,7 @@ window.matchups = [
                   "shards": [
                             "Attack Speed",
                             "Armor",
-                            "Health"
+                            "Tenacity"
                   ]
         },
         runes: "Conqueror + Plated Steelcaps. Early game bully.",
@@ -517,7 +518,7 @@ window.matchups = [
                   "shards": [
                             "Adaptive Force",
                             "Armor",
-                            "Health"
+                            "Tenacity"
                   ]
         },
         runes: "Phase Rush or Conqueror. Phase Rush helps escape his combo. Plated Steelcaps rush.",
@@ -539,7 +540,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -550,7 +551,7 @@ window.matchups = [
                   "shards": [
                             "Attack Speed",
                             "Armor",
-                            "Health"
+                            "Tenacity"
                   ]
         },
         runes: "Conqueror + Plated Steelcaps rush. Armor mandatory.",
@@ -583,7 +584,7 @@ window.matchups = [
                   "shards": [
                             "Adaptive Force",
                             "Armor",
-                            "Health"
+                            "Tenacity"
                   ]
         },
         runes: "Phase Rush - Helps dodge his W true damage. Alternative: Conqueror if confident.",
@@ -605,7 +606,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -638,7 +639,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -671,7 +672,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -704,7 +705,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -737,7 +738,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -748,7 +749,7 @@ window.matchups = [
                   "shards": [
                             "Attack Speed",
                             "Armor",
-                            "Health"
+                            "Tenacity"
                   ]
         },
         runes: "Conqueror + HP stacking. His damage is based on your max HP.",
@@ -770,7 +771,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -781,7 +782,7 @@ window.matchups = [
                   "shards": [
                             "Attack Speed",
                             "Adaptive Force",
-                            "Health"
+                            "Tenacity"
                   ]
         },
         runes: "Conqueror + grievous wounds. He heals a ton with W.",
@@ -803,7 +804,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -814,7 +815,7 @@ window.matchups = [
                   "shards": [
                             "Attack Speed",
                             "Adaptive Force",
-                            "Health"
+                            "Tenacity"
                   ]
         },
         runes: "Conqueror + grievous wounds. He heals with Q and passive.",
@@ -836,7 +837,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -870,7 +871,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -903,7 +904,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -914,7 +915,7 @@ window.matchups = [
                   "shards": [
                             "Attack Speed",
                             "Magic Resist",
-                            "Health"
+                            "Tenacity"
                   ]
         },
         runes: "Conqueror + Mercury Treads. She does magic damage and has tons of mobility.",
@@ -1003,7 +1004,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -1235,7 +1236,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -1279,7 +1280,7 @@ window.matchups = [
                   "shards": [
                             "Adaptive Force",
                             "Magic Resist",
-                            "Health"
+                            "Tenacity"
                   ]
         },
         runes: "Phase Rush + Second Wind + Mercury Treads. You need tenacity and MR.",
@@ -1379,7 +1380,7 @@ window.matchups = [
                   "shards": [
                             "Adaptive Force",
                             "Magic Resist",
-                            "Health"
+                            "Tenacity"
                   ]
         },
         runes: "Phase Rush + Mercury Treads. He roots you and kites with Phase Rush.",
@@ -1501,7 +1502,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Tenacity",
+                            "slot2": "Legend: Haste",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
