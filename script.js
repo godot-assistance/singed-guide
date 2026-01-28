@@ -483,6 +483,27 @@ function showMatchupDetails(matchup) {
             <p>${matchup.keyPoints}</p>
         </div>
         
+        ${matchup.summonerSpells ? `
+        <div class="modal-section">
+            <h3>⚡ Summoner Spells</h3>
+            <p><strong>${matchup.summonerSpells.join(' + ')}</strong></p>
+        </div>
+        ` : ''}
+        
+        ${matchup.startingItem ? `
+        <div class="modal-section">
+            <h3>🛡️ Starting Items</h3>
+            <p><strong>${matchup.startingItem}</strong></p>
+        </div>
+        ` : ''}
+        
+        ${matchup.coreItems ? `
+        <div class="modal-section">
+            <h3>🔨 Core Build (First 3 Items)</h3>
+            <p><strong>${matchup.coreItems.join(' → ')}</strong></p>
+        </div>
+        ` : ''}
+        
         ${matchup.runeSetup ? `
         <div class="modal-section">
             <h3>📜 Recommended Runes</h3>
