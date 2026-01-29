@@ -14,7 +14,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Alacrity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -28,7 +28,7 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror - Standard setup. He can't punish you, so you can stack freely.",
+        runes: "Conqueror - Standard setup. Legend: Alacrity for proxy farming speed. He can't punish you, so you can stack freely.",
         laningPhase: "Start Doran's Ring or Dark Seal. Level 1-2, just last hit and poke with poison when safe. At level 3, start proxy farming between his towers - he can't catch you and his waveclear is too slow to punish. If he tries to follow, just keep running circles. Use your W to slow him if he gets close. Don't fight him directly unless you have a huge lead. Your goal is to deny him farm and make him choose between CS and chasing you. After first back, get boots and keep proxying. He'll be stuck under tower while you draw jungle pressure and roam.",
         tips:         [
                   "You outrun his Q every time. Save your W for when he silences you.",
@@ -50,7 +50,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Alacrity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -64,8 +64,8 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror - Standard. You need sustained damage.",
-        laningPhase: "Farm lane that becomes a proxy party. Start Doran's Ring. His Q poke hurts early but you can dodge it. Rush Oblivion Orb for grievous wounds - cuts his healing in half. Once you have Lost Chapter or first item, start proxying. He can't really kill you and you can't really kill him early. Just deny him CS by proxying. Post-6, don't underestimate his R healing. Build Liandry's into Morello for the burn + grievous. Late game you outvalue him in teamfights.",
+        runes: "Conqueror - Standard. Legend: Alacrity for proxy farming. Your ult applies 40% Grievous Wounds through poison trail while active, but still build Oblivion Orb/Morello for heavy healers - helps with lane sustain before teamfights.",
+        laningPhase: "Farm lane that becomes a proxy party. Start Doran's Ring. His Q poke hurts early but you can dodge it. Your ult provides 40% Grievous Wounds during all-ins/teamfights, but rush Oblivion Orb early for lane sustain trading - he heals too much without it. Once you have Lost Chapter or first item, start proxying. He can't really kill you and you can't really kill him early. Just deny him CS by proxying. Post-6, don't underestimate his R healing - but your ult antiheal helps significantly in extended fights. Build Liandry's into Morello for burn + grievous. Late game you outvalue him in teamfights.",
         tips:         [
                   "Rush grievous wounds - his healing is his strength.",
                   "Dodge his Q cleavers - they hurt early.",
@@ -80,7 +80,7 @@ window.matchups = [
         icon: "🐙",
         summonerSpells: ["Flash","Ignite"],
         startingItem: "Dark Seal + Refillable Potion",
-        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
+        coreItems: ["Liandry's Torment","Morellonomicon","Rylai's Crystal Scepter"],
         runeSetup:         {
                   "primary": {
                             "tree": "Sorcery",
@@ -104,11 +104,12 @@ window.matchups = [
         laningPhase: "The key to this matchup: DODGE HER E. If she soul-grabs you, you lose the trade. Focus on dodging side-to-side when she winds up E. If she misses E, you can trade or proxy safely. If she hits E, run away and wait for it to expire. When she ults, DON'T FIGHT. Just run. Her R is an instant loss if you stay. W to slow her, turn on Q, and sprint away. Proxy when E is down. Start Doran's Ring or Dark Seal. This matchup is actually free if you respect her E and R. Never fight in her R.",
         tips:         [
                   "Dodge her E (soul grab) - matchup hinges on this.",
-                  "If she ults, RUN. Don't fight.",
+                  "If she ults, RUN. Don't fight - she heals massively.",
                   "Proxy when her E is down.",
-                  "Your poison melts tentacles."
+                  "Your poison melts tentacles.",
+                  "Build Morello for grievous wounds - she heals from tentacle hits."
         ],
-        keyPoints: "Don't get soul grabbed. Don't fight in her R. Easy if you respect her kit."
+        keyPoints: "Don't get soul grabbed. Don't fight in her R. Build antiheal. Easy if you respect her kit."
     },
     {
         name: "Malphite",
@@ -122,7 +123,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Alacrity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -136,7 +137,7 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror - Standard. His armor doesn't stop your magic damage.",
+        runes: "Conqueror - Standard. Legend: Alacrity for proxy farming. His armor doesn't stop your magic damage.",
         laningPhase: "Free lane. He can't threaten you and has no way to catch you. Start Doran's Ring. Farm safely levels 1-5, poking with Q when his shield is down. At 6, respect his R range in lane. Once you have boots, proxy freely - he has no chase potential. Your poison melts through his armor. Build Liandry's for the burn. Just don't clump with your team when he has R in teamfights. You outscale him hard in side lane - he can never kill you and you kill him slowly.",
         tips:         [
                   "He can't chase you. Proxy whenever his R is down.",
@@ -194,7 +195,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Alacrity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -208,7 +209,7 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror - Standard. Extended trades favor you once you have items.",
+        runes: "Conqueror - Standard. Legend: Alacrity for proxy farming. Extended trades favor you once you have items.",
         laningPhase: "Another free tank matchup. Start Doran's Ring. Dodge his Q+E combo by running perpendicular when you see him Q. He can't leave lane to stop your proxy because he'll lose tower. Start proxying after first back. Your poison outdamages his W %HP damage over time. Save your flip for when he ults - you can fling him away from your team. Build Liandry's and Rylai's. He's useful for his team items but can't kill you in side lane. Free scaling matchup.",
         tips:         [
                   "Dodge his Q+E combo by running perpendicular.",
@@ -235,9 +236,9 @@ window.matchups = [
                             "slot3": "Gathering Storm"
                   },
                   "secondary": {
-                            "tree": "Resolve",
-                            "slot1": "Second Wind",
-                            "slot2": "Unflinching"
+                            "tree": "Precision",
+                            "slot1": "Triumph",
+                            "slot2": "Legend: Tenacity"
                   },
                   "shards": [
                             "Adaptive Force",
@@ -245,7 +246,7 @@ window.matchups = [
                             "Tenacity"
                   ]
         },
-        runes: "Phase Rush - MANDATORY. You need it to escape his pull and stacks.",
+        runes: "Phase Rush - MANDATORY. You need it to escape his pull and stacks. Legend: Tenacity for his W slow.",
         laningPhase: "This is a survival lane early. Take Doran's Shield and Second Wind in Resolve secondary. Levels 1-3, DO NOT fight him. He wins every trade. Just last hit with Q poison and give up CS if needed. Watch his E cooldown - when it's down, you can proxy safely. If he uses E on minions, that's your window. Phase Rush activates after 3 attacks/spells, letting you zoom away before he gets 5 stacks. Never let him get 5 stacks. Post-6, respect his R execute. Your job is to survive early, get items, and become more useful in teamfights. Don't try to 1v1 him unless you're significantly ahead. Use your speed to proxy and roam.",
         tips:         [
                   "NEVER fight him level 1-3. He wins all-ins.",
@@ -267,7 +268,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -281,15 +282,16 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror - Standard. You need sustained damage for extended trades.",
+        runes: "Conqueror - Standard. Legend: Tenacity to reduce his Q silence duration. Your ult applies 40% Grievous Wounds through poison trail while active - shuts down his passive regen in all-ins.",
         laningPhase: "Annoying but winnable. Start Doran's Ring. Your poison stops his passive heal - keep it on him. When he Q's toward you, immediately W to slow him and prevent the silence from reaching you. If he gets the silence off, disengage. Don't let him spin on you for free - fling him away mid-spin. Build Plated Steelcaps early for his physical damage. Post-6, save your R for when he ults you - the heal can save your life. He's stronger in short trades, you're stronger in extended fights. Proxy when he backs or roams. You outscale in side lane if you have grievous wounds.",
         tips:         [
-                  "Your poison stops his passive heal.",
+                  "Your poison stops his passive heal - ult provides 40% GW in all-ins.",
                   "W him before he Q's to prevent silence.",
                   "Flip him away when he spins.",
-                  "Build Plated Steelcaps and armor early."
+                  "Build Plated Steelcaps and armor early.",
+                  "Consider Oblivion Orb if he's healing too much in lane."
         ],
-        keyPoints: "Trade your poison for his passive. Don't let him silence+spin for free."
+        keyPoints: "Trade your poison for his passive. Ult antiheal stops his regen. Don't let him silence+spin for free."
     },
     {
         name: "Gragas",
@@ -303,7 +305,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -317,7 +319,7 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror + Mercury Treads. He does magic damage.",
+        runes: "Conqueror + Mercury Treads. Legend: Tenacity for his E stun. He does magic damage.",
         laningPhase: "Tanky AP fighter. His W damage reduction makes him deceptively tanky. He E's (body slam) to engage, then Q's and AA's you. Start Doran's Ring. Dodge his E body slam by running perpendicular. If he lands E, he stuns you and wins the trade. Don't fight when his W is active (damage reduction). Your poison outdamages his sustain over time. Post-6, his R knocks you away - he can use it to disengage or engage. Build Mercury Treads and some MR. Proxy when his E is down. Winnable matchup if you respect his E and W.",
         tips:         [
                   "Dodge his E body slam - that's his engage.",
@@ -339,7 +341,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -353,7 +355,7 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror + Mercury Treads. She does magic damage.",
+        runes: "Conqueror + Mercury Treads. Legend: Tenacity for her slows. She does magic damage.",
         laningPhase: "AP matchup. Start Doran's Ring. Her W makes her immune to ranged attacks but you're INSIDE it with her - your poison still works. Respect her Q damage when fully stacked. When she tries to all-in with E into you, fling her away immediately. Don't extended fight early - she wins. You scale better into teamfights. Build Mercury Treads and some MR if needed. Post-6, her R hurts but you can run away. Short trades with poison favored for you.",
         tips:         [
                   "Her W doesn't stop poison - you're inside it with her.",
@@ -375,7 +377,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -389,7 +391,7 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror with armor focus. Rush Plated Steelcaps.",
+        runes: "Conqueror with armor focus. Legend: Tenacity for his E stun. Rush Plated Steelcaps.",
         laningPhase: "Winnable early, loses hard late. Start Doran's Ring or Shield. NEVER fight when his E is up - he dodges your AAs and stuns you. Wait for him to use E on minions, then trade. Fling him away when he jumps on you with Q. Build Plated Steelcaps and Frozen Heart. Early game you can bully him. Post-6 respect his R - massive resistances. Your goal is to win early and translate that lead to helping your team. Late game he beats you 1v1 no matter what - split opposite side of map. Don't try to duel him past 2 items.",
         tips:         [
                   "Never fight when his E is up - dodge window.",
@@ -411,7 +413,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -425,15 +427,16 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror or Phase Rush. Still figuring out optimal build.",
-        laningPhase: "Newer champ, still learning optimal strategy. Start Doran's Ring. Dodge his W dash - that's his main damage tool. When he Rs you, he transforms and you get sent flying. Don't fight him in his R form - he's stronger. Build early armor if he's dominating. His shield makes short trades favored for him. Look for extended trades once you have items. Respect his all-in potential. Proxy when his W is down.",
+        runes: "Conqueror - Standard. Legend: Tenacity for his W and R CC. Phase Rush alternative if you need extra escape.",
+        laningPhase: "Tank buster with heavy CC. Start Doran's Ring. His Q is a 3-hit skillshot combo - sidestep the third one (knockup). His W charges a dash-stun - when you see him glowing, dodge sideways or you'll get stunned and lose the trade. Don't fight him when his passive shield is active - wait for it to expire. Post-6, his R is terrifying: he knocks you away, dashes after you, and transforms into All Out mode (bonus damage, armor pen, loses resistances). When he Rs, you have two options: 1) Run immediately with Ghost if low HP, or 2) Turn and fight if healthy - he loses resistances in All Out form so your damage hurts more. Build Plated Steelcaps early. Extended trades favor you with poison if you dodge his Qs. He's designed to beat tanks but your mobility helps. Proxy when his W is down - he needs it to chase.",
         tips:         [
-                  "Dodge his W dash.",
-                  "Don't fight him in his R form (transformed).",
-                  "Build early armor if struggling.",
-                  "Proxy when major CDs are down."
+                  "Dodge his Q3 knockup and W dash-stun - sidestep perpendicular.",
+                  "Wait for his passive shield to expire before trading.",
+                  "When he Rs, either run immediately OR fight back - he loses resistances in All Out form.",
+                  "Build Plated Steelcaps early.",
+                  "Proxy when W is down - he can't catch you without it."
         ],
-        keyPoints: "New champ. Respect his all-in. Dodge W."
+        keyPoints: "Tank-buster with heavy CC. Dodge Q3 and W. Fight him in All Out form if healthy (he loses resistances). Respect his all-in."
     },
     {
         name: "Mordekaiser",
@@ -447,7 +450,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -461,7 +464,7 @@ window.matchups = [
                             "Tenacity"
                   ]
         },
-        runes: "Conqueror - Standard. You need the damage to fight in his R. Phase Rush alternative for kiting.",
+        runes: "Conqueror - Standard. Legend: Tenacity for his E pull. You need the damage to fight in his R. Phase Rush alternative for kiting.",
         laningPhase: "Skill matchup that depends on dodging. Start Doran's Ring. Run out of his passive circle ASAP when it activates - standing in it you lose. Dodge his Q by moving unpredictably. When he Rs you to Death Realm, you need to kite. Turn on Q, run circles around him dodging his Q. If you have Rylai's, you can kite him to death. Without items, respect the 1v1. Consider QSS if you're carrying hard. Build Liandry's + Rylai's. Pre-6, you can trade well if you dodge Q. Post-6, his R is a skill check - can you dodge Q while in there?",
         tips:         [
                   "Run out of his passive circle ASAP.",
@@ -483,7 +486,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Alacrity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -497,7 +500,7 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror for standard. Alternative: Unsealed Spellbook for proxy flexibility.",
+        runes: "Conqueror for standard. Legend: Alacrity for faster proxy clearing. Alternative: Unsealed Spellbook for proxy flexibility.",
         laningPhase: "This is a race against time. Your mission: DENY HIM STACKS. Start proxying as early as level 2-3. Run between his towers and clear waves before he can stack them. Every minion you deny is a stack he doesn't get. He will call for jungle help - be ready to escape with Ghost or Phase Rush. If he Withers you, use your R to heal and speed away. Post-6, respect his R - he becomes fast and tanky. Continue proxying but be more careful. Your goal is to make him 100 stacks behind by 10 minutes. If you succeed, you've won lane even if you're 0/2. A weak Nasus is a useless Nasus. Late game he outscales you 1v1 no matter what.",
         tips:         [
                   "Proxy hard early - deny his stacks.",
@@ -519,7 +522,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -533,7 +536,7 @@ window.matchups = [
                             "Tenacity"
                   ]
         },
-        runes: "Conqueror + Plated Steelcaps. Early game bully.",
+        runes: "Conqueror + Plated Steelcaps. Legend: Tenacity for his W stun. Early game bully.",
         laningPhase: "Early game lane bully. His Q poke hurts and his E blocks your AAs. Levels 1-3 he dominates. Don't fight him early. Start Doran's Shield. When he E's (shield blocks front damage), walk around him and poison from behind. His W stun sets up his burst. You outscale him hard - he falls off mid-late game. Just survive early. Build Plated Steelcaps. Post-6, his R is global pressure, not a 1v1 tool. Your job: survive early levels, don't feed, outscale him. By mid game you're way more useful.",
         tips:         [
                   "Levels 1-3 he wins hard - play safe.",
@@ -559,9 +562,9 @@ window.matchups = [
                             "slot3": "Gathering Storm"
                   },
                   "secondary": {
-                            "tree": "Resolve",
-                            "slot1": "Second Wind",
-                            "slot2": "Unflinching"
+                            "tree": "Precision",
+                            "slot1": "Triumph",
+                            "slot2": "Legend: Tenacity"
                   },
                   "shards": [
                             "Adaptive Force",
@@ -569,7 +572,7 @@ window.matchups = [
                             "Tenacity"
                   ]
         },
-        runes: "Phase Rush or Conqueror. Phase Rush helps escape his combo. Plated Steelcaps rush.",
+        runes: "Phase Rush or Conqueror. Phase Rush helps escape his combo. Legend: Tenacity for his W stun. Plated Steelcaps rush.",
         laningPhase: "Respect his early game - he's the lane bully king. Start Doran's Shield. Levels 1-3 he wins HARD. Don't fight him. Give up CS if needed. When he dashes in (E), he's going to stun you (W) and Q. Take the trade, flip him away after his combo, and disengage. Don't extended fight. Build Plated Steelcaps and armor. Post-6, his R makes him tankier but you start to outscale. Your job: survive early, don't feed, scale to mid-game. You outscale him - he's strong early, weak mid-late. Just don't int the early levels.",
         tips:         [
                   "Respect his early game - he wins levels 1-3 hard.",
@@ -591,7 +594,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -605,7 +608,7 @@ window.matchups = [
                             "Tenacity"
                   ]
         },
-        runes: "Conqueror + Plated Steelcaps rush. Armor mandatory.",
+        runes: "Conqueror + Plated Steelcaps rush. Legend: Tenacity for her W stun. Armor mandatory.",
         laningPhase: "High skill matchup. Start Doran's Shield. Respect her early game burst - she can 100-0 you if you misplay. Watch her Q animation - she has 3 Qs. Fling her mid-combo to cancel it and reset the fight. Don't fight when all her cooldowns are up. Trade when she uses Q on minions. Build Plated Steelcaps first. Her R execute is dangerous when you're low. Your W interrupts her combos. Post-6, save your R for after she uses hers (the damage amp). Skill matchup - respect her burst, fling at right time to cancel combo.",
         tips:         [
                   "Respect her early game burst - she can 100-0 you.",
@@ -631,9 +634,9 @@ window.matchups = [
                             "slot3": "Gathering Storm"
                   },
                   "secondary": {
-                            "tree": "Resolve",
-                            "slot1": "Second Wind",
-                            "slot2": "Unflinching"
+                            "tree": "Precision",
+                            "slot1": "Triumph",
+                            "slot2": "Legend: Tenacity"
                   },
                   "shards": [
                             "Adaptive Force",
@@ -641,7 +644,7 @@ window.matchups = [
                             "Tenacity"
                   ]
         },
-        runes: "Phase Rush - Helps dodge his W true damage. Alternative: Conqueror if confident.",
+        runes: "Phase Rush - Helps dodge his W true damage. Legend: Tenacity for his E stun. Alternative: Conqueror if confident.",
         laningPhase: "Respect his damage but it's winnable. Start Doran's Shield. When he charges W (you'll see him glowing), dodge to the side - the true damage center line will kill you. Don't fight when his passive shield is up. Wait for it to expire, then trade. Your poison outdamages his regen over time. Don't let him E stun you into a wall. If he lands E, you lose the trade. Proxy is risky against good Sett players - his E can catch you. Build Plated Steelcaps. Post-6, your R heal counters his R damage. Quick trades with poison, don't extended fight him.",
         tips:         [
                   "Dodge to the side when he winds up W - center is true damage.",
@@ -663,7 +666,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -677,7 +680,7 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror - Standard. Extended trades favor you.",
+        runes: "Conqueror - Standard. Legend: Tenacity for his E taunt. Extended trades favor you.",
         laningPhase: "Tank support top laner. He Q's through you for damage. His W blocks AAs in a zone - useless against you (your damage is poison). He E taunts if he lands it. Don't get hit by E. His passive shield blocks damage. Post-6, his R teleports to allies - he'll leave lane to save teammates. When he R's away, take plates or proxy. You can't really kill him and he can't really kill you. Just farm and proxy. Build Liandry's for burn. You outscale in side lane. Free matchup as long as you dodge E.",
         tips:         [
                   "His W zone blocks AAs - useless vs your poison.",
@@ -699,7 +702,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Alacrity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -713,7 +716,7 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror - Standard. Alternative: Unsealed Spellbook for maximum proxy chaos.",
+        runes: "Conqueror - Standard. Legend: Alacrity for proxy farming. Alternative: Unsealed Spellbook for maximum proxy chaos.",
         laningPhase: "Farm lane with proxy potential. Start Doran's Ring. Dodge his Q charge or walk out of the slow zone. He can't really kill you and you can't really kill him early. Perfect proxy matchup - he can't chase. Start proxying after level 3-4. Watch for his E slow - if he lands it, his Q becomes harder to dodge. Don't stand near his passive form when he dies - his AAs hurt. In teamfights, fling him away from your carries when he ults in. Build standard Liandry's + Rylai's. Easy matchup as long as you respect his CC.",
         tips:         [
                   "Dodge his Q charge or walk out of the slow zone.",
@@ -729,13 +732,13 @@ window.matchups = [
         icon: "🐸",
         summonerSpells: ["Flash","Ignite"],
         startingItem: "Dark Seal + Refillable Potion",
-        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
+        coreItems: ["Liandry's Torment","Morellonomicon","Rylai's Crystal Scepter"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -749,7 +752,7 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror + grievous wounds. He heals and shields a ton.",
+        runes: "Conqueror + grievous wounds. Legend: Tenacity for his Q stun. He heals and shields a ton. Your ult provides 40% GW but build Morello for extended pressure.",
         laningPhase: "Unkillable tank. His passive stacks on you - when he gets 3 stacks, his Q stuns you. Don't let him stack passive. His W shield is massive. He Q's to slow and poke. Post-6, his R lets him dive you or escape. Build Oblivion Orb for grievous wounds - cuts his healing. You can't kill him 1v1. He can't really kill you either unless you int. Just farm and proxy. Build Liandry's for burn. Boring matchup - neither of you dies. Proxy and be more useful in teamfights.",
         tips:         [
                   "Don't let him stack 3 passive on you.",
@@ -771,7 +774,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -785,7 +788,7 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror + armor focus. Rush Frozen Heart to slow his attack speed.",
+        runes: "Conqueror + armor focus. Legend: Tenacity for his W slow. Rush Frozen Heart to slow his attack speed.",
         laningPhase: "Respect his damage. Start Doran's Shield. When he spins in with E, immediately fling him away and W to slow. Don't extended trade when he has high rage (his crit is insane). You CAN'T duel him post-6 when R is up - he gets 5 seconds of immortality. Just run away when he ults. Build Plated Steelcaps and Frozen Heart. Proxy when his E is down. Your job is to survive lane and be more useful in teamfights. Late game, NEVER split same side as him - he wins that 1v1. Split opposite side or group with team.",
         tips:         [
                   "Fling him away when he spins in with E.",
@@ -807,7 +810,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -821,7 +824,7 @@ window.matchups = [
                             "Tenacity"
                   ]
         },
-        runes: "Conqueror + HP stacking. His damage is based on your max HP.",
+        runes: "Conqueror + HP stacking. Legend: Tenacity for his E flip. His damage is based on your max HP.",
         laningPhase: "Don't get hit by E flip. Start Doran's Shield. His E dash-flip is his engage tool. If he lands it, you lose the trade. Dodge side-to-side. When fighting him, don't stand still - circle around him. His shotgun knees only fire in certain directions. If you're circling, you take less damage. Don't fight him when you're below 25% HP - his R execute will kill you. Build HP items (Heartsteel, Demonic). His damage scales with YOUR max HP so build HP and resistances. Respect the crab. Winnable if you dodge E.",
         tips:         [
                   "Dodge his E flip - that's his engage.",
@@ -843,7 +846,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -857,8 +860,8 @@ window.matchups = [
                             "Tenacity"
                   ]
         },
-        runes: "Conqueror + grievous wounds. He heals a ton with W.",
-        laningPhase: "Don't fight in his R storm. Start Doran's Ring. When he Q's (charges at you), fling him away before he gets in range. Your poison interrupts his W bite heal. Build Oblivion Orb early for grievous wounds - cuts his healing. Don't fight him when his R is down in lane - the storm gives him massive stats. Post-6, if he Rs on you, just run away until it expires. He's strongest in extended fights in his R. Quick trades with poison, then disengage. Build grievous and kite.",
+        runes: "Conqueror + grievous wounds. Legend: Tenacity for his Q stun. He heals a ton with W. Your ult applies 40% GW but still build Oblivion Orb/Morello for lane pressure.",
+        laningPhase: "Don't fight in his R storm. Start Doran's Ring. When he Q's (charges at you), fling him away before he gets in range. Your poison interrupts his W bite heal. Build Oblivion Orb early for grievous wounds - your ult provides antiheal in all-ins but you need it for lane sustain trades. Don't fight him when his R is down in lane - the storm gives him massive stats. Post-6, if he Rs on you, just run away until it expires. He's strongest in extended fights in his R. Quick trades with poison, then disengage. Build grievous and kite.",
         tips:         [
                   "Don't fight him in his R storm.",
                   "Fling him before his Q reaches you.",
@@ -879,7 +882,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -893,8 +896,8 @@ window.matchups = [
                             "Tenacity"
                   ]
         },
-        runes: "Conqueror + grievous wounds. He heals with Q and passive.",
-        laningPhase: "Sustain fighter. His Q heals him and follows you if you flash. His W attack speed buff when you're low is dangerous. His E damage reduction makes trades favor him. Don't fight when you're below 50% HP - his passive healing and W buff make him stronger. Rush Oblivion Orb for grievous wounds. His R suppresses you - you can't do anything. Post-6, save your R for after he ults. Build Plated Steelcaps and grievous. You outscale in teamfights. Proxy when his R is down.",
+        runes: "Conqueror + grievous wounds. Legend: Tenacity for his R suppress. He heals with Q and passive. Your ult applies 40% GW but still rush Oblivion Orb/Morello for lane pressure.",
+        laningPhase: "Sustain fighter. His Q heals him and follows you if you flash. His W attack speed buff when you're low is dangerous. His E damage reduction makes trades favor him. Don't fight when you're below 50% HP - his passive healing and W buff make him stronger. Rush Oblivion Orb for grievous wounds - your ult provides antiheal in all-ins but you need it for lane trades. His R suppresses you - you can't do anything. Post-6, save your R for after he ults. Build Plated Steelcaps and grievous. You outscale in teamfights. Proxy when his R is down.",
         tips:         [
                   "Don't fight below 50% HP - his passive and W buff.",
                   "His Q heal follows you even if you flash.",
@@ -915,7 +918,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -929,7 +932,7 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror + Plated Steelcaps. His wall blocks nothing (you're melee).",
+        runes: "Conqueror + Plated Steelcaps. Legend: Tenacity for his Q3 knockup. His wall blocks nothing (you're melee).",
         laningPhase: "Annoying but winnable. Start Doran's Ring or Shield. He dashes through minions constantly - don't chase him through the wave. Wait for him to dash TO you, then fling him. His wall blocks nothing since all your damage is poison and fling (melee). Trade when his shield is down. Build Plated Steelcaps early. Post-6, don't let him Q3 tornado you into R. If he lands tornado, you're getting ulted. Bait his tornado, dodge it, then engage. You outscale him if you don't feed him. Build Frozen Heart for attack speed slow.",
         tips:         [
                   "His wall blocks nothing - you're a melee champ.",
@@ -952,7 +955,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -966,8 +969,8 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror + Oblivion Orb rush (grievous wounds mandatory).",
-        laningPhase: "He outheals your damage without grievous wounds. Start Doran's Ring. Dodge his Q sweet spots (the edges do more damage and knock up). If you can dodge Q, you can trade. If he hits Q's, you lose. Rush Oblivion Orb - grievous wounds cuts his healing by 40%. All-in with jungler only - you can't solo kill him. Post-6, his R gives massive healing - disengage when he uses it. Build grievous and armor. Skill matchup if you dodge Q's, hard matchup if you can't.",
+        runes: "Conqueror + Oblivion Orb rush (grievous wounds mandatory). Legend: Tenacity for his Q knockups. Your ult applies 40% GW but you need Oblivion Orb for lane trades before teamfights.",
+        laningPhase: "Heavy healer that outheals your damage. Start Doran's Ring. Dodge his Q sweet spots (the edges do more damage and knock up). If you can dodge Q, you can trade. If he hits Q's, you lose. Rush Oblivion Orb for lane pressure - your ult provides 40% GW during all-ins but you need constant antiheal for lane trades. All-in with jungler only - you can't solo kill him. Post-6, his R gives massive healing - your ult antiheal helps but still disengage when he R's unless he's very low. Build grievous and armor. Skill matchup if you dodge Q's, hard matchup if you can't.",
         tips:         [
                   "Dodge his Q sweet spots - edges do more damage.",
                   "He outheals your damage without grievous wounds.",
@@ -988,7 +991,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -1002,7 +1005,7 @@ window.matchups = [
                             "Tenacity"
                   ]
         },
-        runes: "Conqueror + Mercury Treads. She does magic damage and has tons of mobility.",
+        runes: "Conqueror + Mercury Treads. Legend: Tenacity for her E stun. She does magic damage and has tons of mobility.",
         laningPhase: "High mobility assassin. She Q's you on cooldown for energy restore. Her W shroud makes her invisible - you can't target her. When she shrouds, just leave the smoke. Don't stay in it. She E's (dash) to you, combos, then E's back out. You can fling her mid-combo if you time it right. Post-6, her R gives her two dashes - you can't escape. Start Doran's Shield. Build Mercury Treads and MR. Your job: survive, don't let her snowball. Her shroud has a long cooldown - fight when it's down. Proxy when she backs or roams. She's useless if she doesn't get kills early.",
         tips:         [
                   "Leave her shroud - don't fight in it.",
@@ -1091,13 +1094,13 @@ window.matchups = [
         icon: "🤺",
         summonerSpells: ["Flash","Ghost"],
         startingItem: "Dark Seal + Refillable Potion",
-        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
+        coreItems: ["Liandry's Torment","Morellonomicon","Rylai's Crystal Scepter"],
         runeSetup:         {
                   "primary": {
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -1111,11 +1114,12 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror + don't flip when her W is up. Phase Rush alternative.",
-        laningPhase: "Difficult matchup that gets worse over time. Start Doran's Shield. Respect her Q poke and vital procs. NEVER flip her when her W parry is up - she'll parry it, stun you, and kill you. Bait the parry first by walking at her, then back off. Once it's down (24s CD), you can flip. Don't try to 1v1 her after 6 - her R beats you. When she ults, immediately stand against a wall to deny the 4th vital. Focus on farming and proxy when she backs or roams. Your goal: survive, don't feed, be useful in teamfights. She beats you 1v1 always.",
+        runes: "Conqueror + don't flip when her W is up. Legend: Tenacity for her slows. Phase Rush alternative. Your ult applies 40% GW but build Morello - she heals massively from vitals and R.",
+        laningPhase: "Difficult matchup that gets worse over time. Start Doran's Shield. Respect her Q poke and vital procs. NEVER flip her when her W parry is up - she'll parry it, stun you, and kill you. Bait the parry first by walking at her, then back off. Once it's down (24s CD), you can flip. Don't try to 1v1 her after 6 - her R beats you and heals her team. When she ults, immediately stand against a wall to deny the 4th vital. Build Oblivion Orb for grievous wounds - she heals from vitals and R. Focus on farming and proxy when she backs or roams. Your goal: survive, don't feed, be useful in teamfights. She beats you 1v1 always.",
         tips:         [
                   "NEVER flip when her W parry is up - bait it first.",
                   "When she ults, stand against wall to deny 4th vital.",
+                  "Build grievous wounds - she heals from vitals and R.",
                   "Don't 1v1 her late game - she autowins.",
                   "Proxy when she backs or roams."
         ],
@@ -1350,7 +1354,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -1364,7 +1368,7 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror - You MUST punish her early or lose.",
+        runes: "Conqueror - You MUST punish her early or lose. Legend: Tenacity for her Q slow.",
         laningPhase: "Race against time. Kayle is WEAK pre-6. You MUST punish her hard early. Start Doran's Ring. All-in her levels 2-5 repeatedly. She can't fight back well. Her Q slow hurts but you can still run her down. Get early kills or deny CS. At level 6, she gets ranged - it gets harder. At level 11, she gets AOE waves - you can't proxy anymore. At level 16, she's a hypercarry and you lose. Your job: DESTROY her early game. Make her 0/3 and 50 CS behind. If you don't, you lose. Ask jungler to camp her. Build early MR if needed.",
         tips:         [
                   "All-in her levels 2-5 - she's weak.",
@@ -1640,7 +1644,7 @@ window.matchups = [
                             "tree": "Precision",
                             "keystone": "Conqueror",
                             "slot1": "Triumph",
-                            "slot2": "Legend: Haste",
+                            "slot2": "Legend: Tenacity",
                             "slot3": "Last Stand"
                   },
                   "secondary": {
@@ -1654,7 +1658,7 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror + Plated Steelcaps + armor stacking.",
+        runes: "Conqueror + Plated Steelcaps + armor stacking. Legend: Tenacity for his Q3 knockup.",
         laningPhase: "Annoying high mobility. Dodge his Q3 tornado. When he E's (spirit form), poison him - he takes the damage when he snaps back. But he can also snap back early to dodge your flip. Don't fight him when he has R - he'll just ult away or ult and kill you. He outscales you hard. Build Plated Steelcaps and armor. Respect his all-in potential. Your job: survive, farm, don't feed. Proxy when his E is down.",
         tips:         [
                   "Dodge his Q3 tornado.",
@@ -1663,5 +1667,116 @@ window.matchups = [
                   "Build Plated Steelcaps + armor."
         ],
         keyPoints: "High mobility. Respect his E all-in. Survive and scale."
+    },
+    {
+        name: "Ambessa",
+        difficulty: "skill",
+        icon: "⚔️",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
+        runeSetup:         {
+                  "primary": {
+                            "tree": "Precision",
+                            "keystone": "Conqueror",
+                            "slot1": "Triumph",
+                            "slot2": "Legend: Tenacity",
+                            "slot3": "Last Stand"
+                  },
+                  "secondary": {
+                            "tree": "Resolve",
+                            "slot1": "Second Wind",
+                            "slot2": "Unflinching"
+                  },
+                  "shards": [
+                            "Attack Speed",
+                            "Armor",
+                            "Tenacity"
+                  ]
+        },
+        runes: "Conqueror - Standard. Legend: Tenacity for her CC chains. Build early armor.",
+        laningPhase: "NEW Season 16 champion - high mobility bruiser. Ambessa dashes constantly with her abilities, making her hard to pin down. Her Q is a dash-slash combo, E gives her a dash with damage reduction, and W creates an AOE zone. She chains abilities together for multiple dashes in quick succession. Start Doran's Shield. Don't try to trade when she has full ability rotations - she'll dash circles around you. Wait for her to use dashes on minions, then engage. Your W ground slow is CRUCIAL - it stops her from dashing away. Flip her mid-combo to interrupt her damage. She's strongest in extended trades with her passive (bonus damage). Keep trades short - poison and disengage. Build Plated Steelcaps and armor early. Post-6, her R is an execute and dash - don't fight when low HP. Respect her mobility but she's still melee - your poison wears her down over time.",
+        tips:         [
+                  "Her dashes have short cooldowns - use W ground to stop her mobility.",
+                  "Wait for her to use dashes on minions before engaging.",
+                  "Flip her mid-combo to interrupt damage chains.",
+                  "Don't fight when low - her R is an execute.",
+                  "Build Plated Steelcaps early for her physical damage."
+        ],
+        keyPoints: "Mobile bruiser. Use W ground to stop dashes. Short trades with poison. Armor mandatory."
+    },
+    {
+        name: "Rumble",
+        difficulty: "skill",
+        icon: "🔥",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Doran's Shield + Health Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Force of Nature"],
+        runeSetup:         {
+                  "primary": {
+                            "tree": "Sorcery",
+                            "keystone": "Phase Rush",
+                            "slot1": "Nimbus Cloak",
+                            "slot2": "Celerity",
+                            "slot3": "Gathering Storm"
+                  },
+                  "secondary": {
+                            "tree": "Resolve",
+                            "slot1": "Second Wind",
+                            "slot2": "Overgrowth"
+                  },
+                  "shards": [
+                            "Adaptive Force",
+                            "Magic Resist",
+                            "Health"
+                  ]
+        },
+        runes: "Phase Rush + Mercury Treads. You need escape from his slows and MR for his magic damage.",
+        laningPhase: "AP fighter with constant magic damage. Start Doran's Shield + Second Wind. His Q flamethrower and E harpoons do sustained magic damage and slow you. When he overheats (yellow bar full), he gets bonus damage and silences you with autos - DON'T fight when he's overheated. His W shield makes short trades favor him. You need extended trades with poison to outdamage his shield. Post-6, his R is the equalizer - massive AOE slow and damage over time. If he Rs on you, immediately Ghost/Phase Rush away from the line. Don't stand in it. Rush Mercury Treads and MR. Build Force of Nature if he's dominating. His damage is all magic so armor is useless. Proxy when his E harpoons are down - he can't stop you without the slow. Winnable matchup if you respect his overheat and dodge his R.",
+        tips:         [
+                  "DON'T fight him when overheated (yellow bar) - bonus damage + silence.",
+                  "His R equalizer slows heavily - run perpendicular immediately.",
+                  "Build Mercury Treads + MR, armor is useless.",
+                  "Extended trades favor you - his W shield is short.",
+                  "Proxy when E harpoons are down."
+        ],
+        keyPoints: "AP fighter. Respect overheat. Dodge his R. Build MR. Extended trades favor you."
+    },
+    {
+        name: "Sylas",
+        difficulty: "skill",
+        icon: "⛓️",
+        summonerSpells: ["Flash","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Demonic Embrace"],
+        runeSetup:         {
+                  "primary": {
+                            "tree": "Precision",
+                            "keystone": "Conqueror",
+                            "slot1": "Triumph",
+                            "slot2": "Legend: Tenacity",
+                            "slot3": "Last Stand"
+                  },
+                  "secondary": {
+                            "tree": "Resolve",
+                            "slot1": "Second Wind",
+                            "slot2": "Unflinching"
+                  },
+                  "shards": [
+                            "Attack Speed",
+                            "Magic Resist",
+                            "Tenacity"
+                  ]
+        },
+        runes: "Conqueror + Mercury Treads. Legend: Tenacity for his E2 stun. He does magic damage and heals.",
+        laningPhase: "AP skirmisher who steals your R. Start Doran's Ring. His passive empowers every third auto - he wants to weave autos between abilities. His Q detonates for AOE damage, W heals him and damages you, E is a dash-stun combo. Dodge his E2 (second dash) - that's the stun. If he lands it, you lose the trade. Don't clump with minions when he Q's - the detonation is AOE. When he steals your R with his R, he gets YOUR stats - movement speed, HP, mana restore. Deny him value by backing off when he uses it. His W heals him significantly - consider building Oblivion Orb for grievous wounds. Build Mercury Treads and some MR. Post-6, bait his R steal, then engage when it's down. He's strongest when he has your R available. Extended trades favor you with poison if you dodge his E stun. Don't let him heal for free with W.",
+        tips:         [
+                  "Dodge his E2 (second dash) - that's the stun.",
+                  "When he steals your R, back off - he gets your movement speed.",
+                  "His W heals him - consider grievous wounds.",
+                  "Don't clump with minions during his Q detonation.",
+                  "Build Mercury Treads + MR."
+        ],
+        keyPoints: "AP skirmisher who steals your R. Dodge E2 stun. Back off when he has your R. Build MR and consider antiheal."
     }
 ];
