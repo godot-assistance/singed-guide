@@ -1,4 +1,4 @@
-// Complete Singed Matchup Database - All Top Laners - Season 16 (Patch 16.2)
+// Complete Singed Matchup Database - All Top Laners - Season 16 (Patch 16.3)
 // ✅ Includes: Runes, Summoners, Starting Items, Core Build for each matchup
 window.matchups = [
     // EASY MATCHUPS
@@ -64,8 +64,8 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror - Standard. Legend: Alacrity for proxy farming. Your ult applies 40% Grievous Wounds through poison trail while active, but still build Oblivion Orb/Morello for heavy healers - helps with lane sustain before teamfights.",
-        laningPhase: "Farm lane that becomes a proxy party. Start Doran's Ring. His Q poke hurts early but you can dodge it. Your ult provides 40% Grievous Wounds during all-ins/teamfights, but rush Oblivion Orb early for lane sustain trading - he heals too much without it. Once you have Lost Chapter or first item, start proxying. He can't really kill you and you can't really kill him early. Just deny him CS by proxying. Post-6, don't underestimate his R healing - but your ult antiheal helps significantly in extended fights. Build Liandry's into Morello for burn + grievous. Late game you outvalue him in teamfights.",
+        runes: "Conqueror - Standard. Legend: Alacrity for proxy farming. Your ult applies 25% Grievous Wounds through poison trail while active, but still build Oblivion Orb/Morello for heavy healers - helps with lane sustain before teamfights.",
+        laningPhase: "Farm lane that becomes a proxy party. Start Doran's Ring. His Q poke hurts early but you can dodge it. Your ult provides 25% Grievous Wounds during all-ins/teamfights, but rush Oblivion Orb early for lane sustain trading - he heals too much without it. Once you have Lost Chapter or first item, start proxying. He can't really kill you and you can't really kill him early. Just deny him CS by proxying. Post-6, don't underestimate his R healing - but your ult antiheal helps significantly in extended fights. Build Liandry's into Morello for burn + grievous. Late game you outvalue him in teamfights.",
         tips:         [
                   "Rush grievous wounds - his healing is his strength.",
                   "Dodge his Q cleavers - they hurt early.",
@@ -282,10 +282,10 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror - Standard. Legend: Tenacity to reduce his Q silence duration. Your ult applies 40% Grievous Wounds through poison trail while active - shuts down his passive regen in all-ins.",
+        runes: "Conqueror - Standard. Legend: Tenacity to reduce his Q silence duration. Your ult applies 25% Grievous Wounds through poison trail while active - helps reduce his passive regen in all-ins.",
         laningPhase: "Annoying but winnable. Start Doran's Ring. Your poison stops his passive heal - keep it on him. When he Q's toward you, immediately W to slow him and prevent the silence from reaching you. If he gets the silence off, disengage. Don't let him spin on you for free - fling him away mid-spin. Build Plated Steelcaps early for his physical damage. Post-6, save your R for when he ults you - the heal can save your life. He's stronger in short trades, you're stronger in extended fights. Proxy when he backs or roams. You outscale in side lane if you have grievous wounds.",
         tips:         [
-                  "Your poison stops his passive heal - ult provides 40% GW in all-ins.",
+                  "Your poison stops his passive heal - ult provides 25% GW in all-ins.",
                   "W him before he Q's to prevent silence.",
                   "Flip him away when he spins.",
                   "Build Plated Steelcaps and armor early.",
@@ -752,7 +752,7 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror + grievous wounds. Legend: Tenacity for his Q stun. He heals and shields a ton. Your ult provides 40% GW but build Morello for extended pressure.",
+        runes: "Conqueror + grievous wounds. Legend: Tenacity for his Q stun. He heals and shields a ton. Your ult provides 25% GW but build Morello for extended pressure.",
         laningPhase: "Unkillable tank. His passive stacks on you - when he gets 3 stacks, his Q stuns you. Don't let him stack passive. His W shield is massive. He Q's to slow and poke. Post-6, his R lets him dive you or escape. Build Oblivion Orb for grievous wounds - cuts his healing. You can't kill him 1v1. He can't really kill you either unless you int. Just farm and proxy. Build Liandry's for burn. Boring matchup - neither of you dies. Proxy and be more useful in teamfights.",
         tips:         [
                   "Don't let him stack 3 passive on you.",
@@ -860,8 +860,8 @@ window.matchups = [
                             "Tenacity"
                   ]
         },
-        runes: "Conqueror + grievous wounds. Legend: Tenacity for his Q stun. He heals a ton with W. Your ult applies 40% GW but still build Oblivion Orb/Morello for lane pressure.",
-        laningPhase: "Don't fight in his R storm. Start Doran's Ring. When he Q's (charges at you), fling him away before he gets in range. Your poison interrupts his W bite heal. Build Oblivion Orb early for grievous wounds - your ult provides antiheal in all-ins but you need it for lane sustain trades. Don't fight him when his R is down in lane - the storm gives him massive stats. Post-6, if he Rs on you, just run away until it expires. He's strongest in extended fights in his R. Quick trades with poison, then disengage. Build grievous and kite.",
+        runes: "Conqueror + grievous wounds. Legend: Tenacity for his Q stun. He heals a ton with W. Your ult applies 25% GW but still build Oblivion Orb/Morello for lane pressure.",
+        laningPhase: "Don't fight in his R storm. Start Doran's Ring. When he Q's (charges at you), fling him away before he gets in range. Your poison interrupts his W bite heal. Build Oblivion Orb early for grievous wounds - your ult provides 25% antiheal in all-ins but you need it for lane sustain trades. Don't fight him when his R is down in lane - the storm gives him massive stats. Post-6, if he Rs on you, just run away until it expires. He's strongest in extended fights in his R. Quick trades with poison, then disengage. Build grievous and kite.",
         tips:         [
                   "Don't fight him in his R storm.",
                   "Fling him before his Q reaches you.",
@@ -896,8 +896,8 @@ window.matchups = [
                             "Tenacity"
                   ]
         },
-        runes: "Conqueror + grievous wounds. Legend: Tenacity for his R suppress. He heals with Q and passive. Your ult applies 40% GW but still rush Oblivion Orb/Morello for lane pressure.",
-        laningPhase: "Sustain fighter. His Q heals him and follows you if you flash. His W attack speed buff when you're low is dangerous. His E damage reduction makes trades favor him. Don't fight when you're below 50% HP - his passive healing and W buff make him stronger. Rush Oblivion Orb for grievous wounds - your ult provides antiheal in all-ins but you need it for lane trades. His R suppresses you - you can't do anything. Post-6, save your R for after he ults. Build Plated Steelcaps and grievous. You outscale in teamfights. Proxy when his R is down.",
+        runes: "Conqueror + grievous wounds. Legend: Tenacity for his R suppress. He heals with Q and passive. Your ult applies 25% GW but still rush Oblivion Orb/Morello for lane pressure.",
+        laningPhase: "Sustain fighter. His Q heals him and follows you if you flash. His W attack speed buff when you're low is dangerous. His E damage reduction makes trades favor him. Don't fight when you're below 50% HP - his passive healing and W buff make him stronger. Rush Oblivion Orb for grievous wounds - your ult provides 25% antiheal in all-ins but you need it for lane trades. His R suppresses you - you can't do anything. Post-6, save your R for after he ults. Build Plated Steelcaps and grievous. You outscale in teamfights. Proxy when his R is down.",
         tips:         [
                   "Don't fight below 50% HP - his passive and W buff.",
                   "His Q heal follows you even if you flash.",
@@ -969,8 +969,8 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror + Oblivion Orb rush (grievous wounds mandatory). Legend: Tenacity for his Q knockups. Your ult applies 40% GW but you need Oblivion Orb for lane trades before teamfights.",
-        laningPhase: "Heavy healer that outheals your damage. Start Doran's Ring. Dodge his Q sweet spots (the edges do more damage and knock up). If you can dodge Q, you can trade. If he hits Q's, you lose. Rush Oblivion Orb for lane pressure - your ult provides 40% GW during all-ins but you need constant antiheal for lane trades. All-in with jungler only - you can't solo kill him. Post-6, his R gives massive healing - your ult antiheal helps but still disengage when he R's unless he's very low. Build grievous and armor. Skill matchup if you dodge Q's, hard matchup if you can't.",
+        runes: "Conqueror + Oblivion Orb rush (grievous wounds mandatory). Legend: Tenacity for his Q knockups. Your ult applies 25% GW but you need Oblivion Orb for lane trades before teamfights.",
+        laningPhase: "Heavy healer that outheals your damage. Start Doran's Ring. Dodge his Q sweet spots (the edges do more damage and knock up). If you can dodge Q, you can trade. If he hits Q's, you lose. Rush Oblivion Orb for lane pressure - your ult provides 25% GW during all-ins but you need constant antiheal for lane trades. All-in with jungler only - you can't solo kill him. Post-6, his R gives massive healing - your ult antiheal helps but still disengage when he R's unless he's very low. Build grievous and armor. Skill matchup if you dodge Q's, hard matchup if you can't.",
         tips:         [
                   "Dodge his Q sweet spots - edges do more damage.",
                   "He outheals your damage without grievous wounds.",
@@ -1114,7 +1114,7 @@ window.matchups = [
                             "Health"
                   ]
         },
-        runes: "Conqueror + don't flip when her W is up. Legend: Tenacity for her slows. Phase Rush alternative. Your ult applies 40% GW but build Morello - she heals massively from vitals and R.",
+        runes: "Conqueror + don't flip when her W is up. Legend: Tenacity for her slows. Phase Rush alternative. Your ult applies 25% GW but build Morello - she heals massively from vitals and R.",
         laningPhase: "Difficult matchup that gets worse over time. Start Doran's Shield. Respect her Q poke and vital procs. NEVER flip her when her W parry is up - she'll parry it, stun you, and kill you. Bait the parry first by walking at her, then back off. Once it's down (24s CD), you can flip. Don't try to 1v1 her after 6 - her R beats you and heals her team. When she ults, immediately stand against a wall to deny the 4th vital. Build Oblivion Orb for grievous wounds - she heals from vitals and R. Focus on farming and proxy when she backs or roams. Your goal: survive, don't feed, be useful in teamfights. She beats you 1v1 always.",
         tips:         [
                   "NEVER flip when her W parry is up - bait it first.",
