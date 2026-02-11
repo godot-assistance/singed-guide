@@ -117,20 +117,20 @@ window.matchups = [
         difficulty: "free",
         icon: "🗿",
         summonerSpells: ["Flash","Ignite"],
-        startingItem: "Dark Seal + Refillable Potion",
+        startingItem: "Doran's Ring + 2 Health Potions",
         coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Void Staff"],
         runeSetup: {
             "primary": {
-                "tree": "Sorcery",
-                "keystone": "Arcane Comet",
-                "slot1": "Nimbus Cloak",
-                "slot2": "Transcendence",
-                "slot3": "Scorch"
+                "tree": "Precision",
+                "keystone": "Conqueror",
+                "slot1": "Triumph",
+                "slot2": "Legend: Alacrity",
+                "slot3": "Last Stand"
             },
             "secondary": {
-                "tree": "Precision",
-                "slot1": "Presence of Mind",
-                "slot2": "Legend: Alacrity"
+                "tree": "Sorcery",
+                "slot1": "Nimbus Cloak",
+                "slot2": "Celerity"
             },
             "shards": [
                 "Adaptive Force",
@@ -138,7 +138,7 @@ window.matchups = [
                 "Health Scaling"
             ]
         },
-        runes: "ARCANE COMET (not Conqueror!) - Malphite is a stationary rock who you poke on repeat. Comet guarantees free poke every time you Q+poison him. Scorch for early burn. Transcendence for 20% CDR at 11 = more proxying. Presence of Mind solves mana issues during turbo proxy sessions. Legend: Alacrity for waveclear speed. This is a poke/proxy page, not an all-in page.",
+        runes: "Conqueror because this lane is chill and he literally can't catch you for extended trades. Triumph for clutch healing during turbo proxy sessions. Legend: Alacrity for waveclear speed. Nimbus Cloak + Celerity for zoom speed when proxying. Your poison melts through his armor over time.",
         laningPhase: "Turbo free lane. He can't threaten you and has zero way to catch you. Start Doran's Ring. Farm levels 1-5, poking when his shield is down. At 6, respect his R range. Once you have boots, perma proxy - he has zero chase. Your poison melts through his armor. Build Liandry's for burn. Just don't clump with team when he has R in teamfights. You gap him hard in side lane - he can never kill you and you slowly kill him.",
         tips: [
             "He can't chase you. Perma proxy when his R is down.",
@@ -516,28 +516,28 @@ window.matchups = [
         difficulty: "cancer",
         icon: "🛡️",
         summonerSpells: ["Flash","Ghost"],
-        startingItem: "Doran's Shield + Health Potion",
+        startingItem: "Doran's Ring + 2 Health Potions",
         coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Deadman's Plate"],
         runeSetup: {
             "primary": {
-                "tree": "Resolve",
-                "keystone": "Grasp of the Undying",
-                "slot1": "Shield Bash",
-                "slot2": "Second Wind",
-                "slot3": "Overgrowth"
+                "tree": "Precision",
+                "keystone": "Conqueror",
+                "slot1": "Triumph",
+                "slot2": "Legend: Alacrity",
+                "slot3": "Last Stand"
             },
             "secondary": {
-                "tree": "Precision",
-                "slot1": "Presence of Mind",
-                "slot2": "Legend: Tenacity"
+                "tree": "Sorcery",
+                "slot1": "Nimbus Cloak",
+                "slot2": "Celerity"
             },
             "shards": [
-                "Attack Speed",
-                "Armor",
-                "Tenacity"
+                "Adaptive Force",
+                "Adaptive Force",
+                "Health Scaling"
             ]
         },
-        runes: "GRASP OF THE UNDYING (not Conqueror) - Pantheon is early lane bully cancer. You can't trade normally. Grasp lets you proc quick trades: run in, fling (Grasp procs), W slow, run away with permanent HP. Shield Bash procs when you R (shield). Second Wind + Overgrowth for turbo sustain/HP stacking. Legend: Tenacity for W stun. Armor shard. This page is: survive his poke, scale HP, gap him mid game.",
+        runes: "Conqueror because you need to trade hard and stack damage in this lane. Triumph for sustain. Legend: Alacrity for waveclear speed. Nimbus Cloak + Celerity for zoom speed to dodge Q poke and escape his W stun combo. You gap him hard mid-late.",
         laningPhase: "Early game lane bully cancer. His Q poke hurts and his E blocks your AAs. Levels 1-3 he dominates. Don't fight him early. Start Doran's Shield. When he E's (shield blocks front damage), walk around him and poison from behind. His W stun sets up his burst. You gap him hard later - he falls off mid-late. Just survive early. Build Plated Steelcaps. Post-6, his R is global pressure, not 1v1 tool. Your job: survive early, don't int, outscale him. By mid game you're way more useful.",
         tips: [
             "Levels 1-3 he turbo gaps you - play safe.",
@@ -600,7 +600,7 @@ window.matchups = [
             },
             "secondary": {
                 "tree": "Precision",
-                "slot1": "Presence of Mind",
+                "slot1": "Triumph",
                 "slot2": "Legend: Tenacity"
             },
             "shards": [
@@ -708,7 +708,7 @@ window.matchups = [
             },
             "secondary": {
                 "tree": "Precision",
-                "slot1": "Presence of Mind",
+                "slot1": "Triumph",
                 "slot2": "Legend: Alacrity"
             },
             "shards": [
@@ -753,7 +753,7 @@ window.matchups = [
                 "Health Scaling"
             ]
         },
-        runes: "Conqueror for extended trades. Presence of Mind for mana. Legend: Tenacity for Q stun. CUT DOWN (not Last Stand) - Tahm stacks 4000+ HP, Cut Down gives 15% bonus damage vs high HP targets, making you tank shredder. Nimbus Cloak + Celerity for speed. Your ult gives only 25% GW (nerfed), so Morello mandatory for proper antiheal.",
+        runes: "Conqueror for extended trades. Triumph for clutch heals. Legend: Tenacity for Q stun. CUT DOWN (not Last Stand) - Tahm stacks 4000+ HP, Cut Down gives 15% bonus damage vs high HP targets, making you tank shredder. Nimbus Cloak + Celerity for speed. Your ult gives only 25% GW (nerfed), so Morello mandatory for proper antiheal.",
         laningPhase: "Unkillable tank. His passive stacks on you - at 3 stacks, his Q stuns. Don't let him stack passive. His W shield is massive. He Q's to slow and poke. Post-6, his R lets him dive or escape. Build Oblivion Orb for antiheal - cuts healing. You can't kill him 1v1. He can't kill you unless you int. Just farm and proxy. Build Liandry's for burn. Piss lane - neither dies. Proxy and be more useful in teamfights.",
         tips: [
             "Don't let him stack 3 passive.",
@@ -772,24 +772,24 @@ window.matchups = [
         coreItems: ["Frozen Heart","Randuin's Omen","Deadman's Plate"],
         runeSetup: {
             "primary": {
-                "tree": "Resolve",
-                "keystone": "Grasp of the Undying",
-                "slot1": "Shield Bash",
-                "slot2": "Conditioning",
-                "slot3": "Overgrowth"
+                "tree": "Sorcery",
+                "keystone": "Phase Rush",
+                "slot1": "Nimbus Cloak",
+                "slot2": "Celerity",
+                "slot3": "Gathering Storm"
             },
             "secondary": {
-                "tree": "Precision",
-                "slot1": "Presence of Mind",
-                "slot2": "Legend: Tenacity"
+                "tree": "Resolve",
+                "slot1": "Second Wind",
+                "slot2": "Unflinching"
             },
             "shards": [
-                "Attack Speed",
-                "Armor",
+                "Adaptive Force",
+                "Adaptive Force",
                 "Health Scaling"
             ]
         },
-        runes: "GRASP OF THE UNDYING (not Conqueror) - You CANNOT duel Trynd post-6. Grasp lets you quick trade: fling (Grasp procs), W slow, run with permanent HP. Shield Bash from R shield. Conditioning for armor. Overgrowth for HP. Presence of Mind for mana, Legend: Tenacity. Build tankiness, not damage.",
+        runes: "Phase Rush mandatory — he will run you down without it. His E spin close gap + W slow = you're dead. Phase Rush lets you escape after he engages. Nimbus Cloak + Celerity for turbo zoom. Second Wind for sustain, Unflinching cuts his W slow. You CANNOT duel post-6 when R up.",
         laningPhase: "Respect his damage. Start Doran's Shield. When he spins with E, immediately fling away and W to slow. Don't extended trade when high rage (crit is cancer). You CAN'T duel post-6 when R up - he gets 5 seconds immortality. Just run when he ults. Build Plated Steelcaps and Frozen Heart. Proxy when E down. Your job: survive lane, be more useful teamfights. Late, NEVER split same side - he wins 1v1. Split opposite or group.",
         tips: [
             "Fling when he spins with E.",
@@ -808,24 +808,24 @@ window.matchups = [
         coreItems: ["Heartsteel","Liandry's Torment","Deadman's Plate"],
         runeSetup: {
             "primary": {
-                "tree": "Resolve",
-                "keystone": "Grasp of the Undying",
-                "slot1": "Shield Bash",
-                "slot2": "Conditioning",
-                "slot3": "Overgrowth"
+                "tree": "Precision",
+                "keystone": "Conqueror",
+                "slot1": "Triumph",
+                "slot2": "Legend: Alacrity",
+                "slot3": "Last Stand"
             },
             "secondary": {
-                "tree": "Precision",
-                "slot1": "Presence of Mind",
-                "slot2": "Legend: Tenacity"
+                "tree": "Sorcery",
+                "slot1": "Nimbus Cloak",
+                "slot2": "Celerity"
             },
             "shards": [
-                "Attack Speed",
-                "Armor",
+                "Adaptive Force",
+                "Adaptive Force",
                 "Health Scaling"
             ]
         },
-        runes: "GRASP OF THE UNDYING (not Conqueror) - Urgot's damage scales with YOUR max HP (W shotgun knees do %HP). Grasp + Overgrowth + Health shard + Heartsteel + Deadman's = TURBO HP STACKING. Paradoxically, stacking HP makes you tankier vs his %HP damage than resistances. Shield Bash from R. Presence of Mind for mana. Legend: Tenacity for E flip. Armor shard. This page counters his %HP scaling.",
+        runes: "Conqueror because you need to trade hard and stack damage vs this crab. Triumph for clutch heals. Legend: Alacrity for waveclear. Nimbus Cloak + Celerity for speed to dodge his E flip and circle around his shotgun knees. His damage scales with your max HP but Conqueror lets you fight back.",
         laningPhase: "Don't get hit by E flip. Start Doran's Shield. His E dash-flip is engage. If he lands it, you lose trade. Dodge side-to-side. When fighting, don't stand still - circle him. His shotgun knees only fire certain directions. If circling, you take less damage. Don't fight below 25% HP - his R execute kills you. Build HP (Heartsteel, Deadman's). His damage scales with YOUR max HP so build HP and resistances. Respect the crab. Playable if you dodge E.",
         tips: [
             "Dodge E flip - that's his engage.",
@@ -861,7 +861,7 @@ window.matchups = [
                 "Tenacity"
             ]
         },
-        runes: "Conqueror for extended trades. Presence of Mind for mana. Legend: Tenacity for Q stun. Nimbus Cloak + Celerity for speed to kite and escape. Tenacity shard for Q stun. Your ult gives only 25% GW (nerfed), so Morello mandatory vs his W healing.",
+        runes: "Conqueror for extended trades. Triumph for clutch heals. Legend: Tenacity for Q stun. Nimbus Cloak + Celerity for speed to kite and escape. Tenacity shard for Q stun. Your ult gives only 25% GW (nerfed), so Morello mandatory vs his W healing.",
         laningPhase: "Don't fight in his R storm. Start Doran's Ring. When he Q's (charges), fling before he gets in range. Your poison interrupts W bite heal. Build Oblivion Orb into Morello - ult gives only 25% antiheal (nerfed from 40%), not enough vs his turbo healing. Don't fight when R storm down - gives him massive stats. Post-6, if he Rs on you, run until expires. He's strongest in extended fights in R. Quick trades with poison, disengage. Build antiheal and kite.",
         tips: [
             "Don't fight in R storm.",
@@ -897,7 +897,7 @@ window.matchups = [
                 "Tenacity"
             ]
         },
-        runes: "Conqueror for trades. Presence of Mind for mana. Legend: Tenacity + Tenacity shard for cutting R suppress duration. Nimbus Cloak + Celerity for speed to kite. Armor shard. Your ult gives only 25% GW (nerfed), so Morello mandatory - he heals turbo amounts with Q and passive.",
+        runes: "Conqueror for trades. Triumph for clutch heals. Legend: Tenacity + Tenacity shard for cutting R suppress duration. Nimbus Cloak + Celerity for speed to kite. Armor shard. Your ult gives only 25% GW (nerfed), so Morello mandatory - he heals turbo amounts with Q and passive.",
         laningPhase: "Sustain fighter. His Q heals and follows you if you flash. His W attack speed buff when low is cancer. His E damage reduction makes trades favor him. Don't fight below 50% HP - his passive healing and W buff make him stronger. Rush Oblivion Orb into Morello - ult gives only 25% antiheal (nerfed from 40%), not enough vs healing. His R suppresses - you can't do anything. Post-6, save R for after he ults. Build Plated Steelcaps and antiheal. You gap in teamfights. Proxy when R down.",
         tips: [
             "Don't fight below 50% HP - passive and W buff.",
@@ -1020,29 +1020,29 @@ window.matchups = [
         name: "Akshan",
         difficulty: "turbo cancer",
         icon: "🪝",
-        summonerSpells: ["Flash","Ignite"],
-        startingItem: "Doran's Shield + Health Potion",
+        summonerSpells: ["Ignite","Flash"],
+        startingItem: "Dark Seal + Refillable Potion",
         coreItems: ["Frozen Heart","Randuin's Omen","Deadman's Plate"],
         runeSetup: {
             "primary": {
-                "tree": "Resolve",
-                "keystone": "Grasp of the Undying",
-                "slot1": "Shield Bash",
-                "slot2": "Second Wind",
-                "slot3": "Overgrowth"
+                "tree": "Precision",
+                "keystone": "Conqueror",
+                "slot1": "Triumph",
+                "slot2": "Legend: Alacrity",
+                "slot3": "Last Stand"
             },
             "secondary": {
-                "tree": "Precision",
-                "slot1": "Presence of Mind",
-                "slot2": "Legend: Tenacity"
+                "tree": "Sorcery",
+                "slot1": "Nimbus Cloak",
+                "slot2": "Celerity"
             },
             "shards": [
-                "Attack Speed",
-                "Armor",
+                "Adaptive Force",
+                "Adaptive Force",
                 "Health Scaling"
             ]
         },
-        runes: "GRASP - Can't fight him, so Grasp quick trades for permanent HP. Shield Bash from R. SECOND WIND MANDATORY vs constant poke. Overgrowth for HP. Presence of Mind for mana, Legend: Tenacity. Armor shard. This page: SURVIVE, stack HP, don't feed, roam post-6. He outscales sidelane.",
+        runes: "Conqueror because you need to trade hard early and stack damage before he outscales. Triumph for sustain. Legend: Alacrity for waveclear speed. Nimbus Cloak + Celerity for zoom speed to catch him or escape. Still turbo cancer but this is the way.",
         laningPhase: "Disgusting turbo cancer ADC top. He pokes with passive double-shot autos, dash AND stealth with W, E grappling hook kites endlessly. Start Doran's Shield + Second Wind mandatory. You literally cannot catch - when run at him, E's away or invis. Don't fight. Give up CS if needed. Ask jungle but even with ganks he E's or W stealth. Rush tier 2 boots and Oracle Lens for stealth. Your goal: SURVIVE, don't feed. Post-6, roam mid/bot. He will outpoke and outscale sidelane. Build HP and armor. Consider Randuin's vs crit. Just dodge tbh.",
         tips: [
             "Doran's Shield + Second Wind mandatory - poke is cancer.",
@@ -1274,29 +1274,29 @@ window.matchups = [
         name: "Jayce",
         difficulty: "turbo cancer",
         icon: "⚡",
-        summonerSpells: ["Flash","Ghost"],
-        startingItem: "Doran's Shield + Health Potion",
+        summonerSpells: ["Teleport","Ghost"],
+        startingItem: "Dark Seal + Refillable Potion",
         coreItems: ["Force of Nature","Liandry's Torment","Deadman's Plate"],
         runeSetup: {
             "primary": {
-                "tree": "Resolve",
-                "keystone": "Grasp of the Undying",
-                "slot1": "Shield Bash",
-                "slot2": "Second Wind",
-                "slot3": "Overgrowth"
+                "tree": "Precision",
+                "keystone": "Conqueror",
+                "slot1": "Triumph",
+                "slot2": "Legend: Alacrity",
+                "slot3": "Last Stand"
             },
             "secondary": {
-                "tree": "Precision",
-                "slot1": "Presence of Mind",
-                "slot2": "Legend: Tenacity"
+                "tree": "Sorcery",
+                "slot1": "Nimbus Cloak",
+                "slot2": "Celerity"
             },
             "shards": [
-                "Attack Speed",
-                "Armor",
+                "Adaptive Force",
+                "Adaptive Force",
                 "Health Scaling"
             ]
         },
-        runes: "GRASP - When hammer jumps melee, quick trade fling (Grasp procs) run. Shield Bash from R. SECOND WIND MANDATORY vs Q+E poke. Overgrowth for HP. Presence of Mind for mana, Legend: Tenacity. Armor shard. This page: sustain through poke, quick trades when melee, survive and scale.",
+        runes: "Conqueror because you need to trade hard when he's in hammer form. Triumph for sustain. Legend: Alacrity for waveclear. Nimbus Cloak + Celerity for zoom speed to dodge his Q+E poke and chase when he's melee. Still disgusting matchup but this is the way.",
         laningPhase: "One of worst matchups. Jayce pokes Q+E combo from range, then hammer all-ins. Start Doran's Shield + Second Wind. Farm Q poison, give up CS to avoid shock blast. When transforms hammer and jumps, fling immediately and disengage. Don't extended trade - wins. Rush tier 2 boots, survive. Poke wears down. Post-6, no R but damage still cancer. Ask jungle. Your job: survive, don't feed, be useful teamfights. Proxy when E knockback down.",
         tips: [
             "Ranged Q+E poke chunks hard.",
@@ -1315,24 +1315,24 @@ window.matchups = [
         coreItems: ["Frozen Heart","Randuin's Omen","Deadman's Plate"],
         runeSetup: {
             "primary": {
-                "tree": "Resolve",
-                "keystone": "Grasp of the Undying",
-                "slot1": "Shield Bash",
-                "slot2": "Second Wind",
-                "slot3": "Overgrowth"
+                "tree": "Precision",
+                "keystone": "Conqueror",
+                "slot1": "Triumph",
+                "slot2": "Legend: Alacrity",
+                "slot3": "Last Stand"
             },
             "secondary": {
-                "tree": "Precision",
-                "slot1": "Presence of Mind",
-                "slot2": "Legend: Tenacity"
+                "tree": "Sorcery",
+                "slot1": "Nimbus Cloak",
+                "slot2": "Celerity"
             },
             "shards": [
-                "Attack Speed",
-                "Armor",
+                "Adaptive Force",
+                "Adaptive Force",
                 "Health Scaling"
             ]
         },
-        runes: "GRASP - Can't catch, so every tiny trade with fling needs permanent HP (Grasp). Shield Bash from R. SECOND WIND MANDATORY vs constant auto poke. Overgrowth for HP. Presence of Mind for mana, Legend: Tenacity. Armor shard. This page: SURVIVE AT ALL COSTS. Don't feed. Farm under tower. Roam post-6. Useless teamfights without support.",
+        runes: "Conqueror for ranged matchup — you need to trade hard early if you ever catch her. Triumph for sustain. Legend: Alacrity for waveclear. Nimbus Cloak + Celerity for zoom speed. Still nearly impossible to catch but this is the setup.",
         laningPhase: "Rare but disgusting if face top. Hops after every auto - CANNOT catch. E (Rend) stacks spears, when pulls massive damage and slows. If 2-3 autos, slowed and kites to death. Start Doran's Shield + Second Wind mandatory. Give up CS. Farm under tower. Don't fight - will never land flip, hops away. Call jungle but even then hard. Rush Plated Steelcaps to cut auto damage. Proxy if can get between towers. Your goal: SURVIVE. Don't feed. Useless teamfights without support. You win late.",
         tips: [
             "Hops after EVERY auto - impossible catch.",
@@ -1369,7 +1369,7 @@ window.matchups = [
                 "Adaptive Force"
             ]
         },
-        runes: "Conqueror - You MUST KILL HER EARLY. Presence of Mind for mana sustain during aggression. Legend: ALACRITY (not Tenacity) - you need wave clear to proxy and deny her farm. COUP DE GRACE (not Last Stand) - execute damage for early kills. Sorcery secondary with Nimbus Cloak + Celerity for movement speed to run her down early. MR shard (she does magic damage). ADAPTIVE FORCE shard (not Health) - you need DAMAGE to kill her pre-6. This page is: ALL-IN EARLY OR LOSE GAME.",
+        runes: "Conqueror - You MUST KILL HER EARLY. Triumph for clutch healing during aggression. Legend: ALACRITY (not Tenacity) - you need wave clear to proxy and deny her farm. COUP DE GRACE (not Last Stand) - execute damage for early kills. Sorcery secondary with Nimbus Cloak + Celerity for movement speed to run her down early. MR shard (she does magic damage). ADAPTIVE FORCE shard (not Health) - you need DAMAGE to kill her pre-6. This page is: ALL-IN EARLY OR LOSE GAME.",
         laningPhase: "Race against time. Kayle is WEAK pre-6. You MUST punish her hard early. Start Doran's Ring. All-in her levels 2-5 repeatedly. She can't fight back well. Her Q slow hurts but you can still run her down. Get early kills or deny CS. At level 6, she gets ranged - it gets harder. At level 11, she gets AOE waves - you can't proxy anymore. At level 16, she's a hypercarry and you lose. Your job: DESTROY her early game. Make her 0/3 and 50 CS behind. If you don't, you lose. Ask jungler to camp her. Build early MR if needed.",
         tips: [
             "All-in her levels 2-5 - she's weak.",
@@ -1424,24 +1424,24 @@ window.matchups = [
         coreItems: ["Frozen Heart","Randuin's Omen","Deadman's Plate"],
         runeSetup: {
             "primary": {
-                "tree": "Resolve",
-                "keystone": "Grasp of the Undying",
-                "slot1": "Shield Bash",
-                "slot2": "Second Wind",
-                "slot3": "Overgrowth"
+                "tree": "Precision",
+                "keystone": "Conqueror",
+                "slot1": "Triumph",
+                "slot2": "Legend: Alacrity",
+                "slot3": "Last Stand"
             },
             "secondary": {
-                "tree": "Precision",
-                "slot1": "Presence of Mind",
-                "slot2": "Legend: Tenacity"
+                "tree": "Sorcery",
+                "slot1": "Nimbus Cloak",
+                "slot2": "Celerity"
             },
             "shards": [
-                "Attack Speed",
-                "Armor",
+                "Adaptive Force",
+                "Adaptive Force",
                 "Health Scaling"
             ]
         },
-        runes: "GRASP - You can't catch him, so every fling needs to give permanent HP. Shield Bash from R. SECOND WIND MANDATORY vs double-shot passive poke. Overgrowth for HP. Precision secondary with Presence of Mind for mana and Legend: Tenacity. Armor shard. This page is: SURVIVE, don't feed, farm under tower, he falls off late vs your tankiness.",
+        runes: "Conqueror for ranged matchup — you need to trade hard early if you ever get on him. Triumph for sustain. Legend: Alacrity for waveclear. Nimbus Cloak + Celerity for zoom speed to close gap. Still turbo cancer but this is the setup.",
         laningPhase: "Another nightmare ranged ADC top. His passive double-shot after every ability means insane poke damage. His E dash has a low cooldown that resets on kills. You CANNOT catch him - when you run at him, he E's away and kites you to death. Start Doran's Shield + Second Wind. Give up CS. Farm what you can safely. Call jungle but even with ganks he can E away. Rush Plated Steelcaps to reduce his auto damage. Don't fight him 1v1 ever. Your mission: survive lane without feeding, hit 6, proxy or roam. He falls off late vs tanks. Build armor and HP. Randuin's cuts his crit damage.",
         tips: [
             "He pokes with passive double-autos - brutal early.",
@@ -1456,29 +1456,29 @@ window.matchups = [
         name: "Quinn",
         difficulty: "turbo cancer",
         icon: "🦅",
-        summonerSpells: ["Flash","Ignite"],
-        startingItem: "Doran's Shield + Health Potion",
+        summonerSpells: ["Ignite","Flash"],
+        startingItem: "Dark Seal + Refillable Potion",
         coreItems: ["Randuin's Omen","Force of Nature","Deadman's Plate"],
         runeSetup: {
             "primary": {
-                "tree": "Resolve",
-                "keystone": "Grasp of the Undying",
-                "slot1": "Shield Bash",
-                "slot2": "Second Wind",
-                "slot3": "Overgrowth"
+                "tree": "Precision",
+                "keystone": "Conqueror",
+                "slot1": "Triumph",
+                "slot2": "Legend: Alacrity",
+                "slot3": "Last Stand"
             },
             "secondary": {
-                "tree": "Precision",
-                "slot1": "Presence of Mind",
-                "slot2": "Legend: Tenacity"
+                "tree": "Sorcery",
+                "slot1": "Nimbus Cloak",
+                "slot2": "Celerity"
             },
             "shards": [
-                "Attack Speed",
-                "Armor",
+                "Adaptive Force",
+                "Adaptive Force",
                 "Health Scaling"
             ]
         },
-        runes: "GRASP - Every fling gives permanent HP since you can't fight her. Shield Bash from R. SECOND WIND MANDATORY vs constant poke. Overgrowth for HP. Precision secondary with Presence of Mind for mana and Legend: Tenacity. Armor shard. This page is: SURVIVE, don't die, get what CS you can, match her roams or take plates.",
+        runes: "Conqueror for ranged matchup — you need to trade hard if you ever get on her. Triumph for sustain. Legend: Alacrity for waveclear. Nimbus Cloak + Celerity for zoom speed. Still turbo cancer but this is the setup per Minishcap1.",
         laningPhase: "Another nightmare ranged matchup. She pokes you, vaults away when you engage, and you can't catch her. Start Doran's Shield + Second Wind. Farm safely, give up CS. She will harass you every time you go for CS. You literally cannot kill her in lane. Ask for jungle pressure. Your mission: DON'T DIE, get what CS you can, hit 6 and look for roams. She will shove and roam with her R - match her roams or push for plates. Build Mercury Treads. You're more useful in teamfights. Survive lane.",
         tips: [
             "She pokes and you can't catch her - accept this.",
@@ -1534,23 +1534,23 @@ window.matchups = [
         runeSetup: {
             "primary": {
                 "tree": "Precision",
-                "keystone": "Fleet Footwork",
-                "slot1": "Presence of Mind",
-                "slot2": "Legend: Tenacity",
+                "keystone": "Conqueror",
+                "slot1": "Triumph",
+                "slot2": "Legend: Alacrity",
                 "slot3": "Last Stand"
             },
             "secondary": {
-                "tree": "Resolve",
-                "slot1": "Second Wind",
-                "slot2": "Overgrowth"
+                "tree": "Sorcery",
+                "slot1": "Nimbus Cloak",
+                "slot2": "Celerity"
             },
             "shards": [
-                "Attack Speed",
-                "Magic Resist",
+                "Adaptive Force",
+                "Adaptive Force",
                 "Health Scaling"
             ]
         },
-        runes: "FLEET FOOTWORK - Teemo pokes constantly. Fleet gives sustain AND movement speed to dodge shrooms. Legend: Tenacity for shroom slow. RESOLVE SECONDARY - Second Wind + Overgrowth for maximum sustain/HP. MR shard. This is the ultimate \"survive Teemo hell\" page. Rush Mercury Treads + Oracle Lens post-6 for shroom clearing.",
+        runes: "Conqueror because you need to trade hard early and kill this rat before he outscales. Triumph for sustain. Legend: Alacrity for waveclear. Nimbus Cloak + Celerity for zoom speed to run him down. Still cancer matchup but you need damage to punish him.",
         laningPhase: "One of your worst matchups. He pokes you constantly and you can't engage. Start Doran's Shield and Second Wind rune. Farm with Q poison and give up CS if needed - don't take free poke. Every auto he does blinds you and damages you. You can't trade back. Rush Tier 2 boots (Mercury Treads) for tenacity and MR. At level 6, buy Oracle Lens and clear shrooms before proxying. Ask your jungler for help - you can't kill him alone. Your goal: survive, farm, wait for mid-game teamfights where you're more useful. Don't try to 1v1 - he wins. Proxy when safe.",
         tips: [
             "Start Doran's Shield + Second Wind for sustain.",
@@ -1569,24 +1569,24 @@ window.matchups = [
         coreItems: ["Frozen Heart","Randuin's Omen","Deadman's Plate"],
         runeSetup: {
             "primary": {
-                "tree": "Resolve",
-                "keystone": "Grasp of the Undying",
-                "slot1": "Shield Bash",
-                "slot2": "Second Wind",
-                "slot3": "Overgrowth"
+                "tree": "Precision",
+                "keystone": "Conqueror",
+                "slot1": "Triumph",
+                "slot2": "Legend: Alacrity",
+                "slot3": "Last Stand"
             },
             "secondary": {
-                "tree": "Precision",
-                "slot1": "Presence of Mind",
-                "slot2": "Legend: Tenacity"
+                "tree": "Sorcery",
+                "slot1": "Nimbus Cloak",
+                "slot2": "Celerity"
             },
             "shards": [
-                "Attack Speed",
-                "Armor",
+                "Adaptive Force",
+                "Adaptive Force",
                 "Health Scaling"
             ]
         },
-        runes: "GRASP - Every fling gives permanent HP. Shield Bash from R. SECOND WIND MANDATORY vs her poke. Overgrowth for HP. Precision secondary with Presence of Mind for mana and Legend: Tenacity. Armor shard. This page is: survive explosive damage, don't get dove, farm safely.",
+        runes: "Conqueror for ranged matchup — you need to trade hard if you get on her. Triumph for sustain. Legend: Alacrity for waveclear. Nimbus Cloak + Celerity for zoom speed to close gap before she Ws away. Still cancer but this is the setup.",
         laningPhase: "Explosive damage ADC top. She auto-attacks you, places bomb (E), then autos more to stack it. When it explodes, you lose half your HP. Her W rocket jump is a long-range escape/engage - you can't catch her. If you try to flip her, she just W's away or Rs you back. Start Doran's Shield + Second Wind. Farm safely, give up CS. Don't stand in minion waves when you have her E bomb on you (it AOE damages). Ask jungle for ganks but she can W away. Rush tier 2 boots and armor. Post-6, she can tower dive you with bomb + ult knockback. Play safe. Survive lane. You outscale in teamfights.",
         tips: [
             "Her E bomb explodes for massive damage - don't let her stack it.",
@@ -1606,24 +1606,24 @@ window.matchups = [
         coreItems: ["Frozen Heart","Randuin's Omen","Deadman's Plate"],
         runeSetup: {
             "primary": {
-                "tree": "Resolve",
-                "keystone": "Grasp of the Undying",
-                "slot1": "Shield Bash",
-                "slot2": "Second Wind",
-                "slot3": "Overgrowth"
+                "tree": "Precision",
+                "keystone": "Conqueror",
+                "slot1": "Triumph",
+                "slot2": "Legend: Alacrity",
+                "slot3": "Last Stand"
             },
             "secondary": {
-                "tree": "Precision",
-                "slot1": "Presence of Mind",
-                "slot2": "Legend: Tenacity"
+                "tree": "Sorcery",
+                "slot1": "Nimbus Cloak",
+                "slot2": "Celerity"
             },
             "shards": [
-                "Attack Speed",
-                "Health Scaling",
+                "Adaptive Force",
+                "Adaptive Force",
                 "Health Scaling"
             ]
         },
-        runes: "GRASP - Every fling gives permanent HP. Shield Bash from R. Second Wind for poke. Overgrowth for HP. Precision secondary with Triumph for sustain and Legend: Tenacity for E stun reduction. DOUBLE HEALTH SCALING SHARDS (not armor) - her W does TRUE DAMAGE so armor is useless, but HP helps. Stack as much HP as possible with Deadman's Plate. Frozen Heart still good for attack speed slow.",
+        runes: "Conqueror for ranged matchup — you need to trade hard and stack damage if you ever get on her. Triumph for sustain. Legend: Alacrity for waveclear. Nimbus Cloak + Celerity for zoom speed to catch her or escape her E condemn. Still nearly unplayable but this is the setup.",
         laningPhase: "Why is Vayne top? Torture, that's why. She does true damage with W so armor doesn't help. Start Doran's Shield. Farm safely. If she E's you into a wall, you're stunned and dead. Don't stand near walls. Don't fight her - she wins at all stages. Rush tier 2 boots and try to survive. Her Q tumble makes her impossible to catch. Call for jungle help but even then it's hard. Your goal: SURVIVE. Don't feed. Be more useful in teamfights. Build HP over armor (she does true damage anyway).",
         tips: [
             "Don't stand near walls - her E stun into wall kills you.",
@@ -1650,7 +1650,7 @@ window.matchups = [
             },
             "secondary": {
                 "tree": "Precision",
-                "slot1": "Presence of Mind",
+                "slot1": "Triumph",
                 "slot2": "Legend: Tenacity"
             },
             "shards": [
@@ -1769,7 +1769,7 @@ window.matchups = [
                 "Tenacity"
             ]
         },
-        runes: "Conqueror for extended AP duels. Presence of Mind for mana sustain. Legend: Tenacity + Tenacity shard for E2 stun reduction. Sorcery secondary with Nimbus Cloak + Celerity for movement speed to dodge E2 and kite. MR shard (he does magic damage). This page is: duel him when your R is down (he can't steal it), dodge E2, build MR and consider antiheal for his W.",
+        runes: "Conqueror for extended AP duels. Triumph for clutch healing. Legend: Tenacity + Tenacity shard for E2 stun reduction. Sorcery secondary with Nimbus Cloak + Celerity for movement speed to dodge E2 and kite. MR shard (he does magic damage). This page is: duel him when your R is down (he can't steal it), dodge E2, build MR and consider antiheal for his W.",
         laningPhase: "AP skirmisher who steals your R. Start Doran's Ring. His passive empowers every third auto - he wants to weave autos between abilities. His Q detonates for AOE damage, W heals him and damages you, E is a dash-stun combo. Dodge his E2 (second dash) - that's the stun. If he lands it, you lose the trade. Don't clump with minions when he Q's - the detonation is AOE. When he steals your R with his R, he gets YOUR stats - movement speed, HP, mana restore. Deny him value by backing off when he uses it. His W heals him significantly - consider building Oblivion Orb for grievous wounds. Build Mercury Treads and some MR. Post-6, bait his R steal, then engage when it's down. He's strongest when he has your R available. Extended trades favor you with poison if you dodge his E stun. Don't let him heal for free with W.",
         tips: [
             "Dodge his E2 (second dash) - that's the stun.",
