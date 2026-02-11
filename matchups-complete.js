@@ -1189,7 +1189,7 @@ window.matchups = [
             ]
         },
         runes: "Conqueror for extended trades when catch him. Triumph for sustain. Legend: Tenacity for Mega CC. RESOLVE - Second Wind + Overgrowth for turbo sustain/HP vs ranged poke. Armor shard. This page gives scaling damage when stick to him.",
-        laningPhase": "Turbo cancer ranged. Mini Gnar kites endlessly with autos and Q poke. Builds rage while harassing. When transforms Mega, becomes massive threat with CC. Start Doran's Shield + Second Wind. Give up CS to avoid free poke. Literally cannot catch Mini - E hop and slows. When Mega, stay away from walls (R stuns). Rush tier 2 boots, survive. Ask jungle when E down. Your goal: don't feed, farm what can, be useful teamfights. Post-6, bait Mega form, let expire, engage when Mini again.",
+        laningPhase: "Turbo cancer ranged. Mini Gnar kites endlessly with autos and Q poke. Builds rage while harassing. When transforms Mega, becomes massive threat with CC. Start Doran's Shield + Second Wind. Give up CS to avoid free poke. Literally cannot catch Mini - E hop and slows. When Mega, stay away from walls (R stuns). Rush tier 2 boots, survive. Ask jungle when E down. Your goal: don't feed, farm what can, be useful teamfights. Post-6, bait Mega form, let expire, engage when Mini again.",
         tips: [
             "Can't catch Mini - hops away.",
             "When Mega, stay from walls (R stun).",
