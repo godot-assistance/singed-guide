@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head><title>Debug</title></head>
+<body>
+<pre id="log"></pre>
+<script>
+window.onerror = function(msg, url, line, col, err) {
+    document.getElementById('log').textContent += 'ERROR: ' + msg + ' at ' + url + ':' + line + ':' + col + '\n';
+};
+</script>
+<script src="matchups-complete.js?v=5"></script>
+<script>document.getElementById('log').textContent += 'matchups: ' + (typeof matchups) + ' len=' + (matchups ? matchups.length : 'N/A') + '\n';</script>
+<script src="otp-builds.js?v=5"></script>
+<script>document.getElementById('log').textContent += 'otpBuilds: ' + (typeof window.otpBuilds) + ' len=' + (window.otpBuilds ? window.otpBuilds.length : 'N/A') + '\n';
+document.getElementById('log').textContent += 'buildConsensus: ' + (typeof window.buildConsensus) + '\n';
+document.getElementById('log').textContent += 'spicyPicks: ' + (typeof window.spicyPicks) + '\n';
+</script>
+</body>
+</html>
