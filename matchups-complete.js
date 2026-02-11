@@ -30,7 +30,7 @@ window.matchups = [
             ]
         },
         runes: "Conqueror because this lane is chill and he literally can't punish you for stacking. Triumph for sustain. Legend: Alacrity for turbo proxy speed. Nimbus Cloak + Celerity so you can zoom away from ganks while perma proxying. Health shard since you're not fighting this guy, just farming.",
-        laningPhase: "Start Doran's Ring or Dark Seal. Level 1-2 just chill and poke with poison. At level 3, perma proxy between his towers - he literally can't catch you and his waveclear is grief. If he tries to follow, run circles around him. W to slow if he gets close. Don't ego and try to fight him directly unless turbo ahead. Your job is to deny him farm and make him choose between CS or chasing you (he'll pick wrong). After first back, grab boots and keep proxying. He's stuck under turret malding while you draw jungle pressure and roam.",
+        laningPhase: "Start Doran's Ring or Dark Seal. Level 1-2 just chill and poke with poison. At level 3, perma proxy between his towers — he literally can't catch you and his waveclear is grief. If he tries to follow, run circles around him. W to slow if he gets close. Don't ego and try to fight him directly unless turbo ahead. Your job is to deny him farm and make him choose between CS or chasing you (he'll pick wrong). After first back, grab Boots of Swiftness (default boot choice per aggregate data — 54% WR, highest pickrate) and keep proxying. He's stuck under turret malding while you draw jungle pressure and roam. Protoplasm Harness 3rd-4th for the Lifeline passive is turbo value here — you're not at risk but 600 HP for 2500g is insane efficiency. Jak'Sho is the default 4th-5th tank item in S16 — gives both armor + MR.",
         tips: [
             "You outrun his Q every time. W when he silences you.",
             "Perma proxy - he can't chase and his waveclear is grief.",
@@ -41,7 +41,7 @@ window.matchups = [
     },
     {
         name: "Dr. Mundo",
-        difficulty: "free",
+        difficulty: "playable",
         icon: "💉",
         summonerSpells: ["Ghost","Flash"],
         startingItem: "Doran's Ring + 2 Health Potions",
@@ -66,14 +66,14 @@ window.matchups = [
             ]
         },
         runes: "Conqueror for scaling - piss lane, just farm. Triumph for sustain. Legend: Alacrity for turbo proxy speed. Nimbus Cloak + Celerity so you can zoom around (proxying needs speed). Your ult gives 25% grievous but you NEED Morello for full antiheal against his turbo healing.",
-        laningPhase: "Piss lane that turns into a proxy party. Start Doran's Ring. His Q poke hurts but just dodge it. Your ult gives 25% grievous but rush Oblivion Orb early for lane - he heals way too much without it. Build Morello for full 40% antiheal (ult only 25%). Once you have first component or first item, perma proxy. He can't kill you, you can't kill him early. Just deny CS by proxying. Post-6 don't ego his R healing - it's actually cracked. Liandry's into Morello for burn + antiheal. Late game you gap him in teamfights.",
+        laningPhase: "48% WR — NOT free anymore. Mundo is turbo strong in S16. Start Doran's Ring. His Q poke hurts — dodge it or lose. Your ult gives 25% grievous but rush Oblivion Orb early for lane — he heals way too much without it. Build Morello for full 40% antiheal (ult only 25%, nowhere near enough). If you don't build antiheal early, he WILL outheal your damage. Once you have first component or first item, proxy. He can't kill you easily but he's extremely hard to kill too. Post-6 HARD respect his R healing — it's actually cracked. Liandry's into Morello for burn + antiheal MANDATORY. You gap him in teamfights but don't expect to solo kill him without Morello.",
         tips: [
             "Rush grievous - his healing is the only reason he exists.",
             "Dodge his Q cleavers - they actually hurt early.",
             "Perma proxy once you have waveclear.",
             "His R makes him unkillable - don't ego all-ins post-6."
         ],
-        keyPoints: "Build antiheal. Perma proxy. Gap him late game."
+        keyPoints: "48% WR on u.gg — NOT free anymore. Mundo is turbo strong S16. Build antiheal or his healing gaps you. Morello mandatory. You outscale teamfights but can't solo kill."
     },
     {
         name: "Illaoi",
@@ -259,7 +259,7 @@ window.matchups = [
     },
     {
         name: "Garen",
-        difficulty: "playable",
+        difficulty: "coinflip",
         icon: "⚔️",
         summonerSpells: ["Flash","Ghost"],
         startingItem: "Doran's Shield + Health Potion",
@@ -284,7 +284,7 @@ window.matchups = [
             ]
         },
         runes: "Conqueror (not Phase Rush) - Garen matchup is EXTENDED trades where your poison outdamages his passive. Triumph for sustain. Legend: Haste for ability haste — lower W and R cooldowns, more ult uptime in extended fights. TENACITY SHARD for his Q silence. Move Speed shard for kiting around his spin. Nimbus Cloak + Celerity for speed to escape his spin or chase. Your ult gives 25% grievous (nerfed from 40%), so grab Oblivion Orb if he's healing too much.",
-        laningPhase: "Annoying but winnable. Start Doran's Ring. Your poison stops his passive heal - perma keep it on him. When he Q's toward you, immediately W to slow and prevent silence reaching you. If he gets silence off, disengage. Don't let him spin on you for free - fling him away mid-spin. Build Plated Steelcaps for his physical. Post-6, save R for when he ults you - the heal saves your life. Your ult gives 25% antiheal which helps but isn't enough - build Oblivion Orb if he's sustaining too much. He's stronger in short trades, you gap him in extended. Proxy when he backs or roams.",
+        laningPhase: "47% WR — harder than it looks. Start Doran's Shield (not Ring — you need sustain). Your poison stops his passive heal — perma keep it on him. When he Q's toward you, immediately W to slow and prevent silence reaching you. If he gets silence off, disengage. Don't let him spin on you for free - fling him away mid-spin. Build Plated Steelcaps for his physical. Post-6, save R for when he ults you - the heal saves your life. Your ult gives 25% antiheal which helps but isn't enough - build Oblivion Orb if he's sustaining too much. He's stronger in short trades, you gap him in extended. Proxy when he backs or roams.",
         tips: [
             "Your poison stops his passive heal - ult gives 25% GW (not enough alone).",
             "W him before he Q's to prevent silence.",
@@ -292,7 +292,7 @@ window.matchups = [
             "Build Plated Steelcaps and armor.",
             "Build Oblivion Orb for better antiheal - ult's 25% GW isn't enough."
         ],
-        keyPoints: "Perma poison stops his passive. Build antiheal. Don't let him silence+spin for free."
+        keyPoints: "47% WR — harder than it looks. His silence + spin chunks hard. Perma poison stops passive but respect his burst. Oblivion Orb if he sustains too much."
     },
     {
         name: "Gragas",
@@ -332,7 +332,7 @@ window.matchups = [
     },
     {
         name: "Gwen",
-        difficulty: "playable",
+        difficulty: "free",
         icon: "✂️",
         summonerSpells: ["Teleport","Ghost"],
         startingItem: "Doran's Shield + Health Potion",
@@ -357,18 +357,18 @@ window.matchups = [
             ]
         },
         runes: "Conqueror for AP duels. Triumph for sustain. Legend: Haste for ability haste — lower W and R cooldowns, more ult uptime to kite her. Nimbus Cloak + Celerity for speed to kite around her W zone and escape. Move Speed shard for dodging her snip snip Q. Health shard for tankiness vs her true damage.",
-        laningPhase: "AP matchup. Start Doran's Ring. Her W makes her immune to ranged but you're INSIDE it with her - poison still works. Respect her Q damage when fully stacked. When she E's into you, fling her away immediately. Don't extended fight early - she wins. You scale better for teamfights. Build Mercs and MR if needed. Post-6, her R hurts but you can run. Short trades with poison favored for you.",
+        laningPhase: "59% WR — turbo free per data. AP matchup but you just gap her. Start Doran's Ring. Her W makes her immune to ranged but you're INSIDE it with her — poison still works and she can't escape your gas. Respect her Q damage when fully stacked but honestly you can just run at her. When she E's into you, fling her away. You outscale for teamfights AND win lane. Build Mercs and MR if needed. Post-6, her R hurts but you can run. Short trades with poison heavily favored for you. She's melee AP with no escape — your dream matchup.",
         tips: [
             "Her W doesn't stop poison - you're inside with her.",
             "Fling her away when she E's in.",
             "Don't extended fight early - she gaps you.",
             "Build Mercs for MR."
         ],
-        keyPoints: "AP matchup. Respect her damage. You gap her in teamfights."
+        keyPoints: "59% WR — turbo free per lolalytics/u.gg. AP matchup but you just gap her. Poison ignores her W zone."
     },
     {
         name: "Jax",
-        difficulty: "coinflip",
+        difficulty: "playable",
         icon: "🥋",
         summonerSpells: ["Teleport","Ghost"],
         startingItem: "Doran's Shield + Health Potion",
@@ -392,8 +392,8 @@ window.matchups = [
                 "Health Scaling"
             ]
         },
-        runes: "PHASE RUSH (not Conqueror) - Jax scales harder than you, so prioritize ESCAPING when he has R. You can't win late duels, Phase Rush lets you disengage. Nimbus Cloak + Celerity for turbo mobility. Second Wind for sustain, Overgrowth for scaling HP. This page is about winning early then ESCAPING late. Move Speed shard for kiting.",
-        laningPhase: "Winnable early, turbo doomed late. Start Doran's Ring or Shield. NEVER fight when his E is up - he dodges AAs and stuns you. Wait for him to use E on wave, then trade. Fling him when he Q's on you. Build Plated Steelcaps and Frozen Heart. Early you can bully him. Post-6 respect his R - turbo resistances. Your goal is win early and help team. Late he beats you 1v1 no matter what - split opposite side. Don't ego duels past 2 items.",
+        runes: "PHASE RUSH (not Conqueror) — 57% WR matchup but Phase Rush still best for safety. You win early and mid but late he outduels. Phase Rush lets you disengage when needed. Nimbus Cloak + Celerity for turbo mobility. Second Wind for sustain, Overgrowth for scaling HP. Move Speed shard for kiting.",
+        laningPhase: "57% WR — actually Singed-favored per lolalytics. Start Doran's Ring or Shield. NEVER fight when his E is up — he dodges AAs and stuns you. Wait for him to use E on wave, then trade. Fling him when he Q's on you. Build Plated Steelcaps and Frozen Heart — attack speed slow from FH shuts him down. Early and mid you can bully him. Post-6 respect his R — turbo resistances. Your goal is win early/mid and help team. Late he beats you 1v1 — split opposite side. But this matchup is way more Singed-favored than people think.",
         tips: [
             "Never fight when his E is up - dodge window.",
             "Fling him when he Q's on you.",
@@ -402,11 +402,11 @@ window.matchups = [
             "Protoplasm Harness 3rd/4th — Lifeline passive saves you from his burst trades. 600 HP is turbo value.",
             "Bandlepipes if enemy team has mixed damage — Jax does mixed (AA + W magic), cheap hybrid resistances + movement passive."
         ],
-        keyPoints: "Respect his E. Win early. Late game avoid 1v1 or get gapped. Protoplasm Lifeline saves vs his burst. Bandlepipes for mixed damage."
+        keyPoints: "57% WR — actually Singed-favored per lolalytics. Respect his E. Frozen Heart shuts him down. Late he wins 1v1 but you gap teamfights. Protoplasm Lifeline saves vs burst."
     },
     {
         name: "K'Sante",
-        difficulty: "playable",
+        difficulty: "free",
         icon: "🛡️",
         summonerSpells: ["Teleport","Ghost"],
         startingItem: "Doran's Ring + 2 Health Potions",
@@ -431,7 +431,7 @@ window.matchups = [
             ]
         },
         runes: "PHASE RUSH - When K'Sante ults you to All Out mode, you need Phase Rush to escape before he combos you to death. He loses resistances in All Out but gains turbo damage and mobility - Phase Rush is your escape. Unflinching + Tenacity shard stack to cut his W stun and R CC. Second Wind for sustain. Move Speed shard for kiting his All Out form. This page is: survive his All Out combo OR fight back with speed.",
-        laningPhase: "Tank buster with heavy CC. Start Doran's Ring. His Q is 3-hit combo - sidestep the third (knockup). His W charges dash-stun - when you see him glowing, dodge sideways or get stunned and lose trade. Don't fight when his passive shield is up - wait for expire. Post-6, his R is cancer: knocks you away, dashes after, transforms to All Out (turbo damage, armor pen, loses resistances). When he Rs: 1) Run with Ghost if low HP, or 2) Turn and fight if healthy - he loses resistances in All Out so you actually hurt him. Build Plated Steelcaps. Extended trades favor you if you dodge Qs. He's designed to beat tanks but your speed helps. Proxy when W down - he needs it to chase.",
+        laningPhase: "59% WR — one of your EASIEST matchups per lolalytics. K'Sante is turbo weak right now. Start Doran's Ring. His Q is 3-hit combo — sidestep the third (knockup). His W charges dash-stun — when you see him glowing, dodge sideways. Don't fight when his passive shield is up — wait for expire. Post-6, his R knocks you away, dashes after, transforms to All Out (turbo damage but loses resistances). When he Rs: 1) Run with Ghost if low HP, or 2) Turn and fight if healthy — he loses resistances in All Out so you actually HURT him. He's designed to beat tanks but you're not a tank. Phase Rush lets you escape All Out if needed. Proxy freely — he can't stop you. Extended trades heavily favor you.",
         tips: [
             "Dodge Q3 knockup and W dash-stun - sidestep.",
             "Wait for passive shield to expire before trading.",
@@ -439,11 +439,11 @@ window.matchups = [
             "Build Plated Steelcaps.",
             "Proxy when W down - he can't catch without it."
         ],
-        keyPoints: "Tank-buster with heavy CC. Dodge Q3 and W. Fight in All Out if healthy (he loses resistances)."
+        keyPoints: "59% WR matchup — turbo free. Dodge Q3 and W. Fight in All Out if healthy (he loses resistances). Data from u.gg/lolalytics confirms this is one of Singed's easiest matchups."
     },
     {
         name: "Mordekaiser",
-        difficulty: "coinflip",
+        difficulty: "playable",
         icon: "⚒️",
         summonerSpells: ["Ghost","Flash"],
         startingItem: "Doran's Ring + 2 Health Potions",
@@ -468,18 +468,18 @@ window.matchups = [
             ]
         },
         runes: "PHASE RUSH (not Conqueror) - His R Death Realm is 1v1 arena. Phase Rush lets you KITE him in the circle, dodging Q while poisoning. Nimbus Cloak + Celerity for turbo zoom. Second Wind for sustain, Overgrowth for HP. Move Speed shard for kiting in Death Realm — speed is everything in that circle. Tenacity shard for E pull. This page is: survive Death Realm by kiting.",
-        laningPhase: "Coinflip that depends on dodging. Start Doran's Ring. Run out of his passive circle ASAP when it activates - standing in it you lose. Dodge his Q by moving unpredictably. When he Rs you to Death Realm, you MUST kite. Turn on Q, run circles dodging his Q. If you have Rylai's, you can kite him to death. Without items, it's rough. Consider QSS if carrying hard. Build Liandry's + Rylai's. Pre-6, you can trade if you dodge Q. Post-6, his R is hands check - can you dodge Q in there?",
+        laningPhase: "54% WR — actually Singed-favored. Start Doran's Ring. Run out of his passive circle ASAP when it activates — standing in it you lose. Dodge his Q by moving unpredictably. When he Rs you to Death Realm, you MUST kite — but with Phase Rush and Rylai's this is actually very doable. Turn on Q, run circles dodging his Q. Once you have Rylai's, you kite him to death in the circle. Pre-6, you can trade freely if you dodge Q. Post-6, his R is a hands check but one you CAN win. Consider QSS late if carrying hard. Rush Liandry's + Rylai's — Rylai's is the item that makes Death Realm free.",
         tips: [
             "Run out of his passive circle ASAP.",
             "Rush Rylai's to kite in his R.",
             "In Death Realm, run circles poisoning while dodging Q.",
             "Buy QSS late if carrying."
         ],
-        keyPoints: "Kite his passive. His R is hands check - dodge Q in Death Realm or die."
+        keyPoints: "54% WR — actually Singed-favored. Phase Rush lets you kite him in Death Realm. Dodge Q in there and you win. Rylai's makes Death Realm free."
     },
     {
         name: "Nasus",
-        difficulty: "free",
+        difficulty: "coinflip",
         icon: "🐕",
         summonerSpells: ["Teleport","Ghost"],
         startingItem: "Doran's Ring + 2 Health Potions",
@@ -504,14 +504,14 @@ window.matchups = [
             ]
         },
         runes: "PHASE RUSH - MANDATORY vs Nasus. His W Wither slows you by 95% - Phase Rush is ONLY way to escape. Nimbus Cloak + Celerity for turbo speed. Unflinching cuts Wither duration. This page is built to counter his Wither and let you perma proxy. Your goal: deny every minion from Nasus.",
-        laningPhase: "This is a race against time. Your mission: DENY HIM STACKS. Start perma proxying level 2-3. Run between his towers and clear waves before he can stack them. Every minion you deny is a stack he doesn't get. He will cry for jungle - be ready to escape with Ghost or Phase Rush. If he Withers you, pop R to heal and zoom away. Post-6, respect his R - he becomes fast and tanky. Continue proxying but more careful. Your goal is make him 100 stacks behind by 10 min. If you succeed, you've won even if you're 0/2. A weak Nasus is a useless Nasus. Late he outscales you 1v1 no matter what.",
+        laningPhase: "49-51% WR — NOT free anymore. Nasus is turbo strong in S16. This IS a race against time but DON'T disrespect him. Start proxying level 2-3 if possible. Run between his towers and clear waves before he can stack them. Every minion you deny is a stack he doesn't get. He will cry for jungle — be ready to escape with Ghost or Phase Rush. If he Withers you, pop R to heal and zoom away. Post-6, HARD respect his R — he becomes turbo fast and tanky. Continue proxying but more careful. If you don't turbo gap him early, he will outscale you and stat-check. Late he 1v1s you free. Phase Rush is NON-NEGOTIABLE — his Wither without it is literally death.",
         tips: [
             "Perma proxy early - deny stacks or you lose.",
             "Post-6, respect his R - he becomes fast.",
             "Build early pressure before he scales.",
             "Late game, ignore and split opposite."
         ],
-        keyPoints: "Race against time. Perma proxy to deny stacks. Make him useless. Late split opposite."
+        keyPoints: "49-51% WR — NOT free like people think. Nasus is turbo strong in S16. Race against time. If you don't turbo gap early, he outscales you. Phase Rush mandatory vs Wither."
     },
     {
         name: "Pantheon",
@@ -624,7 +624,7 @@ window.matchups = [
     },
     {
         name: "Sett",
-        difficulty: "playable",
+        difficulty: "coinflip",
         icon: "👊",
         summonerSpells: ["Ghost","Flash"],
         startingItem: "Doran's Ring + 2 Health Potions",
@@ -649,18 +649,18 @@ window.matchups = [
             ]
         },
         runes: "Conqueror for extended trades. When Sett charges W, dodge side - the true damage center will kill you. Triumph for sustain. Legend: Haste for ability haste — lower W and R cooldowns for more ult uptime. Nimbus Cloak + Celerity for speed. Move Speed shard for dodging his W. This page is for extended fights where poison stacks Conqueror.",
-        laningPhase: "Respect his damage but winnable. Start Doran's Shield. When he charges W (glowing), dodge side - the true damage center will kill you. Don't fight when passive shield up. Wait for expire, then trade. Your poison outdamages his regen. Don't let him E stun you into wall. If he lands E, you lose trade. Proxy risky vs good Sett - his E catches you. Build Plated Steelcaps. Post-6, your R heal counters his R damage. Quick trades with poison, don't extended fight.",
+        laningPhase: "48% WR — harder than it looks. Start Doran's Shield mandatory. When he charges W (glowing), dodge side — the true damage center WILL kill you. Don't fight when passive shield up. Wait for expire, then trade. Your poison outdamages his regen. Don't let him E stun you into wall. If he lands E, you lose trade. Proxy risky vs good Sett - his E catches you. Build Plated Steelcaps. Post-6, your R heal counters his R damage. Quick trades with poison, don't extended fight.",
         tips: [
             "Dodge side when he winds W - center is true damage.",
             "Don't fight in E stun range.",
             "Proxy when E down, otherwise risky.",
             "Your W stops follow-up after E."
         ],
-        keyPoints: "Respect W true damage. Quick trades only. Dodge side or die."
+        keyPoints: "48% WR — harder than it looks. W true damage center is instant death. Quick trades ONLY. Dodge side or die. He statchecks you if you ego."
     },
     {
         name: "Shen",
-        difficulty: "playable",
+        difficulty: "coinflip",
         icon: "⚔️",
         summonerSpells: ["Flash","Ghost"],
         startingItem: "Dark Seal + Refillable Potion",
@@ -692,7 +692,7 @@ window.matchups = [
             "When he Rs away, take plates.",
             "Can't kill each other - farm and proxy."
         ],
-        keyPoints: "Tank support. Can't kill each other. Piss lane, just farm."
+        keyPoints: "48% WR — not as free as it looks. His Q empowered autos and E taunt actually hurt. When he Rs away, turbo push plates. You outvalue in side lane but don't disrespect him."
     },
     {
         name: "Sion",
@@ -768,7 +768,7 @@ window.matchups = [
     },
     {
         name: "Tryndamere",
-        difficulty: "cancer",
+        difficulty: "coinflip",
         icon: "⚔️",
         summonerSpells: ["Flash","Ghost"],
         startingItem: "Doran's Shield + Health Potion",
@@ -793,18 +793,18 @@ window.matchups = [
             ]
         },
         runes: "Phase Rush mandatory — he will run you down without it. His E spin close gap + W slow = you're dead. Phase Rush lets you escape after he engages. Nimbus Cloak + Celerity for turbo zoom. Second Wind for sustain, Unflinching cuts his W slow. You CANNOT duel post-6 when R up.",
-        laningPhase: "Respect his damage. Start Doran's Shield. When he spins with E, immediately fling away and W to slow. Don't extended trade when high rage (crit is cancer). You CAN'T duel post-6 when R up - he gets 5 seconds immortality. Just run when he ults. Build Plated Steelcaps and Frozen Heart. Proxy when E down. Your job: survive lane, be more useful teamfights. Late, NEVER split same side - he wins 1v1. Split opposite or group.",
+        laningPhase: "56% WR — actually Singed-favored per lolalytics. Don't be TOO scared. Start Doran's Shield. When he spins with E, immediately fling away and W to slow. Don't extended trade when high rage (crit is cancer). You CAN'T duel post-6 when R up — he gets 5 seconds immortality. Just run when he ults. Build Plated Steelcaps and Frozen Heart — the attack speed slow from FH shuts him down hard. Phase Rush mandatory. Proxy when E down. You're actually more useful in teamfights and he's useless there. Late, NEVER split same side — he wins 1v1. But overall this matchup is WAY more winnable than people think.",
         tips: [
             "Fling when he spins with E.",
             "Can't duel post-6 with R up - run.",
             "Build Plated Steelcaps + Frozen Heart.",
             "Split opposite side late - he wins 1v1."
         ],
-        keyPoints: "Respect all-in. Never duel when R up. Split opposite late or get gapped."
+        keyPoints: "56% WR — actually Singed-favored per lolalytics. Phase Rush + armor stacking shuts him down. Never duel when R up. Split opposite late."
     },
     {
         name: "Urgot",
-        difficulty: "cancer",
+        difficulty: "turbo cancer",
         icon: "🦀",
         summonerSpells: ["Flash","Ghost"],
         startingItem: "Doran's Shield + Health Potion",
@@ -829,18 +829,18 @@ window.matchups = [
             ]
         },
         runes: "Conqueror because you need to trade hard and stack damage vs this crab. Triumph for clutch heals. Legend: Alacrity for waveclear. Nimbus Cloak + Celerity for speed to dodge his E flip and circle around his shotgun knees. His damage scales with your max HP but Conqueror lets you fight back.",
-        laningPhase: "Don't get hit by E flip. Start Doran's Shield. His E dash-flip is engage. If he lands it, you lose trade. Dodge side-to-side. When fighting, don't stand still - circle him. His shotgun knees only fire certain directions. If circling, you take less damage. Don't fight below 25% HP - his R execute kills you. Build HP (Heartsteel, Deadman's). His damage scales with YOUR max HP so build HP and resistances. Respect the crab. Playable if you dodge E.",
+        laningPhase: "47% WR — your #3 worst matchup per u.gg/lolalytics. This crab stat-checks you at every stage. Start Doran's Shield. His E dash-flip is engage — if he lands it, you lose trade AND maybe die. Dodge side-to-side religiously. When fighting, circle him — his shotgun knees only fire certain directions. DON'T fight below 25% HP — his R execute is unescapable and kills you through everything. Build HP (Heartsteel, Deadman's) but know that his damage scales with YOUR max HP. This is a lose lane, survive game situation. Proxy when possible but he can chase you down. Ask for ganks. Consider dodging.",
         tips: [
             "Dodge E flip - that's his engage.",
             "Circle him to dodge shotgun knees.",
             "Don't fight below 25% HP (R executes).",
             "Build HP - his damage scales with yours."
         ],
-        keyPoints: "Respect execute. Circle in fights. Dodge E or get gapped."
+        keyPoints: "47% WR — Singed's #3 worst matchup per u.gg. He statchecks you at every stage. Dodge E or die. His R execute is unescapable. Consider dodging."
     },
     {
         name: "Volibear",
-        difficulty: "playable",
+        difficulty: "coinflip",
         icon: "🐻",
         summonerSpells: ["Flash","Ghost"],
         startingItem: "Dark Seal + Refillable Potion",
@@ -872,7 +872,7 @@ window.matchups = [
             "Poison interrupts W heal.",
             "Build Oblivion Orb for antiheal."
         ],
-        keyPoints: "Respect R. Build antiheal. Kite and poison."
+        keyPoints: "48% WR — harder than expected. His R storm is turbo dangerous. Build antiheal. Kite and poison. Don't ego extended fights in his R."
     },
     {
         name: "Warwick",
@@ -1352,7 +1352,7 @@ window.matchups = [
     },
     {
         name: "Kayle",
-        difficulty: "coinflip",
+        difficulty: "cancer",
         icon: "👼",
         summonerSpells: ["Flash","Ignite"],
         startingItem: "Dark Seal + Refillable Potion",
@@ -1377,14 +1377,14 @@ window.matchups = [
             ]
         },
         runes: "Conqueror - You MUST KILL HER EARLY. Triumph for clutch healing during aggression. Legend: ALACRITY (not Tenacity) - you need wave clear to proxy and deny her farm. COUP DE GRACE (not Last Stand) - execute damage for early kills. Sorcery secondary with Nimbus Cloak + Celerity for movement speed to run her down early. Move Speed shard for running her down early. ADAPTIVE FORCE shard (not Health) - you need DAMAGE to kill her pre-6. This page is: ALL-IN EARLY OR LOSE GAME.",
-        laningPhase: "Race against time. Kayle is WEAK pre-6. You MUST punish her hard early. Start Doran's Ring. All-in her levels 2-5 repeatedly. She can't fight back well. Her Q slow hurts but you can still run her down. Get early kills or deny CS. At level 6, she gets ranged - it gets harder. At level 11, she gets AOE waves - you can't proxy anymore. At level 16, she's a hypercarry and you lose. Your job: DESTROY her early game. Make her 0/3 and 50 CS behind. If you don't, you lose. Ask jungler to camp her. Build early MR if needed.",
+        laningPhase: "45-47% WR — one of your WORST matchups per u.gg/lolalytics. Kayle is turbo strong in S16. Race against time — she is WEAK pre-6. You MUST punish her hard early. Start Doran's Ring. All-in her levels 2-5 repeatedly. She can't fight back well. Her Q slow hurts but you can still run her down. Get early kills or deny CS. At level 6, she gets ranged — it gets way harder. At level 11, she gets AOE waves — you can't proxy anymore. At level 16, she's a hypercarry and you auto-lose. Your job: DESTROY her early game. Make her 0/3 and 50 CS behind. If you don't, you lose. Beg jungler to camp her. Build early MR if needed. Ignite is mandatory for kill pressure.",
         tips: [
             "All-in her levels 2-5 - she's weak.",
             "You MUST punish early or she outscales.",
             "At 6 she gets ranged, at 11 AOE waves, at 16 she's unstoppable.",
             "Ask jungler to camp her early."
         ],
-        keyPoints: "Win early or lose game. All-in pre-6 repeatedly. Time limit matchup."
+        keyPoints: "45-47% WR — one of Singed's WORST matchups per lolalytics/u.gg. Kill her pre-6 or she outscales you into oblivion. Time limit matchup. Kayle is turbo strong in S16."
     },
     {
         name: "Kennen",
@@ -1461,7 +1461,7 @@ window.matchups = [
     },
     {
         name: "Quinn",
-        difficulty: "turbo cancer",
+        difficulty: "playable",
         icon: "🦅",
         summonerSpells: ["Ignite","Flash"],
         startingItem: "Dark Seal + Refillable Potion",
@@ -1485,15 +1485,16 @@ window.matchups = [
                 "Health Scaling"
             ]
         },
-        runes: "Conqueror for ranged matchup — you need to trade hard if you ever get on her. Triumph for sustain. Legend: Alacrity for waveclear. Nimbus Cloak + Celerity for zoom speed. Still turbo cancer but this is the setup per Minishcap1.",
-        laningPhase: "Another nightmare ranged matchup. She pokes you, vaults away when you engage, and you can't catch her. Start Doran's Shield + Second Wind. Farm safely, give up CS. She will harass you every time you go for CS. You literally cannot kill her in lane. Ask for jungle pressure. Your mission: DON'T DIE, get what CS you can, hit 6 and look for roams. She will shove and roam with her R - match her roams or push for plates. Build Mercury Treads. You're more useful in teamfights. Survive lane.",
+        runes: "Conqueror for ranged matchup — you need to trade hard when you get on her. Triumph for sustain. Legend: Alacrity for waveclear. Nimbus Cloak + Celerity for zoom speed. Quinn is turbo weak in S16 — 60% WR matchup per lolalytics.",
+        laningPhase: "Don't be scared — Quinn is garbage in S16 and data shows 60% WR for Singed. Lane IS annoying early — she pokes and vaults away. But she falls off a cliff mid-game. Start Dark Seal if confident, Doran's Shield if nervous. You can run at her with Ghost and she can't escape if vault is down. Bait her E vault, then run her down. Post-6, you massively outscale. She roams with R but you take plates. She can't teamfight, you can. Your goal: survive early poke, proxy when safe, and know that you hard outscale. Minishcap1 recommends Ignite here for kill pressure — free TP from top quest means you don't lose map pressure.",
         tips: [
-            "She pokes and you can't catch her - accept this.",
-            "Doran's Shield + Second Wind mandatory.",
-            "Give up CS, focus on not dying.",
-            "Match her roams or take plates when she Rs."
+            "60% WR — Quinn is turbo weak in S16. Don't be scared.",
+            "Bait her E vault, then run her down.",
+            "She falls off hard mid-game. You turbo outscale.",
+            "Match her roams or take plates when she Rs.",
+            "Ignite for kill pressure — free TP from top lane quest."
         ],
-        keyPoints: "Disgusting. Unwinnable 1v1. Survive lane. More useful teamfights. Just dodge."
+        keyPoints: "60% WR — Quinn is turbo weak in S16. Lane is annoying but she falls off hard. You outscale and out-teamfight. Don't respect her too much."
     },
     {
         name: "Ryze",
@@ -1569,7 +1570,7 @@ window.matchups = [
     },
     {
         name: "Tristana",
-        difficulty: "cancer",
+        difficulty: "turbo cancer",
         icon: "💣",
         summonerSpells: ["Flash","Ghost"],
         startingItem: "Doran's Shield + Health Potion",
@@ -1679,7 +1680,7 @@ window.matchups = [
     },
     {
         name: "Ambessa",
-        difficulty: "playable",
+        difficulty: "cancer",
         icon: "⚔️",
         summonerSpells: ["Ghost","Flash"],
         startingItem: "Doran's Shield + Health Potion",
@@ -1704,7 +1705,7 @@ window.matchups = [
             ]
         },
         runes: "PHASE RUSH - Ambessa dashes constantly. Phase Rush helps you keep up with her dashes OR escape when she chains abilities. Your W ground slow stops her dashes temporarily but Phase Rush ensures you can reposition. Second Wind for sustain. Unflinching + Tenacity shard for her CC chains. Move Speed shard for matching her dash-heavy playstyle. This page is: match her mobility, use W ground to stop dashes, Phase Rush to escape combos.",
-        laningPhase: "NEW Season 16 champion - high mobility bruiser. Ambessa dashes constantly with her abilities, making her hard to pin down. Her Q is a dash-slash combo, E gives her a dash with damage reduction, and W creates an AOE zone. She chains abilities together for multiple dashes in quick succession. Start Doran's Shield. Don't try to trade when she has full ability rotations - she'll dash circles around you. Wait for her to use dashes on minions, then engage. Your W ground slow is CRUCIAL - it stops her from dashing away. Flip her mid-combo to interrupt her damage. She's strongest in extended trades with her passive (bonus damage). Keep trades short - poison and disengage. Build Plated Steelcaps and armor early. Post-6, her R is an execute and dash - don't fight when low HP. Respect her mobility but she's still melee - your poison wears her down over time.",
+        laningPhase: "46% WR — way harder than people think. She turbo gaps you with constant dash chains. Her Q is a dash-slash combo, E gives her a dash with damage reduction, and W creates an AOE zone. She chains abilities together for multiple dashes in quick succession. Start Doran's Shield ALWAYS. DO NOT try to trade when she has full ability rotations - she'll dash circles around you and chunk you for half HP. Wait for her to use dashes on minions, then MAYBE engage. Your W ground slow is your ONLY hope - it stops her from dashing away. Flip her mid-combo to interrupt her damage. She's strongest in extended trades with her passive (bonus damage). Keep trades SHORT - poison and immediately disengage. Build Plated Steelcaps and armor ASAP. Post-6, her R is an execute and dash - NEVER fight when low HP. Consider Protoplasm Harness for the Lifeline passive when she all-ins.",
         tips: [
             "Her dashes have short cooldowns - use W ground to stop her mobility.",
             "Wait for her to use dashes on minions before engaging.",
@@ -1712,7 +1713,7 @@ window.matchups = [
             "Don't fight when low - her R is an execute.",
             "Build Plated Steelcaps early for her physical damage."
         ],
-        keyPoints: "Mobile bruiser. Use W ground to stop dashes. Short trades with poison. Armor mandatory."
+        keyPoints: "46% WR — way harder than it looks. She turbo gaps you with dash chains. W ground is your ONLY hope to stop her mobility. Armor mandatory. Don't ego this lane."
     },
     {
         name: "Rumble",
