@@ -550,10 +550,10 @@ function renderSpicyPicks() {
     container.innerHTML = `
         <div class="spicy-card">
             <h3 class="collapsible-header" onclick="toggleCollapse(this)">
-                🌶️ SPICY PICKS — Minishcap1 Specials
+                🌶️ SPICY PICKS — Advanced Tech
                 <span class="collapse-icon">▶</span>
             </h3>
-            <p style="text-align:center; color:#999; margin-bottom:20px; font-size:0.9rem;">Ego picks from the cracked content creator. Not for the faint of heart. If you turbo grief with these, that's a you diff.</p>
+            <p style="text-align:center; color:#999; margin-bottom:20px; font-size:0.9rem;">Ego picks for the cracked. Not for the faint of heart. If you turbo grief with these, that's a you diff.</p>
             <div class="collapsible-content collapsed">
                 <div class="spicy-grid">
                     ${Object.entries(window.spicyPicks).map(([key, pick]) => `
