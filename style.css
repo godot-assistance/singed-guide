@@ -1,7 +1,15 @@
+:root {
+    --nav-height: 52px;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -82,27 +90,64 @@ body {
     color: #5fa765;
 }
 
-/* Filter Bar */
-.filter-bar {
-    padding: 30px 20px;
-    background: rgba(0, 0, 0, 0.3);
+/* ============ NAVIGATION ============ */
+.site-nav {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid rgba(95, 167, 101, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    flex-wrap: wrap;
 }
 
-.filter-bar h2 {
-    text-align: center;
-    margin-bottom: 20px;
+.site-nav a {
+    color: #b8e994;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: all 0.3s;
+    font-size: 0.95rem;
+}
+
+.site-nav a:hover {
     color: #c8ff8e;
+    background: rgba(95, 167, 101, 0.2);
+}
+
+/* ============ FILTER BAR (STICKY) ============ */
+.filter-bar {
+    padding: 20px 20px 15px;
+    background: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: var(--nav-height, 52px);
+    z-index: 90;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(95, 167, 101, 0.2);
+}
+
+.filter-bar-inner {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .filters {
     display: flex;
-    gap: 15px;
+    gap: 12px;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 
 #searchInput, select {
-    padding: 12px 20px;
+    padding: 10px 16px;
     border: 2px solid rgba(255, 255, 255, 0.2);
     background: rgba(0, 0, 0, 0.3);
     color: white;
@@ -120,7 +165,7 @@ body {
 }
 
 .btn-secondary {
-    padding: 12px 24px;
+    padding: 10px 20px;
     background: rgba(255, 255, 255, 0.1);
     border: 2px solid rgba(255, 255, 255, 0.2);
     color: white;
@@ -135,7 +180,57 @@ body {
     border-color: #5fa765;
 }
 
-/* Matchups */
+/* Sort Controls */
+.sort-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+}
+
+.sort-label {
+    color: #999;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.sort-btn {
+    padding: 6px 14px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #b8e994;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.82rem;
+    font-weight: 600;
+    transition: all 0.25s;
+}
+
+.sort-btn:hover {
+    background: rgba(95, 167, 101, 0.15);
+    border-color: rgba(95, 167, 101, 0.4);
+}
+
+.sort-btn.active {
+    background: rgba(95, 167, 101, 0.25);
+    border-color: #5fa765;
+    color: #c8ff8e;
+    box-shadow: 0 0 8px rgba(95, 167, 101, 0.3);
+}
+
+/* Matchup Count */
+.matchup-count {
+    text-align: center;
+    color: #777;
+    font-size: 0.82rem;
+    font-weight: 500;
+}
+
+/* ============ MATCHUPS ============ */
 .matchups {
     padding: 30px 20px;
 }
@@ -153,12 +248,34 @@ body {
     padding: 20px;
     text-align: center;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all 0.25s;
+    position: relative;
+    overflow: hidden;
 }
 
 .matchup-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 20px rgba(95, 167, 101, 0.3);
+}
+
+/* Difficulty-colored hover glow */
+.matchup-card.free:hover {
+    box-shadow: 0 5px 25px rgba(76, 175, 80, 0.35);
+    border-color: rgba(76, 175, 80, 0.5);
+}
+
+.matchup-card.playable:hover {
+    box-shadow: 0 5px 25px rgba(255, 193, 7, 0.3);
+    border-color: rgba(255, 193, 7, 0.5);
+}
+
+.matchup-card.cancer:hover {
+    box-shadow: 0 5px 25px rgba(244, 67, 54, 0.35);
+    border-color: rgba(244, 67, 54, 0.5);
+}
+
+.matchup-card.unplayable:hover {
+    box-shadow: 0 5px 25px rgba(156, 39, 176, 0.35);
+    border-color: rgba(156, 39, 176, 0.5);
 }
 
 .matchup-card.free {
@@ -185,16 +302,17 @@ body {
 .matchup-name {
     font-size: 1.1rem;
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     color: #ffffff;
 }
 
 .matchup-difficulty {
-    font-size: 0.85rem;
-    padding: 4px 10px;
+    font-size: 0.9rem;
+    padding: 5px 14px;
     border-radius: 12px;
     display: inline-block;
-    font-weight: 600;
+    font-weight: 700;
+    letter-spacing: 0.3px;
 }
 
 .matchup-difficulty.free {
@@ -217,7 +335,24 @@ body {
     color: white;
 }
 
-/* Modal */
+/* Key Points Preview on Hover */
+.matchup-preview {
+    font-size: 0.75rem;
+    color: #999;
+    line-height: 1.4;
+    margin-top: 8px;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s, opacity 0.25s;
+}
+
+.matchup-card:hover .matchup-preview {
+    max-height: 40px;
+    opacity: 1;
+}
+
+/* ============ MODAL ============ */
 .modal {
     display: none;
     position: fixed;
@@ -239,6 +374,7 @@ body {
     width: 90%;
     max-width: 800px;
     position: relative;
+    overflow: hidden;
 }
 
 .close {
@@ -247,15 +383,51 @@ body {
     font-size: 28px;
     font-weight: bold;
     cursor: pointer;
+    position: relative;
+    z-index: 2;
 }
 
 .close:hover {
     color: #5fa765;
 }
 
+/* Mobile close button (hidden on desktop) */
+.modal-close-btn {
+    display: none;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.3);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.2s;
+}
+
+.modal-close-btn:hover {
+    background: rgba(95, 167, 101, 0.3);
+    border-color: #5fa765;
+}
+
+/* Difficulty color bar at top of modal */
+.modal-difficulty-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    border-radius: 15px 15px 0 0;
+}
+
 .modal-header {
     text-align: center;
     margin-bottom: 20px;
+    padding-top: 10px;
 }
 
 .modal-header h2 {
@@ -286,7 +458,42 @@ body {
     margin-bottom: 8px;
 }
 
-/* General Tips */
+/* Modal Navigation (Prev / Next) */
+.modal-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 0;
+    margin-top: 20px;
+    border-top: 1px solid rgba(95, 167, 101, 0.2);
+}
+
+.modal-nav-link {
+    color: #b8e994;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: all 0.2s;
+    max-width: 40%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.modal-nav-link:hover {
+    color: #c8ff8e;
+    background: rgba(95, 167, 101, 0.15);
+}
+
+.modal-nav-count {
+    color: #666;
+    font-size: 0.82rem;
+    white-space: nowrap;
+}
+
+/* ============ GENERAL TIPS / BUILDS / RUNES ============ */
 .general-tips, .builds, .runes {
     padding: 40px 20px;
     background: rgba(0, 0, 0, 0.2);
@@ -477,37 +684,6 @@ body {
     font-style: italic;
 }
 
-/* ============ NAVIGATION ============ */
-.site-nav {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    padding: 12px 20px;
-    background: rgba(0, 0, 0, 0.5);
-    border-bottom: 2px solid rgba(95, 167, 101, 0.3);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    flex-wrap: wrap;
-}
-
-.site-nav a {
-    color: #b8e994;
-    text-decoration: none;
-    font-weight: 600;
-    padding: 8px 16px;
-    border-radius: 6px;
-    transition: all 0.3s;
-    font-size: 0.95rem;
-}
-
-.site-nav a:hover {
-    color: #c8ff8e;
-    background: rgba(95, 167, 101, 0.2);
-}
-
 /* ============ OTP BUILDS SECTION ============ */
 .otp-section {
     padding: 40px 20px;
@@ -548,6 +724,8 @@ body {
     border: 2px solid #5fa765;
     border-radius: 15px;
     padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto 20px;
 }
 
 .consensus-card h3 {
@@ -582,6 +760,41 @@ body {
     color: #e0e0e0;
     font-size: 0.95rem;
     font-weight: 600;
+}
+
+/* --- Collapse/Expand --- */
+.collapsible-header {
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: opacity 0.2s;
+}
+
+.collapsible-header:hover {
+    opacity: 0.85;
+}
+
+.collapse-icon {
+    font-size: 0.8rem;
+    transition: transform 0.25s;
+}
+
+.collapsible-content {
+    transition: max-height 0.35s ease, opacity 0.3s ease;
+    overflow: hidden;
+}
+
+.collapsible-content.expanded {
+    max-height: 2000px;
+    opacity: 1;
+}
+
+.collapsible-content.collapsed {
+    max-height: 0;
+    opacity: 0;
 }
 
 /* --- OTP Grid --- */
@@ -711,6 +924,17 @@ body {
     color: #c8ff8e;
 }
 
+/* OTP Core Items (under playstyle tag) */
+.otp-core-items {
+    font-size: 0.7rem;
+    color: #777;
+    margin-top: 6px;
+    line-height: 1.3;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 /* --- Spicy Picks --- */
 .spicy-container {
     max-width: 900px;
@@ -781,7 +1005,272 @@ body {
     transform: translateY(-2px);
 }
 
-/* --- Additional OTP classes --- */
+/* ============ BACK TO TOP ============ */
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid rgba(95, 167, 101, 0.5);
+    background: rgba(10, 20, 40, 0.85);
+    color: #c8ff8e;
+    font-size: 1.4rem;
+    cursor: pointer;
+    z-index: 500;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.back-to-top:hover {
+    background: rgba(95, 167, 101, 0.3);
+    border-color: #5fa765;
+    transform: translateY(-3px);
+}
+
+/* ============ MOBILE ============ */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .filters {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #searchInput {
+        width: 100%;
+        min-width: 0;
+    }
+
+    /* Larger touch targets on filter buttons */
+    .btn-secondary {
+        padding: 14px 24px;
+        font-size: 1.05rem;
+    }
+
+    select {
+        padding: 14px 16px;
+        font-size: 1.05rem;
+    }
+
+    .sort-btn {
+        padding: 10px 16px;
+        font-size: 0.88rem;
+    }
+
+    /* 2 columns on mobile */
+    .matchup-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .matchup-card {
+        padding: 14px 10px;
+    }
+
+    .matchup-icon {
+        font-size: 2.2rem;
+        margin-bottom: 6px;
+    }
+
+    .matchup-name {
+        font-size: 0.9rem;
+    }
+
+    .matchup-difficulty {
+        font-size: 0.72rem;
+        padding: 3px 8px;
+    }
+
+    .matchup-preview {
+        display: none;
+    }
+
+    .rune-trees {
+        grid-template-columns: 1fr;
+    }
+
+    .site-nav {
+        gap: 4px;
+        padding: 10px 12px;
+    }
+
+    .site-nav a {
+        padding: 6px 10px;
+        font-size: 0.85rem;
+    }
+
+    .filter-bar {
+        padding: 12px 12px 10px;
+    }
+
+    /* Full-screen modal on mobile */
+    .modal-content {
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+        min-height: 100vh;
+        border-radius: 0;
+        border: none;
+        padding: 20px 16px;
+        padding-top: 50px;
+    }
+
+    .modal-close-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .close {
+        display: none;
+    }
+
+    .modal-nav-link {
+        font-size: 0.8rem;
+        padding: 10px 8px;
+    }
+
+    .otp-grid {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 10px;
+    }
+
+    .otp-name {
+        font-size: 0.95rem;
+    }
+
+    .consensus-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .spicy-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .back-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 44px;
+        height: 44px;
+    }
+}
+
+/* ============ PRINT-FRIENDLY ============ */
+@media print {
+    /* Hide non-essential elements */
+    .site-nav,
+    .filter-bar,
+    .back-to-top,
+    .modal,
+    .quick-stats,
+    .hero {
+        display: none !important;
+    }
+
+    body {
+        background: white !important;
+        color: black !important;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    /* Compact matchup list */
+    .matchup-grid {
+        display: block !important;
+    }
+
+    .matchup-card {
+        display: inline-block;
+        width: 48%;
+        margin: 4px 0;
+        padding: 8px 10px;
+        border: 1px solid #ccc !important;
+        border-radius: 4px;
+        background: white !important;
+        color: black !important;
+        text-align: left;
+        page-break-inside: avoid;
+        vertical-align: top;
+    }
+
+    .matchup-card.free,
+    .matchup-card.playable,
+    .matchup-card.cancer,
+    .matchup-card.unplayable {
+        border-left: 4px solid #333 !important;
+    }
+
+    .matchup-icon {
+        display: inline;
+        font-size: 1.2rem;
+        margin-right: 6px;
+    }
+
+    .matchup-name {
+        display: inline;
+        font-size: 0.9rem;
+        color: black !important;
+    }
+
+    .matchup-difficulty {
+        font-size: 0.7rem;
+        padding: 1px 6px;
+        background: #eee !important;
+        color: #333 !important;
+        display: inline;
+        margin-left: 6px;
+    }
+
+    .matchup-preview {
+        display: none !important;
+    }
+
+    /* Print sections */
+    .general-tips, .builds, .runes, .otp-section {
+        background: none !important;
+        color: black !important;
+    }
+
+    .general-tips h2, .builds h2, .runes h2, .otp-section h2 {
+        color: black !important;
+    }
+
+    h3, h4 {
+        color: #333 !important;
+    }
+
+    p, li, span, .tip-card, .build-card, .rune-card {
+        color: #333 !important;
+    }
+
+    .tip-card, .build-card, .rune-card {
+        border-color: #ccc !important;
+        background: none !important;
+    }
+
+    a {
+        color: #333 !important;
+        text-decoration: underline;
+    }
+}
+
+/* ============ LEGACY COMPAT CLASSES ============ */
 .section-subtitle {
     text-align: center;
     color: #999;
@@ -903,125 +1392,4 @@ body {
     color: #999;
     font-size: 0.9rem;
     font-style: italic;
-}
-
-.spicy-section {
-    max-width: 1200px;
-    margin: 30px auto;
-}
-
-.spicy-section h3 {
-    color: #e74c3c;
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
-
-.spicy-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 15px;
-}
-
-.spicy-card {
-    background: rgba(0, 0, 0, 0.3);
-    padding: 15px;
-    border-radius: 8px;
-    border-left: 3px solid #e74c3c;
-}
-
-.spicy-header {
-    color: #e74c3c;
-    margin-bottom: 8px;
-}
-
-.spicy-card p {
-    color: #e0e0e0;
-    font-size: 0.88rem;
-    line-height: 1.5;
-}
-
-.spicy-when {
-    color: #f39c12;
-    font-size: 0.82rem;
-    margin-top: 8px;
-}
-
-.consensus-card {
-    max-width: 1200px;
-    margin: 0 auto 20px;
-    background: linear-gradient(135deg, rgba(95, 167, 101, 0.12), rgba(200, 255, 142, 0.04));
-    border: 2px solid #5fa765;
-    border-radius: 15px;
-    padding: 30px;
-}
-
-.consensus-card h3 {
-    color: #c8ff8e;
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-}
-
-.consensus-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
-}
-
-.consensus-item {
-    background: rgba(0, 0, 0, 0.3);
-    padding: 12px;
-    border-radius: 8px;
-    border-left: 3px solid #5fa765;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2rem;
-    }
-    
-    .filters {
-        flex-direction: column;
-    }
-    
-    #searchInput {
-        width: 100%;
-    }
-    
-    .matchup-grid {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    }
-    
-    .rune-trees {
-        grid-template-columns: 1fr;
-    }
-
-    .site-nav {
-        gap: 4px;
-        padding: 10px 12px;
-    }
-
-    .site-nav a {
-        padding: 6px 10px;
-        font-size: 0.85rem;
-    }
-
-    .otp-grid {
-        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-        gap: 10px;
-    }
-
-    .otp-name {
-        font-size: 0.95rem;
-    }
-
-    .consensus-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .spicy-grid {
-        grid-template-columns: 1fr;
-    }
 }

@@ -2,18 +2,57 @@
 // Matchup data loaded from matchups-complete.js
 // OTP data loaded from otp-builds.js
 
-// ============ MATCHUP SECTION ============
+// ============ STATE ============
 
 let filteredMatchups = [...matchups];
+let currentSort = 'difficulty';
+let currentModalIndex = -1;
+let isMatchupModal = false;
+
+// ============ INIT ============
 
 function init() {
     updateStats();
+    sortMatchups();
     renderMatchups();
     renderOtpSection();
+    initBackToTop();
+    initKeyboardShortcuts();
+    updateStickyPositions();
 
     document.getElementById('searchInput').addEventListener('input', filterMatchups);
     document.getElementById('difficultyFilter').addEventListener('change', filterMatchups);
+
+    // Nav smooth scroll with offset
+    document.querySelectorAll('.site-nav a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                const offset = getStickyOffset();
+                const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+                window.scrollTo({ top, behavior: 'smooth' });
+            }
+        });
+    });
+
+    window.addEventListener('resize', updateStickyPositions);
 }
+
+function updateStickyPositions() {
+    const nav = document.querySelector('.site-nav');
+    if (nav) {
+        document.documentElement.style.setProperty('--nav-height', nav.offsetHeight + 'px');
+    }
+}
+
+function getStickyOffset() {
+    const nav = document.querySelector('.site-nav');
+    const filterBar = document.getElementById('filterBar');
+    return (nav ? nav.offsetHeight : 0) + (filterBar ? filterBar.offsetHeight : 0) + 10;
+}
+
+// ============ MATCHUP HELPERS ============
 
 function getDifficultyCategory(diff) {
     if (diff === 'free' || diff === 'turbo free') return 'free';
@@ -33,6 +72,52 @@ function getDifficultyLabel(diff) {
     return labels[diff] || diff;
 }
 
+function getDifficultyTier(diff) {
+    if (diff === 'free' || diff === 'turbo free') return 0;
+    if (diff === 'playable' || diff === 'coinflip') return 1;
+    if (diff === 'cancer' || diff === 'turbo cancer') return 2;
+    if (diff === 'unplayable') return 3;
+    return 1;
+}
+
+function getDifficultyColor(diff) {
+    const cat = getDifficultyCategory(diff);
+    const colors = { free: '#4CAF50', playable: '#FFC107', cancer: '#F44336', unplayable: '#9C27B0' };
+    return colors[cat] || '#5fa765';
+}
+
+// ============ SORTING ============
+
+function sortMatchups() {
+    if (currentSort === 'difficulty') {
+        filteredMatchups.sort((a, b) => {
+            const ta = getDifficultyTier(a.difficulty);
+            const tb = getDifficultyTier(b.difficulty);
+            if (ta !== tb) return ta - tb;
+            return a.name.localeCompare(b.name);
+        });
+    } else if (currentSort === 'az') {
+        filteredMatchups.sort((a, b) => a.name.localeCompare(b.name));
+    } else if (currentSort === 'worst') {
+        filteredMatchups.sort((a, b) => {
+            const ta = getDifficultyTier(a.difficulty);
+            const tb = getDifficultyTier(b.difficulty);
+            if (ta !== tb) return tb - ta;
+            return a.name.localeCompare(b.name);
+        });
+    }
+}
+
+function setSort(mode) {
+    currentSort = mode;
+    document.querySelectorAll('.sort-btn').forEach(btn => btn.classList.remove('active'));
+    const active = document.querySelector(`.sort-btn[data-sort="${mode}"]`);
+    if (active) active.classList.add('active');
+    filterMatchups();
+}
+
+// ============ STATS & COUNT ============
+
 function updateStats() {
     const free = matchups.filter(m => getDifficultyCategory(m.difficulty) === 'free').length;
     const coinflip = matchups.filter(m => getDifficultyCategory(m.difficulty) === 'playable').length;
@@ -43,15 +128,26 @@ function updateStats() {
     document.getElementById('cancerCount').textContent = cancer;
 }
 
+function updateMatchupCount() {
+    const el = document.getElementById('matchupCount');
+    if (el) el.textContent = `Showing ${filteredMatchups.length} of ${matchups.length} matchups`;
+}
+
+// ============ RENDER MATCHUPS ============
+
 function renderMatchups() {
     const grid = document.getElementById('matchupGrid');
     grid.innerHTML = '';
 
-    filteredMatchups.forEach(matchup => {
+    filteredMatchups.forEach((matchup, index) => {
         const card = document.createElement('div');
         const cat = getDifficultyCategory(matchup.difficulty);
         card.className = `matchup-card ${cat}`;
-        card.onclick = () => showMatchupDetails(matchup);
+        card.onclick = () => showMatchupDetails(matchup, index);
+
+        const preview = matchup.keyPoints
+            ? matchup.keyPoints.substring(0, 80) + (matchup.keyPoints.length > 80 ? '…' : '')
+            : '';
 
         card.innerHTML = `
             <div class="matchup-icon">${matchup.icon}</div>
@@ -59,6 +155,7 @@ function renderMatchups() {
             <span class="matchup-difficulty ${cat}">
                 ${getDifficultyLabel(matchup.difficulty)}
             </span>
+            <div class="matchup-preview">${preview}</div>
         `;
 
         grid.appendChild(card);
@@ -67,7 +164,11 @@ function renderMatchups() {
     if (filteredMatchups.length === 0) {
         grid.innerHTML = '<p style="text-align:center; color: #999; padding: 40px;">No matchups found. Try different filters!</p>';
     }
+
+    updateMatchupCount();
 }
+
+// ============ FILTER ============
 
 function filterMatchups() {
     const searchTerm = document.getElementById('searchInput').value.toLowerCase();
@@ -79,6 +180,7 @@ function filterMatchups() {
         return matchesSearch && matchesDifficulty;
     });
 
+    sortMatchups();
     renderMatchups();
 }
 
@@ -86,8 +188,11 @@ function resetFilters() {
     document.getElementById('searchInput').value = '';
     document.getElementById('difficultyFilter').value = 'all';
     filteredMatchups = [...matchups];
+    sortMatchups();
     renderMatchups();
 }
+
+// ============ RUNE TREE HTML ============
 
 function generateRuneTreeHTML(runeSetup) {
     if (!runeSetup) return '';
@@ -139,15 +244,29 @@ function generateRuneTreeHTML(runeSetup) {
     `;
 }
 
-function showMatchupDetails(matchup) {
+// ============ MATCHUP MODAL ============
+
+function showMatchupDetails(matchup, index) {
+    currentModalIndex = (index !== undefined) ? index : filteredMatchups.indexOf(matchup);
+    isMatchupModal = true;
+
     const modal = document.getElementById('matchupModal');
     const modalBody = document.getElementById('modalBody');
+    const diffColor = getDifficultyColor(matchup.difficulty);
+    const cat = getDifficultyCategory(matchup.difficulty);
+
+    const hasPrev = currentModalIndex > 0;
+    const hasNext = currentModalIndex < filteredMatchups.length - 1;
+    const prevName = hasPrev ? filteredMatchups[currentModalIndex - 1].name : '';
+    const nextName = hasNext ? filteredMatchups[currentModalIndex + 1].name : '';
 
     modalBody.innerHTML = `
+        <div class="modal-difficulty-bar" style="background: ${diffColor};"></div>
+
         <div class="modal-header">
             <div style="font-size: 4rem;">${matchup.icon}</div>
             <h2>Singed vs ${matchup.name}</h2>
-            <span class="matchup-difficulty ${getDifficultyCategory(matchup.difficulty)}">
+            <span class="matchup-difficulty ${cat}">
                 ${getDifficultyLabel(matchup.difficulty)}
             </span>
         </div>
@@ -204,13 +323,31 @@ function showMatchupDetails(matchup) {
                 ${matchup.tips.map(tip => `<li>${tip}</li>`).join('')}
             </ul>
         </div>
+
+        <div class="modal-nav">
+            ${hasPrev ? `<a href="#" class="modal-nav-link" onclick="navigateMatchup(-1); return false;">← ${prevName}</a>` : '<span></span>'}
+            <span class="modal-nav-count">${currentModalIndex + 1} / ${filteredMatchups.length}</span>
+            ${hasNext ? `<a href="#" class="modal-nav-link" onclick="navigateMatchup(1); return false;">${nextName} →</a>` : '<span></span>'}
+        </div>
     `;
 
     modal.style.display = 'block';
+    modal.scrollTop = 0;
+}
+
+function navigateMatchup(direction) {
+    if (!isMatchupModal) return;
+    const newIndex = currentModalIndex + direction;
+    if (newIndex >= 0 && newIndex < filteredMatchups.length) {
+        showMatchupDetails(filteredMatchups[newIndex], newIndex);
+        document.getElementById('matchupModal').scrollTop = 0;
+    }
 }
 
 function closeModal() {
     document.getElementById('matchupModal').style.display = 'none';
+    isMatchupModal = false;
+    currentModalIndex = -1;
 }
 
 // Close modal when clicking outside
@@ -219,6 +356,66 @@ window.onclick = function(event) {
     if (event.target === modal) {
         closeModal();
     }
+}
+
+// ============ KEYBOARD SHORTCUTS ============
+
+function initKeyboardShortcuts() {
+    document.addEventListener('keydown', function(e) {
+        const modal = document.getElementById('matchupModal');
+        const modalOpen = modal && modal.style.display === 'block';
+
+        // Escape
+        if (e.key === 'Escape') {
+            if (modalOpen) {
+                closeModal();
+                e.preventDefault();
+            } else {
+                const search = document.getElementById('searchInput');
+                if (document.activeElement === search || search.value) {
+                    search.value = '';
+                    search.blur();
+                    filterMatchups();
+                    e.preventDefault();
+                }
+            }
+            return;
+        }
+
+        // Arrow nav in modal
+        if (modalOpen && isMatchupModal) {
+            if (e.key === 'ArrowLeft') { navigateMatchup(-1); e.preventDefault(); return; }
+            if (e.key === 'ArrowRight') { navigateMatchup(1); e.preventDefault(); return; }
+        }
+
+        // / or Ctrl+K to focus search
+        if (!modalOpen) {
+            const active = document.activeElement;
+            const isInput = active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA' || active.tagName === 'SELECT');
+
+            if ((e.key === '/' && !isInput) || (e.key === 'k' && (e.ctrlKey || e.metaKey))) {
+                e.preventDefault();
+                const search = document.getElementById('searchInput');
+                search.focus();
+                search.select();
+            }
+        }
+    });
+}
+
+// ============ BACK TO TOP ============
+
+function initBackToTop() {
+    const btn = document.getElementById('backToTop');
+    if (!btn) return;
+
+    window.addEventListener('scroll', function() {
+        btn.classList.toggle('visible', window.pageYOffset > 400);
+    });
+
+    btn.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
 }
 
 // ============ OTP BUILDS SECTION ============
@@ -256,36 +453,51 @@ function renderConsensus() {
 
     container.innerHTML = `
         <div class="consensus-card">
-            <h3>🧬 WHAT ALL 17 OTPS AGREE ON</h3>
+            <h3 class="collapsible-header" onclick="toggleCollapse(this)">
+                🧬 WHAT ALL 17 OTPS AGREE ON
+                <span class="collapse-icon">▼</span>
+            </h3>
             <p style="text-align:center; color:#999; margin-bottom:20px; font-size:0.9rem;">When every cracked Singed player on the planet perma runs the same setup, you don't question it. You lock it in.</p>
-            <div class="consensus-grid">
-                <div class="consensus-item">
-                    <div class="label">🔸 Keystone</div>
-                    <div class="value">Conqueror (100%)</div>
-                </div>
-                <div class="consensus-item">
-                    <div class="label">🌀 Secondary</div>
-                    <div class="value">Nimbus Cloak + Celerity</div>
-                </div>
-                <div class="consensus-item">
-                    <div class="label">⚗️ Core Build</div>
-                    <div class="value">Liandry's → Rylai's → Deadman's</div>
-                </div>
-                <div class="consensus-item">
-                    <div class="label">👟 Boots</div>
-                    <div class="value">Boots of Swiftness</div>
-                </div>
-                <div class="consensus-item">
-                    <div class="label">⚡ Summoners</div>
-                    <div class="value">Ghost + Flash</div>
-                </div>
-                <div class="consensus-item">
-                    <div class="label">⬡ Shards</div>
-                    <div class="value">2× AP + Scaling HP</div>
+            <div class="collapsible-content expanded">
+                <div class="consensus-grid">
+                    <div class="consensus-item">
+                        <div class="label">🔸 Keystone</div>
+                        <div class="value">Conqueror (100%)</div>
+                    </div>
+                    <div class="consensus-item">
+                        <div class="label">🌀 Secondary</div>
+                        <div class="value">Nimbus Cloak + Celerity</div>
+                    </div>
+                    <div class="consensus-item">
+                        <div class="label">⚗️ Core Build</div>
+                        <div class="value">Liandry's → Rylai's → Deadman's</div>
+                    </div>
+                    <div class="consensus-item">
+                        <div class="label">👟 Boots</div>
+                        <div class="value">Boots of Swiftness</div>
+                    </div>
+                    <div class="consensus-item">
+                        <div class="label">⚡ Summoners</div>
+                        <div class="value">Ghost + Flash</div>
+                    </div>
+                    <div class="consensus-item">
+                        <div class="label">⬡ Shards</div>
+                        <div class="value">2× AP + Scaling HP</div>
+                    </div>
                 </div>
             </div>
         </div>
     `;
+}
+
+function toggleCollapse(header) {
+    const content = header.parentElement.querySelector('.collapsible-content');
+    const icon = header.querySelector('.collapse-icon');
+    if (!content) return;
+
+    content.classList.toggle('expanded');
+    content.classList.toggle('collapsed');
+    icon.textContent = content.classList.contains('expanded') ? '▼' : '▶';
 }
 
 function renderOtpGrid() {
@@ -302,6 +514,7 @@ function renderOtpGrid() {
         card.onclick = () => showOtpDetails(otp);
 
         const cleanRank = otp.rank.replace(/\s*\(#\d+.*?\)/, '');
+        const coreItems = otp.build.coreItems ? otp.build.coreItems.join(' → ') : '';
 
         card.innerHTML = `
             <div class="otp-rank-num">${index + 1}</div>
@@ -313,6 +526,7 @@ function renderOtpGrid() {
                 <span>${otp.gamesPlayed} games</span>
             </div>
             <span class="playstyle-tag">${otp.playstyle}</span>
+            ${coreItems ? `<div class="otp-core-items">${coreItems}</div>` : ''}
         `;
 
         grid.appendChild(card);
@@ -328,27 +542,37 @@ function renderSpicyPicks() {
         'cosmic_drive_rush': '🌀 Cosmic Drive Rush',
         'movespeed_shard': '💨 Movespeed Shard',
         'deathcap_rush': '🎩 Deathcap Rush',
-        'phase_rush_mandatory': '⚡ Phase Rush (Mandatory)'
+        'phase_rush_mandatory': '⚡ Phase Rush (Mandatory)',
+        'protoplasm_harness': '🛡️ Protoplasm Harness',
+        'bandlepipes': '🎵 Bandlepipes'
     };
 
     container.innerHTML = `
         <div class="spicy-card">
-            <h3>🌶️ SPICY PICKS — Minishcap1 Specials</h3>
+            <h3 class="collapsible-header" onclick="toggleCollapse(this)">
+                🌶️ SPICY PICKS — Minishcap1 Specials
+                <span class="collapse-icon">▶</span>
+            </h3>
             <p style="text-align:center; color:#999; margin-bottom:20px; font-size:0.9rem;">Ego picks from the cracked content creator. Not for the faint of heart. If you turbo grief with these, that's a you diff.</p>
-            <div class="spicy-grid">
-                ${Object.entries(window.spicyPicks).map(([key, pick]) => `
-                    <div class="spicy-item">
-                        <h4>${spicyNames[key] || key}</h4>
-                        <p>${pick.description}</p>
-                        <div class="spicy-when">📌 When: ${pick.when}</div>
-                    </div>
-                `).join('')}
+            <div class="collapsible-content collapsed">
+                <div class="spicy-grid">
+                    ${Object.entries(window.spicyPicks).map(([key, pick]) => `
+                        <div class="spicy-item">
+                            <h4>${spicyNames[key] || key}</h4>
+                            <p>${pick.description}</p>
+                            <div class="spicy-when">📌 When: ${pick.when}</div>
+                        </div>
+                    `).join('')}
+                </div>
             </div>
         </div>
     `;
 }
 
 function showOtpDetails(otp) {
+    isMatchupModal = false;
+    currentModalIndex = -1;
+
     const modal = document.getElementById('matchupModal');
     const modalBody = document.getElementById('modalBody');
 
@@ -357,6 +581,8 @@ function showOtpDetails(otp) {
     const tierColor = tierColors[tier] || '#5fa765';
 
     modalBody.innerHTML = `
+        <div class="modal-difficulty-bar" style="background: ${tierColor};"></div>
+
         <div class="modal-header">
             <span class="server-badge server-${otp.server}" style="font-size:1rem; padding:5px 12px;">${getServerFlag(otp.server)} ${otp.server}</span>
             <h2 style="color:${tierColor}">${otp.name}</h2>
@@ -422,6 +648,7 @@ function showOtpDetails(otp) {
     `;
 
     modal.style.display = 'block';
+    modal.scrollTop = 0;
 }
 
 // ============ INITIALIZE ============

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Singed Top Lane Guide - Mix Mix Swirl Mix!</title>
-    <link rel="stylesheet" href="style.css?v=11">
+    <link rel="stylesheet" href="style.css?v=12">
 </head>
 <body>
     <div class="container">
@@ -44,19 +44,27 @@
             </div>
         </section>
 
-        <!-- Filter Bar -->
-        <section class="filter-bar">
-            <h2>🔍 Find Your Matchup</h2>
-            <div class="filters">
-                <input type="text" id="searchInput" placeholder="Search champion...">
-                <select id="difficultyFilter">
-                    <option value="all">All Matchups</option>
-                    <option value="free">Free / Turbo Free</option>
-                    <option value="playable">Playable / Coinflip</option>
-                    <option value="cancer">Cancer / Turbo Cancer</option>
-                    <option value="unplayable">Unplayable (Dodge)</option>
-                </select>
-                <button onclick="resetFilters()" class="btn-secondary">Reset</button>
+        <!-- Filter Bar (Sticky) -->
+        <section class="filter-bar" id="filterBar">
+            <div class="filter-bar-inner">
+                <div class="filters">
+                    <input type="text" id="searchInput" placeholder="Search champion... (/ to focus)">
+                    <select id="difficultyFilter">
+                        <option value="all">All Matchups</option>
+                        <option value="free">Free / Turbo Free</option>
+                        <option value="playable">Playable / Coinflip</option>
+                        <option value="cancer">Cancer / Turbo Cancer</option>
+                        <option value="unplayable">Unplayable (Dodge)</option>
+                    </select>
+                    <button onclick="resetFilters()" class="btn-secondary">Reset</button>
+                </div>
+                <div class="sort-controls">
+                    <span class="sort-label">Sort:</span>
+                    <button class="sort-btn active" data-sort="difficulty" onclick="setSort('difficulty')">By Difficulty</button>
+                    <button class="sort-btn" data-sort="az" onclick="setSort('az')">A-Z</button>
+                    <button class="sort-btn" data-sort="worst" onclick="setSort('worst')">Worst First</button>
+                </div>
+                <div class="matchup-count" id="matchupCount">Showing 0 of 0 matchups</div>
             </div>
         </section>
 
@@ -70,6 +78,7 @@
         <!-- Modal (shared for matchups + OTP details) -->
         <div id="matchupModal" class="modal">
             <div class="modal-content">
+                <button class="modal-close-btn" onclick="closeModal()" aria-label="Close">✕</button>
                 <span class="close" onclick="closeModal()">&times;</span>
                 <div id="modalBody">
                     <!-- Populated by JS -->
@@ -183,8 +192,11 @@
         </section>
     </div>
 
-    <script src="matchups-complete.js?v=11"></script>
-    <script src="otp-builds.js?v=11"></script>
-    <script src="script.js?v=11"></script>
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="matchups-complete.js?v=12"></script>
+    <script src="otp-builds.js?v=12"></script>
+    <script src="script.js?v=12"></script>
 </body>
 </html>
