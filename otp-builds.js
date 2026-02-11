@@ -610,35 +610,35 @@ window.buildConsensus = {
 // Spicy/Unique picks
 window.spicyPicks = {
   unsealed_spellbook: {
-    player: "Minishcap1",
-    description: "Utility-focused rune for high adaptability. Can swap to Ignite at 6min for kill pressure, or swap to TP/Smite for macro plays.",
+    player: "OTP Tech",
+    description: "Utility-focused rune for high adaptability. Swap to Ignite at 6min for kill pressure, or swap to TP/Smite for macro plays.",
     difficulty: "Most difficult rune to master",
     when: "When you need versatility over raw stats"
   },
   cosmic_drive_rush: {
-    player: "Minishcap1",
+    player: "OTP Tech",
     description: "Rush Cosmic Drive 1st item vs bad matchups for movespeed + low ult CD to spam for safety. Force push + proxy every wave with ult movespeed, then run away.",
     when: "Losing matchup, need to avoid lane"
   },
   movespeed_shard: {
-    player: "Minishcap1",
+    player: "OTP Tech",
     description: "Replace 1 AP shard with Movespeed shard. Scales harder late but weaker early waveclear.",
     difficulty: "Harder to play than standard - requires practice",
     when: "Experienced players wanting max scaling"
   },
   deathcap_rush: {
-    player: "Minishcap1",
+    player: "OTP Tech",
     description: "Season 16 emphasis on high AP builds. Deathcap rush after Liandry's (or even 2nd item) for maximum solo carry potential.",
     when: "Team needs damage, enemy isn't building early MR"
   },
   phase_rush_mandatory: {
-    player: "Minishcap1",
+    player: "OTP Tech",
     description: "Phase Rush is MANDATORY vs Darius, Olaf, Nasus - champions with massive slows. Cannot play these matchups without it.",
     when: "Enemy has heavy slow-spam (Darius W, Olaf Q, Nasus W, etc)"
   },
   protoplasm_harness: {
-    player: "Minishcap1",
-    description: "Protoplasm Harness 3rd/4th — Minishcap1 calls it 'broken'. 600 HP + 20 Ability Haste + Lifeline passive that heals based on bonus resistances when you drop low. Turbo broken on Singed — you're running through 5 people and the clutch Lifeline heal saves you every time. Mobalytics recommends it in the standard Singed build across 35k matches (Liandry's → Swifties → Rylai's → Protoplasm).",
+    player: "OTP Tech",
+    description: "Protoplasm Harness 3rd/4th — turbo broken on Singed. 600 HP + 20 Ability Haste + Lifeline passive that heals based on bonus resistances when you drop low. You're running through 5 people and the clutch Lifeline heal saves you every time. Standard 4th item across 35k+ matches on Mobalytics (Liandry's → Swifties → Rylai's → Protoplasm).",
     difficulty: "Easy to build, just slot it in",
     when: "Vs burst/all-in (Camille, Fiora, Irelia, Riven, Yone), when behind, or when getting focused in teamfights. Replaces Deadman's Plate when you need raw HP + clutch survival over movespeed."
   },
