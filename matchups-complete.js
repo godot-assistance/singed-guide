@@ -983,7 +983,7 @@ window.matchups = [
     {
         name: "Akali",
         difficulty: "coinflip",
-        icon: "🥷",
+        icon: "🌀",
         summonerSpells: ["Ghost","Flash"],
         startingItem: "Doran's Shield + Health Potion",
         coreItems: ["Force of Nature","Liandry's Torment","Rylai's Crystal Scepter"],
@@ -1019,7 +1019,7 @@ window.matchups = [
     {
         name: "Akshan",
         difficulty: "turbo cancer",
-        icon: "🪝",
+        icon: "🎯",
         summonerSpells: ["Ignite","Flash"],
         startingItem: "Dark Seal + Refillable Potion",
         coreItems: ["Frozen Heart","Randuin's Omen","Deadman's Plate"],

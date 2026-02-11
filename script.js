@@ -26,7 +26,7 @@ function getDifficultyCategory(diff) {
 function getDifficultyLabel(diff) {
     const labels = {
         'free': '😎 Free', 'turbo free': '🤣 Turbo Free',
-        'playable': '🎲 Playable', 'coinflip': '🪙 Coinflip',
+        'playable': '🎲 Playable', 'coinflip': '🎲 Coinflip',
         'cancer': '☠️ Cancer', 'turbo cancer': '💀 Turbo Cancer',
         'unplayable': '🚫 Unplayable'
     };
