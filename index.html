@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Singed Top Lane Guide - Mix Mix Swirl Mix!</title>
-    <link rel="stylesheet" href="style.css?v=4">
+    <link rel="stylesheet" href="style.css?v=5">
 </head>
 <body>
     <div class="container">
@@ -16,6 +16,14 @@
                 <p class="subtitle">"Mix, mix, swirl, mix!"</p>
             </div>
         </header>
+
+        <!-- Navigation -->
+        <nav class="site-nav">
+            <a href="#matchups-section">⚔️ Matchups</a>
+            <a href="#otp-builds">🏆 OTP Builds</a>
+            <a href="#builds">🔨 Builds</a>
+            <a href="#runes">📜 Runes</a>
+        </nav>
 
         <!-- Quick Stats -->
         <section class="quick-stats">
@@ -53,13 +61,13 @@
         </section>
 
         <!-- Matchups Grid -->
-        <section class="matchups">
+        <section id="matchups-section" class="matchups">
             <div id="matchupGrid" class="matchup-grid">
                 <!-- Populated by JS -->
             </div>
         </section>
 
-        <!-- Modal for Matchup Details -->
+        <!-- Modal (shared for matchups + OTP details) -->
         <div id="matchupModal" class="modal">
             <div class="modal-content">
                 <span class="close" onclick="closeModal()">&times;</span>
@@ -68,6 +76,22 @@
                 </div>
             </div>
         </div>
+
+        <!-- OTP Builds Section -->
+        <section id="otp-builds" class="otp-section">
+            <h2>🏆 OTP Builds — The Cracked Singed Mains</h2>
+            <p class="otp-intro">Data from 17 Challenger/GM/Master Singed one-tricks across KR, NA, EUW, VN, LAS. When every cracked Singed player on the planet perma runs the same build, it's turbo correct. Click any OTP for their full setup.</p>
+
+            <!-- Build Consensus -->
+            <div id="buildConsensus" class="consensus-container"></div>
+
+            <!-- OTP Leaderboard Grid -->
+            <h3 class="otp-grid-title">📊 The Leaderboard — Sorted by LP (Highest First)</h3>
+            <div id="otpGrid" class="otp-grid"></div>
+
+            <!-- Spicy Picks -->
+            <div id="spicyPicks" class="spicy-container"></div>
+        </section>
 
         <!-- General Tips -->
         <section class="general-tips">
@@ -93,7 +117,7 @@
         </section>
 
         <!-- Build Guide -->
-        <section class="builds">
+        <section id="builds" class="builds">
             <h2>⚔️ Core Builds (S16 Patch 26.3)</h2>
             <div class="build-grid">
                 <div class="build-card">
@@ -127,7 +151,7 @@
         </section>
 
         <!-- Runes -->
-        <section class="runes">
+        <section id="runes" class="runes">
             <h2>📜 Rune Setups</h2>
             <div class="rune-grid">
                 <div class="rune-card">
@@ -150,7 +174,8 @@
         </section>
     </div>
 
-    <script src="matchups-complete.js?v=4"></script>
-    <script src="script.js?v=4"></script>
+    <script src="matchups-complete.js?v=5"></script>
+    <script src="otp-builds.js?v=5"></script>
+    <script src="script.js?v=5"></script>
 </body>
 </html>

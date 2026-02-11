@@ -355,6 +355,7 @@ let filteredMatchups = [...matchups];
 function init() {
     updateStats();
     renderMatchups();
+    renderOtpSection();
     
     document.getElementById('searchInput').addEventListener('input', filterMatchups);
     document.getElementById('difficultyFilter').addEventListener('change', filterMatchups);
@@ -566,5 +567,199 @@ window.onclick = function(event) {
     }
 }
 
+// ==========================================
+// OTP BUILDS SECTION
+// ==========================================
+
+const serverFlags = {
+    'KR': '🇰🇷', 'NA': '🇺🇸', 'EUW': '🇪🇺', 'LAS': '🌎', 'VN': '🇻🇳'
+};
+
+function extractLP(rankStr) {
+    const match = rankStr.match(/(\d+)\s*LP/);
+    return match ? parseInt(match[1]) : 0;
+}
+
+function getRankTier(rankStr) {
+    if (rankStr.includes('Challenger')) return 'challenger';
+    if (rankStr.includes('GrandMaster') || rankStr.includes('Grandmaster')) return 'grandmaster';
+    return 'master';
+}
+
+function renderConsensus() {
+    if (!window.buildConsensus) return;
+    const c = window.buildConsensus;
+    const el = document.getElementById('consensusCard');
+    if (!el) return;
+
+    el.innerHTML = `
+        <h3>📊 What Every OTP Agrees On</h3>
+        <div class="consensus-grid">
+            <div class="consensus-item">
+                <span class="consensus-label">🔑 Keystone</span>
+                <span class="consensus-value">${c.runes.mostCommon}</span>
+            </div>
+            <div class="consensus-item">
+                <span class="consensus-label">⚡ Summs</span>
+                <span class="consensus-value">${c.summonerSpells.mostCommon}</span>
+            </div>
+            <div class="consensus-item">
+                <span class="consensus-label">🔥 Core Item</span>
+                <span class="consensus-value">${c.items.absoluteCore}</span>
+            </div>
+            <div class="consensus-item">
+                <span class="consensus-label">❄️ 2nd Item</span>
+                <span class="consensus-value">${c.items.secondCore}</span>
+            </div>
+            <div class="consensus-item">
+                <span class="consensus-label">🛡️ 3rd Item</span>
+                <span class="consensus-value">${c.items.thirdStandard}</span>
+            </div>
+            <div class="consensus-item">
+                <span class="consensus-label">👟 Boots</span>
+                <span class="consensus-value">${c.items.boots}</span>
+            </div>
+            <div class="consensus-item">
+                <span class="consensus-label">🏁 Start (Safe)</span>
+                <span class="consensus-value">${c.startingItems.mostCommon}</span>
+            </div>
+            <div class="consensus-item">
+                <span class="consensus-label">🎰 Start (Greedy)</span>
+                <span class="consensus-value">${c.startingItems.greedy}</span>
+            </div>
+        </div>
+    `;
+}
+
+function renderSpicyPicks() {
+    if (!window.spicyPicks) return;
+    const el = document.getElementById('spicySection');
+    if (!el) return;
+
+    const picks = window.spicyPicks;
+    el.innerHTML = `
+        <h3>🌶️ Spicy Tech (Advanced)</h3>
+        <div class="spicy-grid">
+            ${Object.values(picks).map(p => `
+                <div class="spicy-card">
+                    <div class="spicy-header">
+                        <strong>${p.player}</strong>
+                    </div>
+                    <p>${p.description}</p>
+                    <div class="spicy-when"><em>When: ${p.when}</em></div>
+                </div>
+            `).join('')}
+        </div>
+    `;
+}
+
+function renderOTPGrid() {
+    if (!window.otpBuilds) return;
+    const grid = document.getElementById('otpGrid');
+    if (!grid) return;
+
+    // Sort by LP descending
+    const sorted = [...window.otpBuilds].sort((a, b) => {
+        const lpA = extractLP(a.rank);
+        const lpB = extractLP(b.rank);
+        return lpB - lpA;
+    });
+
+    grid.innerHTML = sorted.map((otp, i) => {
+        const tier = getRankTier(otp.rank);
+        const flag = serverFlags[otp.server] || '🌍';
+        const rankNum = i + 1;
+
+        return `
+            <div class="otp-card ${tier}" onclick='showOTPDetails(${JSON.stringify(otp.name)})'>
+                <div class="otp-rank-badge">#${rankNum}</div>
+                <div class="otp-name">${otp.name}</div>
+                <div class="otp-server">${flag} ${otp.server}</div>
+                <div class="otp-stats">
+                    <span class="otp-wr">${otp.winRate} WR</span>
+                    <span class="otp-games">${otp.gamesPlayed}G</span>
+                </div>
+                <div class="otp-rank-text">${otp.rank.split('(')[0].trim()}</div>
+                <div class="otp-playstyle">${otp.playstyle}</div>
+            </div>
+        `;
+    }).join('');
+}
+
+function showOTPDetails(name) {
+    const otp = window.otpBuilds.find(o => o.name === name);
+    if (!otp) return;
+
+    const modal = document.getElementById('matchupModal');
+    const modalBody = document.getElementById('modalBody');
+    const tier = getRankTier(otp.rank);
+    const flag = serverFlags[otp.server] || '🌍';
+
+    modalBody.innerHTML = `
+        <div class="modal-header">
+            <div style="font-size: 3rem;">${flag}</div>
+            <h2>${otp.name}</h2>
+            <span class="otp-tier-badge ${tier}">${otp.rank}</span>
+        </div>
+
+        <div class="modal-section">
+            <h3>📋 Profile</h3>
+            <p><strong>Win Rate:</strong> ${otp.winRate} over ${otp.gamesPlayed} games</p>
+            <p><strong>Playstyle:</strong> ${otp.playstyle}</p>
+            <p>${otp.signature}</p>
+            ${otp.profileUrl ? `<p><a href="${otp.profileUrl}" target="_blank" class="opgg-link">📊 View on OP.GG →</a></p>` : ''}
+        </div>
+
+        <div class="modal-section">
+            <h3>⚡ Summoner Spells</h3>
+            <p><strong>${otp.build.summonerSpells.join(' + ')}</strong></p>
+            ${otp.build.alternativeSumms ? `<p class="alt-note">Alt: ${otp.build.alternativeSumms.join(' + ')}</p>` : ''}
+        </div>
+
+        <div class="modal-section">
+            <h3>🛡️ Starting Items</h3>
+            <p><strong>${otp.build.startingItem}</strong></p>
+            ${otp.build.alternativeStart ? `<p class="alt-note">Alt: ${otp.build.alternativeStart}</p>` : ''}
+        </div>
+
+        <div class="modal-section">
+            <h3>🔨 Core Build</h3>
+            <p><strong>${otp.build.coreItems.join(' → ')}</strong></p>
+            <p>Boots: <strong>${otp.build.boots}</strong></p>
+        </div>
+
+        ${otp.build.situationalItems ? `
+        <div class="modal-section">
+            <h3>🎯 Situational Items</h3>
+            <p>${otp.build.situationalItems.join(', ')}</p>
+        </div>
+        ` : ''}
+
+        <div class="modal-section">
+            <h3>📜 Runes</h3>
+            ${generateRuneTreeHTML(otp.build.runeSetup)}
+            ${otp.build.runeSetup.alternativePrimary ? `
+                <p class="alt-note" style="margin-top:10px;">Alt Keystone: <strong>${otp.build.runeSetup.alternativePrimary.keystone}</strong> (${otp.build.runeSetup.alternativePrimary.tree})</p>
+            ` : ''}
+        </div>
+
+        <div class="modal-section">
+            <h3>📝 Notes</h3>
+            <p>${otp.notes}</p>
+        </div>
+    `;
+
+    modal.style.display = 'block';
+}
+
+// ==========================================
+// INIT
+// ==========================================
+
 // Initialize on load
-document.addEventListener('DOMContentLoaded', init);
+document.addEventListener('DOMContentLoaded', () => {
+    init();
+    renderConsensus();
+    renderSpicyPicks();
+    renderOTPGrid();
+});
