@@ -66,7 +66,7 @@ window.matchups = [
             ]
         },
         runes: "Conqueror for scaling - piss lane, just farm. Triumph for sustain. Legend: Alacrity for turbo proxy speed. Nimbus Cloak + Celerity so you can zoom around (proxying needs speed). Your ult gives 25% grievous but you NEED Morello for full antiheal against his turbo healing.",
-        laningPhase: "Piss lane that turns into a proxy party. Start Doran's Ring. His Q poke hurts but just dodge it. Your ult gives 25% grievous but rush Oblivion Orb early for lane - he heals way too much without it. Build Morello for full 40% antiheal (ult only 25%). Once you have Lost Chapter or first item, perma proxy. He can't kill you, you can't kill him early. Just deny CS by proxying. Post-6 don't ego his R healing - it's actually cracked. Liandry's into Morello for burn + antiheal. Late game you gap him in teamfights.",
+        laningPhase: "Piss lane that turns into a proxy party. Start Doran's Ring. His Q poke hurts but just dodge it. Your ult gives 25% grievous but rush Oblivion Orb early for lane - he heals way too much without it. Build Morello for full 40% antiheal (ult only 25%). Once you have first component or first item, perma proxy. He can't kill you, you can't kill him early. Just deny CS by proxying. Post-6 don't ego his R healing - it's actually cracked. Liandry's into Morello for burn + antiheal. Late game you gap him in teamfights.",
         tips: [
             "Rush grievous - his healing is the only reason he exists.",
             "Dodge his Q cleavers - they actually hurt early.",
@@ -160,7 +160,7 @@ window.matchups = [
                 "tree": "Precision",
                 "keystone": "Conqueror",
                 "slot1": "Triumph",
-                "slot2": "Legend: Tenacity",
+                "slot2": "Legend: Haste",
                 "slot3": "Last Stand"
             },
             "secondary": {
@@ -174,7 +174,7 @@ window.matchups = [
                 "Health Scaling"
             ]
         },
-        runes: "Conqueror for extended trades when you actually fight him. Triumph for sustain. Legend: TENACITY - his W is point-click root, you need tenacity to cut the duration. Nimbus Cloak + Celerity for movement speed to perma proxy and roam.",
+        runes: "Conqueror for extended trades when you actually fight him. Triumph for sustain. Legend: Haste for ability haste — lower W and R cooldowns means more flips and ult uptime. Nimbus Cloak + Celerity for movement speed to perma proxy and roam.",
         laningPhase: "Turbo free matchup. Start Doran's Ring. He naturally pushes wave with his E saplings, making it free to proxy. Your poison clears his saplings automatically. Dodge his W dash-root with movement speed. He can't stop you from proxying and his heal isn't enough to sustain through poison. Build Liandry's and Demonic. If he's healing too much, grab Oblivion Orb. Just a free lane where you perma proxy and scale.",
         tips: [
             "Dodge his W root with your speed.",
@@ -243,11 +243,11 @@ window.matchups = [
             },
             "shards": [
                 "Adaptive Force",
-                "Armor",
+                "2% Move Speed",
                 "Tenacity"
             ]
         },
-        runes: "Phase Rush - NON-NEGOTIABLE vs Darius. You NEED it to escape after he E pulls you (literally only way to survive). Nimbus Cloak + Celerity + Ghost = turbo escape speed. Second Wind + Doran's Shield for sustain against his Q poke. Unflinching cuts his W slow (45% slow is death). TENACITY SHARD (not Health) - every 0.1s less slowed = more distance survived. Armor shard mandatory - he does pure physical. NO Attack Speed - you're not fighting him, you're surviving.",
+        runes: "Phase Rush - NON-NEGOTIABLE vs Darius. You NEED it to escape after he E pulls you (literally only way to survive). Nimbus Cloak + Celerity + Ghost = turbo escape speed. Second Wind + Doran's Shield for sustain against his Q poke. Unflinching cuts his W slow (45% slow is death). TENACITY SHARD (not Health) - every 0.1s less slowed = more distance survived. Move Speed shard for kiting — every bit of speed matters vs Darius. NO Attack Speed - you're not fighting him, you're surviving.",
         laningPhase: "DO NOT EGO THIS LANE. Doran's Shield + Second Wind mandatory. Levels 1-3, DO NOT FIGHT HIM. He wins every trade and runs you down. Just last hit with Q poison and give up CS if needed. Watch his E cooldown - when it's down, you can proxy safely. If he uses E on wave, that's your window. Phase Rush activates after 3 attacks/spells, letting you zoom away before he gets 5 stacks. NEVER let him get 5 stacks. Post-6, respect his R execute. Your job is survive early, get items, become more useful in teamfights. Don't try to 1v1 him unless you're turbo ahead. Use speed to proxy and roam.",
         tips: [
             "NEVER fight level 1-3. He turbo gaps you.",
@@ -269,7 +269,7 @@ window.matchups = [
                 "tree": "Precision",
                 "keystone": "Conqueror",
                 "slot1": "Triumph",
-                "slot2": "Legend: Tenacity",
+                "slot2": "Legend: Haste",
                 "slot3": "Last Stand"
             },
             "secondary": {
@@ -279,11 +279,11 @@ window.matchups = [
             },
             "shards": [
                 "Attack Speed",
-                "Armor",
+                "2% Move Speed",
                 "Tenacity"
             ]
         },
-        runes: "Conqueror (not Phase Rush) - Garen matchup is EXTENDED trades where your poison outdamages his passive. Triumph for sustain. Legend: Tenacity cuts Q silence from 1.5s to ~1s. TENACITY SHARD - his Q silence is cancer, stack tenacity. Nimbus Cloak + Celerity for speed to escape his spin or chase. Your ult gives 25% grievous (nerfed from 40%), so grab Oblivion Orb if he's healing too much.",
+        runes: "Conqueror (not Phase Rush) - Garen matchup is EXTENDED trades where your poison outdamages his passive. Triumph for sustain. Legend: Haste for ability haste — lower W and R cooldowns, more ult uptime in extended fights. TENACITY SHARD for his Q silence. Move Speed shard for kiting around his spin. Nimbus Cloak + Celerity for speed to escape his spin or chase. Your ult gives 25% grievous (nerfed from 40%), so grab Oblivion Orb if he's healing too much.",
         laningPhase: "Annoying but winnable. Start Doran's Ring. Your poison stops his passive heal - perma keep it on him. When he Q's toward you, immediately W to slow and prevent silence reaching you. If he gets silence off, disengage. Don't let him spin on you for free - fling him away mid-spin. Build Plated Steelcaps for his physical. Post-6, save R for when he ults you - the heal saves your life. Your ult gives 25% antiheal which helps but isn't enough - build Oblivion Orb if he's sustaining too much. He's stronger in short trades, you gap him in extended. Proxy when he backs or roams.",
         tips: [
             "Your poison stops his passive heal - ult gives 25% GW (not enough alone).",
@@ -316,11 +316,11 @@ window.matchups = [
             },
             "shards": [
                 "Adaptive Force",
-                "Magic Resist",
+                "2% Move Speed",
                 "Tenacity"
             ]
         },
-        runes: "Phase Rush to escape after he E engages. Nimbus Cloak + Celerity for turbo speed. Second Wind for sustain. Unflinching cuts E stun duration. MR shard (he does AP damage). Tenacity shard for E stun reduction.",
+        runes: "Phase Rush to escape after he E engages. Nimbus Cloak + Celerity for turbo speed. Second Wind for sustain. Unflinching cuts E stun duration. Move Speed shard for kiting (he's melee, speed gaps him). Tenacity shard for E stun reduction.",
         laningPhase: "Tanky AP fighter. His W damage reduction makes him cancer to fight. He E's (body slam) to engage, then Q's and AA's you. Start Doran's Ring. Dodge his E body slam by running perpendicular. If he lands E, he stuns you and wins the trade. Don't fight when his W is active (damage reduction). Your poison outdamages his sustain. Post-6, his R knocks you away - he can disengage or engage. Build Mercury Treads and some MR. Proxy when E is down. Winnable if you respect his E and W.",
         tips: [
             "Dodge his E body slam - that's his entire engage.",
@@ -342,7 +342,7 @@ window.matchups = [
                 "tree": "Precision",
                 "keystone": "Conqueror",
                 "slot1": "Triumph",
-                "slot2": "Legend: Tenacity",
+                "slot2": "Legend: Haste",
                 "slot3": "Last Stand"
             },
             "secondary": {
@@ -352,11 +352,11 @@ window.matchups = [
             },
             "shards": [
                 "Attack Speed",
-                "Magic Resist",
+                "2% Move Speed",
                 "Health Scaling"
             ]
         },
-        runes: "Conqueror for AP duels. Triumph for sustain. Legend: Tenacity for her Q snip snip slows. Nimbus Cloak + Celerity for speed to kite around her W zone and escape. MR shard mandatory - she does AP damage. Health shard for tankiness vs her true damage.",
+        runes: "Conqueror for AP duels. Triumph for sustain. Legend: Haste for ability haste — lower W and R cooldowns, more ult uptime to kite her. Nimbus Cloak + Celerity for speed to kite around her W zone and escape. Move Speed shard for dodging her snip snip Q. Health shard for tankiness vs her true damage.",
         laningPhase: "AP matchup. Start Doran's Ring. Her W makes her immune to ranged but you're INSIDE it with her - poison still works. Respect her Q damage when fully stacked. When she E's into you, fling her away immediately. Don't extended fight early - she wins. You scale better for teamfights. Build Mercs and MR if needed. Post-6, her R hurts but you can run. Short trades with poison favored for you.",
         tips: [
             "Her W doesn't stop poison - you're inside with her.",
@@ -388,11 +388,11 @@ window.matchups = [
             },
             "shards": [
                 "Adaptive Force",
-                "Armor",
+                "2% Move Speed",
                 "Health Scaling"
             ]
         },
-        runes: "PHASE RUSH (not Conqueror) - Jax scales harder than you, so prioritize ESCAPING when he has R. You can't win late duels, Phase Rush lets you disengage. Nimbus Cloak + Celerity for turbo mobility. Second Wind for sustain, Overgrowth for scaling HP. This page is about winning early then ESCAPING late. Armor shard mandatory.",
+        runes: "PHASE RUSH (not Conqueror) - Jax scales harder than you, so prioritize ESCAPING when he has R. You can't win late duels, Phase Rush lets you disengage. Nimbus Cloak + Celerity for turbo mobility. Second Wind for sustain, Overgrowth for scaling HP. This page is about winning early then ESCAPING late. Move Speed shard for kiting.",
         laningPhase: "Winnable early, turbo doomed late. Start Doran's Ring or Shield. NEVER fight when his E is up - he dodges AAs and stuns you. Wait for him to use E on wave, then trade. Fling him when he Q's on you. Build Plated Steelcaps and Frozen Heart. Early you can bully him. Post-6 respect his R - turbo resistances. Your goal is win early and help team. Late he beats you 1v1 no matter what - split opposite side. Don't ego duels past 2 items.",
         tips: [
             "Never fight when his E is up - dodge window.",
@@ -424,11 +424,11 @@ window.matchups = [
             },
             "shards": [
                 "Adaptive Force",
-                "Armor",
+                "2% Move Speed",
                 "Tenacity"
             ]
         },
-        runes: "PHASE RUSH - When K'Sante ults you to All Out mode, you need Phase Rush to escape before he combos you to death. He loses resistances in All Out but gains turbo damage and mobility - Phase Rush is your escape. Unflinching + Tenacity shard stack to cut his W stun and R CC. Second Wind for sustain. Armor shard. This page is: survive his All Out combo OR fight back with speed.",
+        runes: "PHASE RUSH - When K'Sante ults you to All Out mode, you need Phase Rush to escape before he combos you to death. He loses resistances in All Out but gains turbo damage and mobility - Phase Rush is your escape. Unflinching + Tenacity shard stack to cut his W stun and R CC. Second Wind for sustain. Move Speed shard for kiting his All Out form. This page is: survive his All Out combo OR fight back with speed.",
         laningPhase: "Tank buster with heavy CC. Start Doran's Ring. His Q is 3-hit combo - sidestep the third (knockup). His W charges dash-stun - when you see him glowing, dodge sideways or get stunned and lose trade. Don't fight when his passive shield is up - wait for expire. Post-6, his R is cancer: knocks you away, dashes after, transforms to All Out (turbo damage, armor pen, loses resistances). When he Rs: 1) Run with Ghost if low HP, or 2) Turn and fight if healthy - he loses resistances in All Out so you actually hurt him. Build Plated Steelcaps. Extended trades favor you if you dodge Qs. He's designed to beat tanks but your speed helps. Proxy when W down - he needs it to chase.",
         tips: [
             "Dodge Q3 knockup and W dash-stun - sidestep.",
@@ -461,11 +461,11 @@ window.matchups = [
             },
             "shards": [
                 "Adaptive Force",
-                "Magic Resist",
+                "2% Move Speed",
                 "Tenacity"
             ]
         },
-        runes: "PHASE RUSH (not Conqueror) - His R Death Realm is 1v1 arena. Phase Rush lets you KITE him in the circle, dodging Q while poisoning. Nimbus Cloak + Celerity for turbo zoom. Second Wind for sustain, Overgrowth for HP. MR shard (he does AP). Tenacity shard for E pull. This page is: survive Death Realm by kiting.",
+        runes: "PHASE RUSH (not Conqueror) - His R Death Realm is 1v1 arena. Phase Rush lets you KITE him in the circle, dodging Q while poisoning. Nimbus Cloak + Celerity for turbo zoom. Second Wind for sustain, Overgrowth for HP. Move Speed shard for kiting in Death Realm — speed is everything in that circle. Tenacity shard for E pull. This page is: survive Death Realm by kiting.",
         laningPhase: "Coinflip that depends on dodging. Start Doran's Ring. Run out of his passive circle ASAP when it activates - standing in it you lose. Dodge his Q by moving unpredictably. When he Rs you to Death Realm, you MUST kite. Turn on Q, run circles dodging his Q. If you have Rylai's, you can kite him to death. Without items, it's rough. Consider QSS if carrying hard. Build Liandry's + Rylai's. Pre-6, you can trade if you dodge Q. Post-6, his R is hands check - can you dodge Q in there?",
         tips: [
             "Run out of his passive circle ASAP.",
@@ -569,11 +569,11 @@ window.matchups = [
             },
             "shards": [
                 "Adaptive Force",
-                "Armor",
+                "2% Move Speed",
                 "Tenacity"
             ]
         },
-        runes: "Phase Rush - MANDATORY vs Renekton. His combo is: E in, W stun, Q, E out. You NEED Phase Rush to escape after he combos. BONE PLATING (not Second Wind) - cuts burst damage by 30-60. His combo is burst, not poke. Bone Plating counters this. Unflinching + Tenacity shard cut W stun duration. Armor shard. This page is pure early survival vs the lane bully king.",
+        runes: "Phase Rush - MANDATORY vs Renekton. His combo is: E in, W stun, Q, E out. You NEED Phase Rush to escape after he combos. BONE PLATING (not Second Wind) - cuts burst damage by 30-60. His combo is burst, not poke. Bone Plating counters this. Unflinching + Tenacity shard cut W stun duration. Move Speed shard for escaping his combo. This page is pure early survival vs the lane bully king.",
         laningPhase: "Respect his early - he's the lane bully king. Start Doran's Shield. Levels 1-3 he TURBO gaps you. Don't fight him. Give up CS if needed. When he dashes in (E), he's going to stun (W) and Q. Take the trade, flip him after combo, disengage. Don't extended fight. Build Plated Steelcaps and armor. Post-6, his R makes him tankier but you start to outscale. Your job: survive early, don't int, scale to mid. You outscale him - he's strong early, weak mid-late. Just don't int early levels.",
         tips: [
             "Respect early - he turbo gaps you levels 1-3.",
@@ -601,15 +601,15 @@ window.matchups = [
             "secondary": {
                 "tree": "Precision",
                 "slot1": "Triumph",
-                "slot2": "Legend: Tenacity"
+                "slot2": "Legend: Haste"
             },
             "shards": [
                 "Attack Speed",
-                "Armor",
+                "2% Move Speed",
                 "Tenacity"
             ]
         },
-        runes: "AFTERSHOCK (not Conqueror) - WHEN YOU FLIP RIVEN (your only CC), Aftershock procs giving +70 armor/MR for 2.5s, negating her burst. This is THE counter rune vs burst champs. Shield Bash procs from R shield. Conditioning for mid-game tank. Overgrowth for HP. Legend: Tenacity for W stun. Triple armor/tenacity shards. This page turns you into tank who absorbs combo then runs.",
+        runes: "AFTERSHOCK (not Conqueror) - WHEN YOU FLIP RIVEN (your only CC), Aftershock procs giving +70 armor/MR for 2.5s, negating her burst. This is THE counter rune vs burst champs. Shield Bash procs from R shield. Conditioning for mid-game tank. Overgrowth for HP. Legend: Haste for ability haste — lower W and R cooldowns, more flips and ult uptime. Move Speed + Tenacity shards. This page turns you into tank who absorbs combo then runs.",
         laningPhase: "Hands diff matchup. Start Doran's Shield. Respect her early burst - she can 100-0 you if you misplay. Watch her Q animation - she has 3 Qs. Fling her mid-combo to cancel and reset fight. Don't fight when all cooldowns up. Trade when she Q's wave. Build Plated Steelcaps first. Her R execute is cancer when low. Your W interrupts combos. Post-6, save R for after she uses hers (damage amp). Coinflip - respect burst, fling at right time to cancel combo.",
         tips: [
             "Respect her burst - she can 100-0 you.",
@@ -631,7 +631,7 @@ window.matchups = [
                 "tree": "Precision",
                 "keystone": "Conqueror",
                 "slot1": "Triumph",
-                "slot2": "Legend: Tenacity",
+                "slot2": "Legend: Haste",
                 "slot3": "Last Stand"
             },
             "secondary": {
@@ -641,11 +641,11 @@ window.matchups = [
             },
             "shards": [
                 "Attack Speed",
-                "Armor",
+                "2% Move Speed",
                 "Health Scaling"
             ]
         },
-        runes: "Conqueror for extended trades. When Sett charges W, dodge side - the true damage center will kill you. Triumph for sustain. Legend: Tenacity for E stun cut. Nimbus Cloak + Celerity for speed. Armor shard for physical. This page is for extended fights where poison stacks Conqueror.",
+        runes: "Conqueror for extended trades. When Sett charges W, dodge side - the true damage center will kill you. Triumph for sustain. Legend: Haste for ability haste — lower W and R cooldowns for more ult uptime. Nimbus Cloak + Celerity for speed. Move Speed shard for dodging his W. This page is for extended fights where poison stacks Conqueror.",
         laningPhase: "Respect his damage but winnable. Start Doran's Shield. When he charges W (glowing), dodge side - the true damage center will kill you. Don't fight when passive shield up. Wait for expire, then trade. Your poison outdamages his regen. Don't let him E stun you into wall. If he lands E, you lose trade. Proxy risky vs good Sett - his E catches you. Build Plated Steelcaps. Post-6, your R heal counters his R damage. Quick trades with poison, don't extended fight.",
         tips: [
             "Dodge side when he winds W - center is true damage.",
@@ -667,7 +667,7 @@ window.matchups = [
                 "tree": "Precision",
                 "keystone": "Conqueror",
                 "slot1": "Triumph",
-                "slot2": "Legend: Tenacity",
+                "slot2": "Legend: Haste",
                 "slot3": "Last Stand"
             },
             "secondary": {
@@ -681,7 +681,7 @@ window.matchups = [
                 "Health Scaling"
             ]
         },
-        runes: "Conqueror for extended trades - piss lane, just farm. Triumph for sustain. Legend: Tenacity for E taunt. Nimbus Cloak + Celerity for speed to perma proxy and roam when he Rs away.",
+        runes: "Conqueror for extended trades - piss lane, just farm. Triumph for sustain. Legend: Haste for ability haste — lower W and R cooldowns, more proxy pressure when he Rs away. Nimbus Cloak + Celerity for speed to perma proxy and roam when he Rs away.",
         laningPhase: "Tank support top laner. He Q's through you for damage. His W blocks AAs in zone - useless vs you (your damage is poison). He E taunts if lands it. Don't get hit by E. His passive shield blocks damage. Post-6, his R teleports to allies - he leaves lane to save teammates. When he R's away, take plates or proxy. You can't kill him, he can't kill you. Just farm and proxy. Build Liandry's for burn. You gap in side lane. Free as long as you dodge E.",
         tips: [
             "His W blocks AAs - useless vs poison.",
@@ -703,7 +703,7 @@ window.matchups = [
                 "tree": "Sorcery",
                 "keystone": "Unsealed Spellbook",
                 "slot1": "Hexflash",
-                "slot2": "Future's Market",
+                "slot2": "Biscuit Delivery",
                 "slot3": "Cosmic Insight"
             },
             "secondary": {
@@ -717,7 +717,7 @@ window.matchups = [
                 "Health Scaling"
             ]
         },
-        runes: "UNSEALED SPELLBOOK - Sion matchup is PROXY HEAVEN. Start Ghost+Flash, swap to Teleport to match his TP, swap to Smite for stealing jungle camps while proxying. Hexflash for escaping behind towers. Future's Market for earlier spikes. Legend: Alacrity for waveclear speed. This is pure proxy optimization. He can't stop you, so turbo grief their entire team.",
+        runes: "UNSEALED SPELLBOOK - Sion matchup is PROXY HEAVEN. Start Ghost+Flash, swap to Teleport to match his TP, swap to Smite for stealing jungle camps while proxying. Hexflash for escaping behind towers. Biscuit Delivery for lane sustain and mana while proxying. Legend: Alacrity for waveclear speed. This is pure proxy optimization. He can't stop you, so turbo grief their entire team.",
         laningPhase: "Farm lane with turbo proxy potential. Start Doran's Ring. Dodge his Q charge or walk out of slow zone. He can't kill you, you can't kill him early. Perfect proxy matchup - he can't chase. Perma proxy after level 3-4. Watch for E slow - if he lands it, Q becomes harder to dodge. Don't stand near passive form when he dies - AAs hurt. In teamfights, fling him away from carries when he ults in. Build Liandry's + Rylai's. Free matchup as long as you respect CC.",
         tips: [
             "Dodge Q or walk out of slow zone.",
@@ -739,7 +739,7 @@ window.matchups = [
                 "tree": "Precision",
                 "keystone": "Conqueror",
                 "slot1": "Triumph",
-                "slot2": "Legend: Tenacity",
+                "slot2": "Legend: Haste",
                 "slot3": "Cut Down"
             },
             "secondary": {
@@ -753,7 +753,7 @@ window.matchups = [
                 "Health Scaling"
             ]
         },
-        runes: "Conqueror for extended trades. Triumph for clutch heals. Legend: Tenacity for Q stun. CUT DOWN (not Last Stand) - Tahm stacks 4000+ HP, Cut Down gives 15% bonus damage vs high HP targets, making you tank shredder. Nimbus Cloak + Celerity for speed. Your ult gives only 25% GW (nerfed), so Morello mandatory for proper antiheal.",
+        runes: "Conqueror for extended trades. Triumph for clutch heals. Legend: Haste for ability haste — lower W and R cooldowns, more ult uptime. CUT DOWN (not Last Stand) - Tahm stacks 4000+ HP, Cut Down gives 15% bonus damage vs high HP targets, making you tank shredder. Nimbus Cloak + Celerity for speed. Your ult gives only 25% GW (nerfed), so Morello mandatory for proper antiheal.",
         laningPhase: "Unkillable tank. His passive stacks on you - at 3 stacks, his Q stuns. Don't let him stack passive. His W shield is massive. He Q's to slow and poke. Post-6, his R lets him dive or escape. Build Oblivion Orb for antiheal - cuts healing. You can't kill him 1v1. He can't kill you unless you int. Just farm and proxy. Build Liandry's for burn. Piss lane - neither dies. Proxy and be more useful in teamfights.",
         tips: [
             "Don't let him stack 3 passive.",
@@ -847,7 +847,7 @@ window.matchups = [
                 "tree": "Precision",
                 "keystone": "Conqueror",
                 "slot1": "Triumph",
-                "slot2": "Legend: Tenacity",
+                "slot2": "Legend: Haste",
                 "slot3": "Last Stand"
             },
             "secondary": {
@@ -861,7 +861,7 @@ window.matchups = [
                 "Tenacity"
             ]
         },
-        runes: "Conqueror for extended trades. Triumph for clutch heals. Legend: Tenacity for Q stun. Nimbus Cloak + Celerity for speed to kite and escape. Tenacity shard for Q stun. Your ult gives only 25% GW (nerfed), so Morello mandatory vs his W healing.",
+        runes: "Conqueror for extended trades. Triumph for clutch heals. Legend: Haste for ability haste — lower W and R cooldowns, more ult uptime to kite him. Nimbus Cloak + Celerity for speed to kite and escape. Tenacity shard for Q stun. Your ult gives only 25% GW (nerfed), so Morello mandatory vs his W healing.",
         laningPhase: "Don't fight in his R storm. Start Doran's Ring. When he Q's (charges), fling before he gets in range. Your poison interrupts W bite heal. Build Oblivion Orb into Morello - ult gives only 25% antiheal (nerfed from 40%), not enough vs his turbo healing. Don't fight when R storm down - gives him massive stats. Post-6, if he Rs on you, run until expires. He's strongest in extended fights in R. Quick trades with poison, disengage. Build antiheal and kite.",
         tips: [
             "Don't fight in R storm.",
@@ -883,7 +883,7 @@ window.matchups = [
                 "tree": "Precision",
                 "keystone": "Conqueror",
                 "slot1": "Triumph",
-                "slot2": "Legend: Tenacity",
+                "slot2": "Legend: Haste",
                 "slot3": "Last Stand"
             },
             "secondary": {
@@ -893,11 +893,11 @@ window.matchups = [
             },
             "shards": [
                 "Attack Speed",
-                "Armor",
+                "2% Move Speed",
                 "Tenacity"
             ]
         },
-        runes: "Conqueror for trades. Triumph for clutch heals. Legend: Tenacity + Tenacity shard for cutting R suppress duration. Nimbus Cloak + Celerity for speed to kite. Armor shard. Your ult gives only 25% GW (nerfed), so Morello mandatory - he heals turbo amounts with Q and passive.",
+        runes: "Conqueror for trades. Triumph for clutch heals. Legend: Haste for ability haste — lower W and R cooldowns, more ult uptime. Tenacity shard for cutting R suppress duration. Nimbus Cloak + Celerity for speed to kite. Move Speed shard for escaping his chase. Your ult gives only 25% GW (nerfed), so Morello mandatory - he heals turbo amounts with Q and passive.",
         laningPhase: "Sustain fighter. His Q heals and follows you if you flash. His W attack speed buff when low is cancer. His E damage reduction makes trades favor him. Don't fight below 50% HP - his passive healing and W buff make him stronger. Rush Oblivion Orb into Morello - ult gives only 25% antiheal (nerfed from 40%), not enough vs healing. His R suppresses - you can't do anything. Post-6, save R for after he ults. Build Plated Steelcaps and antiheal. You gap in teamfights. Proxy when R down.",
         tips: [
             "Don't fight below 50% HP - passive and W buff.",
@@ -919,7 +919,7 @@ window.matchups = [
                 "tree": "Precision",
                 "keystone": "Conqueror",
                 "slot1": "Triumph",
-                "slot2": "Legend: Tenacity",
+                "slot2": "Legend: Haste",
                 "slot3": "Last Stand"
             },
             "secondary": {
@@ -929,11 +929,11 @@ window.matchups = [
             },
             "shards": [
                 "Attack Speed",
-                "Armor",
+                "2% Move Speed",
                 "Tenacity"
             ]
         },
-        runes: "Conqueror for extended trades. Legend: Tenacity for Q3 knockup. Conditioning + armor shard + Plated Steelcaps + FROZEN HEART = armor stacking shuts down Yasuo (physical damage, crit scaling). Overgrowth for HP. Tenacity shard. His wall is USELESS vs you (all damage is melee/poison). This page: stack armor, he can't kill you.",
+        runes: "Conqueror for extended trades. Legend: Haste for ability haste — lower W and R cooldowns, more ult uptime in duels. Conditioning + Move Speed shard + Plated Steelcaps + FROZEN HEART = armor stacking shuts down Yasuo (physical damage, crit scaling). Overgrowth for HP. Tenacity shard. His wall is USELESS vs you (all damage is melee/poison). This page: stack armor, he can't kill you.",
         laningPhase: "Annoying but winnable. Start Doran's Ring or Shield. He dashes through minions constantly - don't chase through wave. Wait for him to dash TO you, then fling. His wall blocks nothing since all damage is poison and fling (melee). Trade when shield down. Build Plated Steelcaps. Post-6, don't let him Q3 tornado into R. If he lands tornado, you're getting ulted. Bait tornado, dodge, then engage. You gap him if you don't feed. Build Frozen Heart for attack speed slow.",
         tips: [
             "His wall blocks nothing - you're melee.",
@@ -966,11 +966,11 @@ window.matchups = [
             },
             "shards": [
                 "Adaptive Force",
-                "Armor",
+                "2% Move Speed",
                 "Health Scaling"
             ]
         },
-        runes: "PHASE RUSH (not Conqueror) - Aatrox chains Q's. Phase Rush lets you ESCAPE after he lands Q1, preventing Q2+Q3 follow-up. Nimbus Cloak + Celerity for turbo zoom. Second Wind + Doran's Shield for sustain vs poke. Unflinching for knockup reduction. Armor shard. NO TENACITY SHARD (knockups can't be reduced). This page: dodge Q sweet spots, escape with Phase Rush, Morello mandatory (ult only 25% GW, not enough).",
+        runes: "PHASE RUSH (not Conqueror) - Aatrox chains Q's. Phase Rush lets you ESCAPE after he lands Q1, preventing Q2+Q3 follow-up. Nimbus Cloak + Celerity for turbo zoom. Second Wind + Doran's Shield for sustain vs poke. Unflinching for knockup reduction. Move Speed shard for dodging Q sweet spots. NO TENACITY SHARD (knockups can't be reduced). This page: dodge Q sweet spots, escape with Phase Rush, Morello mandatory (ult only 25% GW, not enough).",
         laningPhase: "Heavy healer that outheals damage. Start Doran's Ring. Dodge Q sweet spots (edges do more damage and knock up). If dodge Q, you can trade. If he hits Q's, you lose. Rush Oblivion Orb into Morello - ult gives only 25% GW (nerfed from 40%), nowhere near enough vs turbo healing. All-in with jungle only - can't solo kill. Post-6, his R gives massive healing - even with Morello be careful. Disengage when he Rs unless very low. Build antiheal and armor. Playable if dodge Q's, cancer if can't.",
         tips: [
             "Dodge Q sweet spots - edges do more damage.",
@@ -1002,11 +1002,11 @@ window.matchups = [
             },
             "shards": [
                 "Adaptive Force",
-                "Magic Resist",
+                "2% Move Speed",
                 "Tenacity"
             ]
         },
-        runes: "Phase Rush - When she E's and combos, you NEED Phase Rush to escape before E2 back out. Nimbus Cloak + Celerity for turbo zoom. Second Wind + Overgrowth for sustain/HP. MR shard (AP damage). Tenacity shard for E stun. Rush Mercs + Force of Nature. This page: survive burst, don't feed, she's useless if not fed.",
+        runes: "Phase Rush - When she E's and combos, you NEED Phase Rush to escape before E2 back out. Nimbus Cloak + Celerity for turbo zoom. Second Wind + Overgrowth for sustain/HP. Move Speed shard for dodging her E and kiting. Tenacity shard for E stun. Rush Mercs + Force of Nature. This page: survive burst, don't feed, she's useless if not fed.",
         laningPhase: "High mobility assassin. She Q's on cooldown for energy. Her W shroud makes her invisible - can't target. When she shrouds, leave smoke. Don't stay in it. She E's to you, combos, E's back out. Fling mid-combo if time right. Post-6, her R gives two dashes - can't escape. Start Doran's Shield. Build Mercs and MR. Your job: survive, don't let snowball. Shroud long cooldown - fight when down. Proxy when she backs or roams. She's useless without kills.",
         tips: [
             "Leave her shroud - don't fight in it.",
@@ -1075,11 +1075,11 @@ window.matchups = [
             },
             "shards": [
                 "Adaptive Force",
-                "Armor",
+                "2% Move Speed",
                 "Health Scaling"
             ]
         },
-        runes: "Phase Rush - MANDATORY. Her E stun sets up extended trades. Phase Rush lets you ESCAPE after combo. Her R traps in arena - Phase Rush only hope to kite inside. BONE PLATING (not Second Wind) - cuts Q2 true damage burst by 30-60. Unflinching for E stun cut. Armor shard. This page: survive burst, escape when possible, don't feed.",
+        runes: "Phase Rush - MANDATORY. Her E stun sets up extended trades. Phase Rush lets you ESCAPE after combo. Her R traps in arena - Phase Rush only hope to kite inside. BONE PLATING (not Second Wind) - cuts Q2 true damage burst by 30-60. Unflinching for E stun cut. Move Speed shard for kiting inside her R arena. This page: survive burst, escape when possible, don't feed.",
         laningPhase: "She controls fight. Start Doran's Shield. Her E stun is engage - dodge perpendicular. If lands E, wins trade. Save flip for after shield pops (passive). Don't extended fight - Q2 true damage hurts. She outdamages and outscales. Post-6, R traps you - can't escape. Build Plated Steelcaps. Proxy when E down. Your goal: survive, don't feed, be useful teamfights. She's stronger side always.",
         tips: [
             "E stun is engage - dodge side-to-side.",
@@ -1111,7 +1111,7 @@ window.matchups = [
             },
             "shards": [
                 "Adaptive Force",
-                "Armor",
+                "2% Move Speed",
                 "Health Scaling"
             ]
         },
@@ -1148,7 +1148,7 @@ window.matchups = [
             },
             "shards": [
                 "Adaptive Force",
-                "Armor",
+                "2% Move Speed",
                 "Health Scaling"
             ]
         },
@@ -1174,7 +1174,7 @@ window.matchups = [
                 "tree": "Precision",
                 "keystone": "Conqueror",
                 "slot1": "Triumph",
-                "slot2": "Legend: Tenacity",
+                "slot2": "Legend: Haste",
                 "slot3": "Last Stand"
             },
             "secondary": {
@@ -1184,11 +1184,11 @@ window.matchups = [
             },
             "shards": [
                 "Attack Speed",
-                "Armor",
+                "2% Move Speed",
                 "Health Scaling"
             ]
         },
-        runes: "Conqueror for extended trades when catch him. Triumph for sustain. Legend: Tenacity for Mega CC. RESOLVE - Second Wind + Overgrowth for turbo sustain/HP vs ranged poke. Armor shard. This page gives scaling damage when stick to him.",
+        runes: "Conqueror for extended trades when catch him. Triumph for sustain. Legend: Haste for ability haste — lower W and R cooldowns, more ult uptime when you finally catch this rat. RESOLVE - Second Wind + Overgrowth for turbo sustain/HP vs ranged poke. Move Speed shard for closing the gap on Mini Gnar. This page gives scaling damage when stick to him.",
         laningPhase: "Turbo cancer ranged. Mini Gnar kites endlessly with autos and Q poke. Builds rage while harassing. When transforms Mega, becomes massive threat with CC. Start Doran's Shield + Second Wind. Give up CS to avoid free poke. Literally cannot catch Mini - E hop and slows. When Mega, stay away from walls (R stuns). Rush tier 2 boots, survive. Ask jungle when E down. Your goal: don't feed, farm what can, be useful teamfights. Post-6, bait Mega form, let expire, engage when Mini again.",
         tips: [
             "Can't catch Mini - hops away.",
@@ -1210,7 +1210,7 @@ window.matchups = [
                 "tree": "Sorcery",
                 "keystone": "Unsealed Spellbook",
                 "slot1": "Hexflash",
-                "slot2": "Future's Market",
+                "slot2": "Biscuit Delivery",
                 "slot3": "Cosmic Insight"
             },
             "secondary": {
@@ -1220,11 +1220,11 @@ window.matchups = [
             },
             "shards": [
                 "Adaptive Force",
-                "Magic Resist",
+                "2% Move Speed",
                 "Health Scaling"
             ]
         },
-        runes: "UNSEALED SPELLBOOK - Swap summoners for turret hell. Start Ghost+Flash, swap Teleport for wave, or Barrier vs R burst. Second Wind for turret poke. Overgrowth for HP. MR shard (turrets AP). This page: survive turret hell, call jungle, build MR.",
+        runes: "UNSEALED SPELLBOOK - Swap summoners for turret hell. Start Ghost+Flash, swap Teleport for wave, or Barrier vs R burst. Biscuit Delivery for sustain and mana in this nightmare lane. Second Wind for turret poke. Overgrowth for HP. Move Speed shard for dodging turret shots. This page: survive turret hell, call jungle, build MR.",
         laningPhase: "Disgusting turbo cancer rat champ. He sets 3 turrets and zones from farm. Can't approach without turbo damage. Start Doran's Shield. Poison kills turrets slowly but he replaces. When turrets down, engage. Post-6, R upgrades one turret to mega - cancer damage. Don't fight near it. Ask jungle to clear turrets. Rush Mercs and MR. Your job: survive, farm Q when safe, proxy when turrets focused elsewhere. He's immobile - with jungle can kill. Honestly just dodge or pick something else.",
         tips: [
             "Poison kills turrets slowly.",
@@ -1246,7 +1246,7 @@ window.matchups = [
                 "tree": "Precision",
                 "keystone": "Conqueror",
                 "slot1": "Triumph",
-                "slot2": "Legend: Tenacity",
+                "slot2": "Legend: Haste",
                 "slot3": "Last Stand"
             },
             "secondary": {
@@ -1256,11 +1256,11 @@ window.matchups = [
             },
             "shards": [
                 "Attack Speed",
-                "Armor",
+                "2% Move Speed",
                 "Health Scaling"
             ]
         },
-        runes: "Conqueror for matching extended trades. Triumph for sustain. Legend: Tenacity for E stun cut. BONE PLATING cuts burst when all-ins with 5 stacks. Unflinching for E stun and R slow cut. Armor shard. This page lets fight back when engages.",
+        runes: "Conqueror for matching extended trades. Triumph for sustain. Legend: Haste for ability haste — lower W and R cooldowns, more flips and ult uptime when she all-ins. BONE PLATING cuts burst when all-ins with 5 stacks. Unflinching for E stun and R slow cut. Move Speed shard for dodging her E stun. This page lets fight back when engages.",
         laningPhase: "This champ is turbo broken with stacks. Stand away from low-HP minions - dash resets on them. Passive at full stacks shreds. Never fight 4-5 stacks. If starts stacking, LEAVE. Wait for stacks fall. Flip when all-ins. After 6, respect R - can't outrun even with Ghost. Build Plated Steelcaps and armor. She outscales. Your job: survive, don't let stack passive, proxy when safe, be useful teamfights.",
         tips: [
             "Stand away from low-HP minions - dashes to them.",
@@ -1365,11 +1365,11 @@ window.matchups = [
             },
             "shards": [
                 "Attack Speed",
-                "Magic Resist",
+                "2% Move Speed",
                 "Adaptive Force"
             ]
         },
-        runes: "Conqueror - You MUST KILL HER EARLY. Triumph for clutch healing during aggression. Legend: ALACRITY (not Tenacity) - you need wave clear to proxy and deny her farm. COUP DE GRACE (not Last Stand) - execute damage for early kills. Sorcery secondary with Nimbus Cloak + Celerity for movement speed to run her down early. MR shard (she does magic damage). ADAPTIVE FORCE shard (not Health) - you need DAMAGE to kill her pre-6. This page is: ALL-IN EARLY OR LOSE GAME.",
+        runes: "Conqueror - You MUST KILL HER EARLY. Triumph for clutch healing during aggression. Legend: ALACRITY (not Tenacity) - you need wave clear to proxy and deny her farm. COUP DE GRACE (not Last Stand) - execute damage for early kills. Sorcery secondary with Nimbus Cloak + Celerity for movement speed to run her down early. Move Speed shard for running her down early. ADAPTIVE FORCE shard (not Health) - you need DAMAGE to kill her pre-6. This page is: ALL-IN EARLY OR LOSE GAME.",
         laningPhase: "Race against time. Kayle is WEAK pre-6. You MUST punish her hard early. Start Doran's Ring. All-in her levels 2-5 repeatedly. She can't fight back well. Her Q slow hurts but you can still run her down. Get early kills or deny CS. At level 6, she gets ranged - it gets harder. At level 11, she gets AOE waves - you can't proxy anymore. At level 16, she's a hypercarry and you lose. Your job: DESTROY her early game. Make her 0/3 and 50 CS behind. If you don't, you lose. Ask jungler to camp her. Build early MR if needed.",
         tips: [
             "All-in her levels 2-5 - she's weak.",
@@ -1391,7 +1391,7 @@ window.matchups = [
                 "tree": "Precision",
                 "keystone": "Conqueror",
                 "slot1": "Triumph",
-                "slot2": "Legend: Tenacity",
+                "slot2": "Legend: Haste",
                 "slot3": "Last Stand"
             },
             "secondary": {
@@ -1401,11 +1401,11 @@ window.matchups = [
             },
             "shards": [
                 "Attack Speed",
-                "Magic Resist",
+                "2% Move Speed",
                 "Tenacity"
             ]
         },
-        runes: "Conqueror for scaling damage. Legend: Tenacity + Tenacity shard + Mercury Treads = MAXIMUM TENACITY (60%+) to reduce his stun duration. RESOLVE SECONDARY - Second Wind + Overgrowth for sustain/HP. MR shard. This page lets you fight back mid-game.",
+        runes: "Conqueror for scaling damage. Legend: Haste for ability haste — lower W and R cooldowns, more ult uptime when you finally catch this rat. Tenacity shard + Mercury Treads to cut his stun duration. RESOLVE SECONDARY - Second Wind + Overgrowth for sustain/HP. Move Speed shard for closing the gap. This page lets you fight back mid-game.",
         laningPhase: "Ranged poke torture. He harasses with Q and auto attacks, building stacks. When you have 3 marks, he procs stun. Start Doran's Shield + Second Wind. Farm safely and give up CS. Don't let him stack 3 marks on you. Rush Mercury Treads for tenacity and MR. Post-6, his R AOE stun hurts. You can't engage on him - he E's away. Ask for jungle pressure. Your goal: survive, don't feed, be useful in teamfights. Proxy when safe but he can zone you easily.",
         tips: [
             "Don't let him stack 3 marks on you - that's the stun.",
@@ -1500,7 +1500,7 @@ window.matchups = [
                 "tree": "Sorcery",
                 "keystone": "Phase Rush",
                 "slot1": "Nimbus Cloak",
-                "slot2": "Nullifying Orb",
+                "slot2": "Celerity",
                 "slot3": "Gathering Storm"
             },
             "secondary": {
@@ -1510,11 +1510,11 @@ window.matchups = [
             },
             "shards": [
                 "Adaptive Force",
-                "Magic Resist",
+                "2% Move Speed",
                 "Tenacity"
             ]
         },
-        runes: "Phase Rush - Ryze has Phase Rush too, making him impossible to catch. Your Phase Rush helps you chase/escape when he roots you. NULLIFYING ORB - gives magic shield at low HP vs his burst. Second Wind for poke sustain. Unflinching + Tenacity shard for W root reduction. MR shard. This page is: survive his poke, dodge roots, farm safely, ask for ganks.",
+        runes: "Phase Rush - Ryze has Phase Rush too, making him impossible to catch. Your Phase Rush helps you chase/escape when he roots you. Celerity for bonus movement speed — every bit of speed helps vs his root combos. Second Wind for poke sustain. Unflinching + Tenacity shard for W root reduction. Move Speed shard for dodging his skill shots. This page is: survive his poke, dodge roots, farm safely, ask for ganks.",
         laningPhase: "Ranged mage with root. He Q's and E's you on cooldown for poke. When he roots you with W, you take a full combo. You can't catch him - he has his own Phase Rush. Start Doran's Shield + Second Wind. Farm safely and give up CS. Don't let him poke you for free. Rush Mercury Treads for tenacity. Post-6, his R is a teleport - not directly combat threatening but gives him map pressure. Ask for jungle help. Your job: survive, don't feed, proxy when safe. He scales hard but you're more useful in teamfights if you don't int lane.",
         tips: [
             "He roots you and combos - dodge sideways.",
@@ -1651,15 +1651,15 @@ window.matchups = [
             "secondary": {
                 "tree": "Precision",
                 "slot1": "Triumph",
-                "slot2": "Legend: Tenacity"
+                "slot2": "Legend: Haste"
             },
             "shards": [
                 "Attack Speed",
-                "Armor",
+                "2% Move Speed",
                 "Tenacity"
             ]
         },
-        runes: "AFTERSHOCK - When you flip Yone, Aftershock procs giving +70 armor/MR for 2.5s, negating his burst combo. This is THE anti-burst rune. Shield Bash from R. Conditioning for mid-game tankiness. Overgrowth for HP. Legend: Tenacity + Tenacity shard for Q3 knockup (doesn't reduce knockup but reduces other CC). Armor shard. This page turns you into a tank who absorbs his combo.",
+        runes: "AFTERSHOCK - When you flip Yone, Aftershock procs giving +70 armor/MR for 2.5s, negating his burst combo. This is THE anti-burst rune. Shield Bash from R. Conditioning for mid-game tankiness. Overgrowth for HP. Legend: Haste for ability haste — lower W and R cooldowns, more flips and ult uptime. Tenacity shard for CC reduction. Move Speed shard for dodging his Q3 tornado. This page turns you into a tank who absorbs his combo.",
         laningPhase: "This champ is turbo broken. Dodge his Q3 tornado. When he E's (spirit form), poison him - he takes the damage when he snaps back. But he can also snap back early to dodge your flip. Don't fight him when he has R - he'll just ult away or ult and kill you. He outscales you hard. Build Plated Steelcaps and armor. Respect his all-in potential. Your job: survive, farm, don't feed. Proxy when his E is down.",
         tips: [
             "Dodge his Q3 tornado.",
@@ -1691,11 +1691,11 @@ window.matchups = [
             },
             "shards": [
                 "Adaptive Force",
-                "Armor",
+                "2% Move Speed",
                 "Tenacity"
             ]
         },
-        runes: "PHASE RUSH - Ambessa dashes constantly. Phase Rush helps you keep up with her dashes OR escape when she chains abilities. Your W ground slow stops her dashes temporarily but Phase Rush ensures you can reposition. Second Wind for sustain. Unflinching + Tenacity shard for her CC chains. Armor shard. This page is: match her mobility, use W ground to stop dashes, Phase Rush to escape combos.",
+        runes: "PHASE RUSH - Ambessa dashes constantly. Phase Rush helps you keep up with her dashes OR escape when she chains abilities. Your W ground slow stops her dashes temporarily but Phase Rush ensures you can reposition. Second Wind for sustain. Unflinching + Tenacity shard for her CC chains. Move Speed shard for matching her dash-heavy playstyle. This page is: match her mobility, use W ground to stop dashes, Phase Rush to escape combos.",
         laningPhase: "NEW Season 16 champion - high mobility bruiser. Ambessa dashes constantly with her abilities, making her hard to pin down. Her Q is a dash-slash combo, E gives her a dash with damage reduction, and W creates an AOE zone. She chains abilities together for multiple dashes in quick succession. Start Doran's Shield. Don't try to trade when she has full ability rotations - she'll dash circles around you. Wait for her to use dashes on minions, then engage. Your W ground slow is CRUCIAL - it stops her from dashing away. Flip her mid-combo to interrupt her damage. She's strongest in extended trades with her passive (bonus damage). Keep trades short - poison and disengage. Build Plated Steelcaps and armor early. Post-6, her R is an execute and dash - don't fight when low HP. Respect her mobility but she's still melee - your poison wears her down over time.",
         tips: [
             "Her dashes have short cooldowns - use W ground to stop her mobility.",
@@ -1718,7 +1718,7 @@ window.matchups = [
                 "tree": "Sorcery",
                 "keystone": "Phase Rush",
                 "slot1": "Nimbus Cloak",
-                "slot2": "Nullifying Orb",
+                "slot2": "Celerity",
                 "slot3": "Gathering Storm"
             },
             "secondary": {
@@ -1728,11 +1728,11 @@ window.matchups = [
             },
             "shards": [
                 "Adaptive Force",
-                "Magic Resist",
+                "2% Move Speed",
                 "Health Scaling"
             ]
         },
-        runes: "Phase Rush - When Rumble ults, you NEED Phase Rush to escape the Equalizer line. NULLIFYING ORB - gives magic shield at low HP vs his burst damage (all magic damage). Second Wind for sustain vs poke. Overgrowth for HP. MR shard. This page is: escape his R, survive overheated trades, build MR, extended trades favor you.",
+        runes: "Phase Rush - When Rumble ults, you NEED Phase Rush to escape the Equalizer line. Celerity for bonus movement speed — critical for dodging his R Equalizer and kiting overheated trades. Second Wind for sustain vs poke. Overgrowth for HP. Move Speed shard for dodging his E harpoons. This page is: escape his R, survive overheated trades, build MR, extended trades favor you.",
         laningPhase: "AP fighter with constant magic damage. Start Doran's Shield + Second Wind. His Q flamethrower and E harpoons do sustained magic damage and slow you. When he overheats (yellow bar full), he gets bonus damage and silences you with autos - DON'T fight when he's overheated. His W shield makes short trades favor him. You need extended trades with poison to outdamage his shield. Post-6, his R is the equalizer - massive AOE slow and damage over time. If he Rs on you, immediately Ghost/Phase Rush away from the line. Don't stand in it. Rush Mercury Treads and MR. Build Force of Nature if he's dominating. His damage is all magic so armor is useless. Proxy when his E harpoons are down - he can't stop you without the slow. Winnable matchup if you respect his overheat and dodge his R.",
         tips: [
             "DON'T fight him when overheated (yellow bar) - bonus damage + silence.",
@@ -1755,7 +1755,7 @@ window.matchups = [
                 "tree": "Precision",
                 "keystone": "Conqueror",
                 "slot1": "Triumph",
-                "slot2": "Legend: Tenacity",
+                "slot2": "Legend: Haste",
                 "slot3": "Last Stand"
             },
             "secondary": {
@@ -1765,11 +1765,11 @@ window.matchups = [
             },
             "shards": [
                 "Attack Speed",
-                "Magic Resist",
+                "2% Move Speed",
                 "Tenacity"
             ]
         },
-        runes: "Conqueror for extended AP duels. Triumph for clutch healing. Legend: Tenacity + Tenacity shard for E2 stun reduction. Sorcery secondary with Nimbus Cloak + Celerity for movement speed to dodge E2 and kite. MR shard (he does magic damage). This page is: duel him when your R is down (he can't steal it), dodge E2, build MR and consider antiheal for his W.",
+        runes: "Conqueror for extended AP duels. Triumph for clutch healing. Legend: Haste for ability haste — lower W and R cooldowns, more ult uptime to outpace his stolen R. Tenacity shard for E2 stun reduction. Sorcery secondary with Nimbus Cloak + Celerity for movement speed to dodge E2 and kite. Move Speed shard for dodging his E2 dash. This page is: duel him when your R is down (he can't steal it), dodge E2, build MR and consider antiheal for his W.",
         laningPhase: "AP skirmisher who steals your R. Start Doran's Ring. His passive empowers every third auto - he wants to weave autos between abilities. His Q detonates for AOE damage, W heals him and damages you, E is a dash-stun combo. Dodge his E2 (second dash) - that's the stun. If he lands it, you lose the trade. Don't clump with minions when he Q's - the detonation is AOE. When he steals your R with his R, he gets YOUR stats - movement speed, HP, mana restore. Deny him value by backing off when he uses it. His W heals him significantly - consider building Oblivion Orb for grievous wounds. Build Mercury Treads and some MR. Post-6, bait his R steal, then engage when it's down. He's strongest when he has your R available. Extended trades favor you with poison if you dodge his E stun. Don't let him heal for free with W.",
         tips: [
             "Dodge his E2 (second dash) - that's the stun.",
