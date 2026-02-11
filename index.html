@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Singed Top Lane Guide - Mix Mix Swirl Mix!</title>
-    <link rel="stylesheet" href="style.css?v=2">
+    <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
     <div class="container">
@@ -20,19 +20,19 @@
         <!-- Quick Stats -->
         <section class="quick-stats">
             <div class="stat-card">
-                <div class="stat-icon">✅</div>
-                <div class="stat-label">Favorable</div>
-                <div class="stat-value" id="favorableCount">0</div>
+                <div class="stat-icon">😎</div>
+                <div class="stat-label">Free</div>
+                <div class="stat-value" id="freeCount">0</div>
             </div>
             <div class="stat-card">
-                <div class="stat-icon">⚔️</div>
-                <div class="stat-label">Skill</div>
-                <div class="stat-value" id="skillCount">0</div>
+                <div class="stat-icon">🎲</div>
+                <div class="stat-label">Coinflip</div>
+                <div class="stat-value" id="coinflipCount">0</div>
             </div>
             <div class="stat-card">
-                <div class="stat-icon">❌</div>
-                <div class="stat-label">Difficult</div>
-                <div class="stat-value" id="hardCount">0</div>
+                <div class="stat-icon">☠️</div>
+                <div class="stat-label">Cancer</div>
+                <div class="stat-value" id="cancerCount">0</div>
             </div>
         </section>
 
@@ -42,10 +42,11 @@
             <div class="filters">
                 <input type="text" id="searchInput" placeholder="Search champion...">
                 <select id="difficultyFilter">
-                    <option value="all">All Difficulties</option>
-                    <option value="easy">Favorable</option>
-                    <option value="skill">Skill Matchup</option>
-                    <option value="hard">Difficult</option>
+                    <option value="all">All Matchups</option>
+                    <option value="free">Free / Turbo Free</option>
+                    <option value="playable">Playable / Coinflip</option>
+                    <option value="cancer">Cancer / Turbo Cancer</option>
+                    <option value="unplayable">Unplayable (Dodge)</option>
                 </select>
                 <button onclick="resetFilters()" class="btn-secondary">Reset</button>
             </div>
@@ -93,34 +94,34 @@
 
         <!-- Build Guide -->
         <section class="builds">
-            <h2>⚔️ Core Builds</h2>
+            <h2>⚔️ Core Builds (S16 Patch 26.3)</h2>
             <div class="build-grid">
                 <div class="build-card">
                     <h3>Standard Build</h3>
                     <div class="items">
-                        <span class="item">Liandry's Anguish</span>
+                        <span class="item">Liandry's Torment</span>
                         <span class="item">Rylai's Crystal Scepter</span>
-                        <span class="item">Demonic Embrace</span>
+                        <span class="item">Deadman's Plate</span>
                     </div>
-                    <p class="build-desc">Core burn build. Run around, poison everything, never die. Classic Singed.</p>
+                    <p class="build-desc">The build. Liandry's is your ONLY true core item. Rylai's for perma slow. Deadman's for armor + zoom. Works in 90% of games.</p>
                 </div>
                 <div class="build-card">
-                    <h3>Tank Singed</h3>
+                    <h3>AP-Heavy (Solo Carry)</h3>
                     <div class="items">
-                        <span class="item">Heartsteel</span>
-                        <span class="item">Jak'Sho</span>
-                        <span class="item">Thornmail</span>
+                        <span class="item">Liandry's Torment</span>
+                        <span class="item">Bloodletter's Curse</span>
+                        <span class="item">Rabadon's Deathcap</span>
                     </div>
-                    <p class="build-desc">Against heavy AD. You become unkillable. Less damage, more chaos.</p>
+                    <p class="build-desc">When your team needs damage. Deathcap rush more important in S16 due to AP nerfs across items.</p>
                 </div>
                 <div class="build-card">
-                    <h3>Proxy Build</h3>
+                    <h3>Movespeed / SHTF Build</h3>
                     <div class="items">
-                        <span class="item">Dark Seal (x2)</span>
-                        <span class="item">Corrupting Potion</span>
-                        <span class="item">Boots</span>
+                        <span class="item">Cosmic Drive</span>
+                        <span class="item">Deadman's Plate</span>
+                        <span class="item">Liandry's Torment</span>
                     </div>
-                    <p class="build-desc">Early game proxy setup. Stack Dark Seals, never back, live between their towers.</p>
+                    <p class="build-desc">When lane is doomed. Rush Aether Wisp + Winged Moonplate + Swifties. Perma proxy and run away. You can't die if they can't catch you.</p>
                 </div>
             </div>
         </section>
@@ -130,26 +131,26 @@
             <h2>📜 Rune Setups</h2>
             <div class="rune-grid">
                 <div class="rune-card">
-                    <h3>Standard (Conqueror)</h3>
+                    <h3>Conqueror (Standard)</h3>
                     <div class="rune-tree">
-                        <strong>Primary:</strong> Conqueror, Triumph, Legend: Tenacity, Last Stand<br>
-                        <strong>Secondary:</strong> Celerity, Gathering Storm
+                        <strong>Primary:</strong> Conqueror, Triumph, Legend: Alacrity, Last Stand<br>
+                        <strong>Secondary:</strong> Nimbus Cloak, Celerity
                     </div>
-                    <p>General purpose. Scales well, good in extended fights.</p>
+                    <p>Best 5v5 damage. Take vs tanks and most melee. Stack with poison + fling + auto.</p>
                 </div>
                 <div class="rune-card">
-                    <h3>Spellbook</h3>
+                    <h3>Phase Rush (Mandatory vs Slows)</h3>
                     <div class="rune-tree">
-                        <strong>Primary:</strong> Unsealed Spellbook, Hexflash, Biscuits, Cosmic Insight<br>
-                        <strong>Secondary:</strong> Celerity, Waterwalking
+                        <strong>Primary:</strong> Phase Rush, Nimbus Cloak, Celerity, Gathering Storm<br>
+                        <strong>Secondary:</strong> Second Wind, Unflinching
                     </div>
-                    <p>For proxy/roaming. Swap summs, maximum chaos.</p>
+                    <p>MANDATORY vs Darius, Olaf, Nasus. Also good for proxy escapes. If you don't know what to take, Phase Rush is always safe.</p>
                 </div>
             </div>
         </section>
     </div>
 
-    <script src="matchups-complete.js?v=2"></script>
-    <script src="script.js?v=2"></script>
+    <script src="matchups-complete.js?v=3"></script>
+    <script src="script.js?v=3"></script>
 </body>
 </html>

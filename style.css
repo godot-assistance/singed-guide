@@ -161,16 +161,20 @@ body {
     box-shadow: 0 5px 20px rgba(95, 167, 101, 0.3);
 }
 
-.matchup-card.easy {
+.matchup-card.free {
     border-left: 5px solid #4CAF50;
 }
 
-.matchup-card.skill {
+.matchup-card.playable {
     border-left: 5px solid #FFC107;
 }
 
-.matchup-card.hard {
+.matchup-card.cancer {
     border-left: 5px solid #F44336;
+}
+
+.matchup-card.unplayable {
+    border-left: 5px solid #9C27B0;
 }
 
 .matchup-icon {
@@ -193,18 +197,23 @@ body {
     font-weight: 600;
 }
 
-.matchup-difficulty.easy {
+.matchup-difficulty.free {
     background: #4CAF50;
     color: white;
 }
 
-.matchup-difficulty.skill {
+.matchup-difficulty.playable {
     background: #FFC107;
     color: #333;
 }
 
-.matchup-difficulty.hard {
+.matchup-difficulty.cancer {
     background: #F44336;
+    color: white;
+}
+
+.matchup-difficulty.unplayable {
+    background: #9C27B0;
     color: white;
 }
 

@@ -360,14 +360,32 @@ function init() {
     document.getElementById('difficultyFilter').addEventListener('change', filterMatchups);
 }
 
+function getDifficultyCategory(diff) {
+    if (diff === 'free' || diff === 'turbo free') return 'free';
+    if (diff === 'playable' || diff === 'coinflip') return 'playable';
+    if (diff === 'cancer' || diff === 'turbo cancer') return 'cancer';
+    if (diff === 'unplayable') return 'unplayable';
+    return 'playable';
+}
+
+function getDifficultyLabel(diff) {
+    const labels = {
+        'free': '😎 Free', 'turbo free': '🤣 Turbo Free',
+        'playable': '🎲 Playable', 'coinflip': '🪙 Coinflip',
+        'cancer': '☠️ Cancer', 'turbo cancer': '💀 Turbo Cancer',
+        'unplayable': '🚫 Unplayable'
+    };
+    return labels[diff] || diff;
+}
+
 function updateStats() {
-    const easy = matchups.filter(m => m.difficulty === 'easy').length;
-    const skill = matchups.filter(m => m.difficulty === 'skill').length;
-    const hard = matchups.filter(m => m.difficulty === 'hard').length;
+    const free = matchups.filter(m => getDifficultyCategory(m.difficulty) === 'free').length;
+    const coinflip = matchups.filter(m => getDifficultyCategory(m.difficulty) === 'playable').length;
+    const cancer = matchups.filter(m => getDifficultyCategory(m.difficulty) === 'cancer' || getDifficultyCategory(m.difficulty) === 'unplayable').length;
     
-    document.getElementById('favorableCount').textContent = easy;
-    document.getElementById('skillCount').textContent = skill;
-    document.getElementById('hardCount').textContent = hard;
+    document.getElementById('freeCount').textContent = free;
+    document.getElementById('coinflipCount').textContent = coinflip;
+    document.getElementById('cancerCount').textContent = cancer;
 }
 
 function renderMatchups() {
@@ -376,14 +394,15 @@ function renderMatchups() {
     
     filteredMatchups.forEach(matchup => {
         const card = document.createElement('div');
-        card.className = `matchup-card ${matchup.difficulty}`;
+        const cat = getDifficultyCategory(matchup.difficulty);
+        card.className = `matchup-card ${cat}`;
         card.onclick = () => showMatchupDetails(matchup);
         
         card.innerHTML = `
             <div class="matchup-icon">${matchup.icon}</div>
             <div class="matchup-name">${matchup.name}</div>
-            <span class="matchup-difficulty ${matchup.difficulty}">
-                ${matchup.difficulty === 'easy' ? 'Favorable' : matchup.difficulty === 'skill' ? 'Skill' : 'Difficult'}
+            <span class="matchup-difficulty ${cat}">
+                ${getDifficultyLabel(matchup.difficulty)}
             </span>
         `;
         
@@ -401,7 +420,7 @@ function filterMatchups() {
     
     filteredMatchups = matchups.filter(matchup => {
         const matchesSearch = matchup.name.toLowerCase().includes(searchTerm);
-        const matchesDifficulty = difficultyFilter === 'all' || matchup.difficulty === difficultyFilter;
+        const matchesDifficulty = difficultyFilter === 'all' || getDifficultyCategory(matchup.difficulty) === difficultyFilter || matchup.difficulty === difficultyFilter;
         return matchesSearch && matchesDifficulty;
     });
     
@@ -473,8 +492,8 @@ function showMatchupDetails(matchup) {
         <div class="modal-header">
             <div style="font-size: 4rem;">${matchup.icon}</div>
             <h2>Singed vs ${matchup.name}</h2>
-            <span class="matchup-difficulty ${matchup.difficulty}">
-                ${matchup.difficulty === 'easy' ? 'Favorable' : matchup.difficulty === 'skill' ? 'Skill Matchup' : 'Difficult'}
+            <span class="matchup-difficulty ${getDifficultyCategory(matchup.difficulty)}">
+                ${getDifficultyLabel(matchup.difficulty)}
             </span>
         </div>
         
