@@ -398,9 +398,11 @@ window.matchups = [
             "Never fight when his E is up - dodge window.",
             "Fling him when he Q's on you.",
             "Build Plated Steelcaps + Frozen Heart.",
-            "Late he wins 1v1 - split opposite side."
+            "Late he wins 1v1 - split opposite side.",
+            "Protoplasm Harness 3rd/4th — Lifeline passive saves you from his burst trades. 600 HP is turbo value.",
+            "Bandlepipes if enemy team has mixed damage — Jax does mixed (AA + W magic), cheap hybrid resistances + movement passive."
         ],
-        keyPoints: "Respect his E. Win early. Late game avoid 1v1 or get gapped."
+        keyPoints: "Respect his E. Win early. Late game avoid 1v1 or get gapped. Protoplasm Lifeline saves vs his burst. Bandlepipes for mixed damage."
     },
     {
         name: "K'Sante",
@@ -589,7 +591,7 @@ window.matchups = [
         icon: "🗡️",
         summonerSpells: ["Flash","Ghost"],
         startingItem: "Doran's Shield + Health Potion",
-        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Deadman's Plate"],
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Protoplasm Harness"],
         runeSetup: {
             "primary": {
                 "tree": "Resolve",
@@ -615,9 +617,10 @@ window.matchups = [
             "Respect her burst - she can 100-0 you.",
             "Fling mid-combo to cancel.",
             "Build Plated Steelcaps + armor.",
-            "Don't fight when all CDs up."
+            "Don't fight when all CDs up.",
+            "Protoplasm Harness is turbo broken here — Lifeline passive saves you from her one-shot combo."
         ],
-        keyPoints: "Hands diff. Fling cancels combos. Respect burst or get gapped."
+        keyPoints: "Hands diff. Fling cancels combos. Respect burst or get gapped. Protoplasm Lifeline clutch saves your life."
     },
     {
         name: "Sett",
@@ -1012,9 +1015,11 @@ window.matchups = [
             "Leave her shroud - don't fight in it.",
             "Fling mid-combo to cancel.",
             "Build Mercs + MR.",
-            "She needs kills - don't feed."
+            "She needs kills - don't feed.",
+            "Protoplasm Harness is cracked here — Lifeline passive saves you from her burst combo. 600 HP for 2500g is turbo value.",
+            "Bandlepipes if enemy team is mixed damage — cheap hybrid resistances + movement passive so you don't explode."
         ],
-        keyPoints: "High mobility assassin. Survive early, useless if not fed."
+        keyPoints: "High mobility assassin. Survive early, useless if not fed. Protoplasm Lifeline saves vs her burst. Bandlepipes if mixed damage team."
     },
     {
         name: "Akshan",
@@ -1059,7 +1064,7 @@ window.matchups = [
         icon: "🦵",
         summonerSpells: ["Teleport","Ghost"],
         startingItem: "Doran's Shield + Health Potion",
-        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Deadman's Plate"],
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Protoplasm Harness"],
         runeSetup: {
             "primary": {
                 "tree": "Sorcery",
@@ -1087,7 +1092,7 @@ window.matchups = [
             "She outdamages and outscales - respect.",
             "Proxy when E down."
         ],
-        keyPoints: "Disgusting champ. She controls fights. Just chill. Proxy when possible."
+        keyPoints: "Disgusting champ. She controls fights. Just chill. Proxy when possible. Protoplasm Harness Lifeline passive clutch saves you when she all-ins inside R arena."
     },
     {
         name: "Fiora",
@@ -1095,7 +1100,7 @@ window.matchups = [
         icon: "🤺",
         summonerSpells: ["Teleport","Ghost"],
         startingItem: "Doran's Shield + Health Potion",
-        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Deadman's Plate"],
+        coreItems: ["Liandry's Torment","Rylai's Crystal Scepter","Protoplasm Harness"],
         runeSetup: {
             "primary": {
                 "tree": "Sorcery",
@@ -1122,9 +1127,10 @@ window.matchups = [
             "When ults, stand against wall to deny 4th vital.",
             "Build antiheal - heals from vitals and R.",
             "Don't 1v1 late - she autowins.",
-            "Proxy when backs or roams."
+            "Proxy when backs or roams.",
+            "Protoplasm Harness Lifeline passive saves you from her all-in burst — 600 HP + clutch heal is turbo broken here."
         ],
-        keyPoints: "Disgusting champ. She scales harder. Survive early, can't duel late."
+        keyPoints: "Disgusting champ. She scales harder. Survive early, can't duel late. Protoplasm Lifeline saves your life."
     },
     {
         name: "Gangplank",
@@ -1240,7 +1246,7 @@ window.matchups = [
         icon: "🗡️",
         summonerSpells: ["Ghost","Flash"],
         startingItem: "Doran's Shield + Health Potion",
-        coreItems: ["Frozen Heart","Liandry's Torment","Deadman's Plate"],
+        coreItems: ["Frozen Heart","Liandry's Torment","Protoplasm Harness"],
         runeSetup: {
             "primary": {
                 "tree": "Precision",
@@ -1266,9 +1272,10 @@ window.matchups = [
             "Stand away from low-HP minions - dashes to them.",
             "Don't fight 4-5 passive stacks.",
             "Flip when all-ins.",
-            "After 6, can't outrun R."
+            "After 6, can't outrun R.",
+            "Protoplasm Harness Lifeline passive clutch saves you from her 5-stack all-in — turbo broken here."
         ],
-        keyPoints: "High mobility. Don't let stack. Survive."
+        keyPoints: "High mobility. Don't let stack. Survive. Protoplasm Lifeline saves your life vs her burst."
     },
     {
         name: "Jayce",
@@ -1639,7 +1646,7 @@ window.matchups = [
         icon: "⚡",
         summonerSpells: ["Flash","Ghost"],
         startingItem: "Doran's Shield + Health Potion",
-        coreItems: ["Frozen Heart","Liandry's Torment","Deadman's Plate"],
+        coreItems: ["Frozen Heart","Liandry's Torment","Protoplasm Harness"],
         runeSetup: {
             "primary": {
                 "tree": "Resolve",
@@ -1665,9 +1672,10 @@ window.matchups = [
             "Dodge his Q3 tornado.",
             "When he E's, poison him - damage transfers when he snaps back.",
             "He outscales you hard.",
-            "Build Plated Steelcaps + armor."
+            "Build Plated Steelcaps + armor.",
+            "Protoplasm Harness Lifeline passive is turbo broken vs his burst combo — 600 HP + clutch heal when he all-ins."
         ],
-        keyPoints: "High mobility. Respect his E all-in. Survive and scale."
+        keyPoints: "High mobility. Respect his E all-in. Survive and scale. Protoplasm Lifeline saves you from his combo."
     },
     {
         name: "Ambessa",

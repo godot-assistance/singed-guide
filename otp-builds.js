@@ -19,7 +19,7 @@ window.otpBuilds = [
       alternativeStart: "Dark Seal + Refillable Potion",
       coreItems: ["Liandry's Torment", "Rylai's Crystal Scepter", "Deadman's Plate"],
       boots: "Boots of Swiftness",
-      situationalItems: ["Rabadon's Deathcap", "Bloodletter's Curse", "Zhonya's Hourglass", "Cosmic Drive", "Force of Nature"],
+      situationalItems: ["Rabadon's Deathcap", "Bloodletter's Curse", "Zhonya's Hourglass", "Cosmic Drive", "Force of Nature", "Protoplasm Harness", "Bandlepipes"],
       runeSetup: {
         primary: {
           tree: "Precision",
@@ -43,7 +43,7 @@ window.otpBuilds = [
         shards: ["Adaptive Force", "Adaptive Force", "Scaling Health"]
       }
     },
-    notes: "Minishcap1's philosophy: Liandry's is Singed's ONLY true core item - everything else is situational. Season 16 emphasizes higher AP builds (Deathcap rush more common) due to AP nerfs across items. Uses Conqueror vs tanks/melee, Phase Rush vs heavy slow comps (Darius/Olaf/Nasus). Ghost+Flash is most standard for teamfighting. Prefers 2x AP shards for early damage but can run movespeed shard for scaling. KEY: Never buy 2 tank items if your team lacks damage!"
+    notes: "Minishcap1's philosophy: Liandry's is Singed's ONLY true core item - everything else is situational. Season 16 emphasizes higher AP builds (Deathcap rush more common) due to AP nerfs across items. Uses Conqueror vs tanks/melee, Phase Rush vs heavy slow comps (Darius/Olaf/Nasus). Ghost+Flash is most standard for teamfighting. Prefers 2x AP shards for early damage but can run movespeed shard for scaling. KEY: Never buy 2 tank items if your team lacks damage! Has a video titled 'PROTOPLASM IS BROKEN' — Protoplasm Harness 3rd/4th vs burst is turbo value (600 HP + Lifeline heal for 2500g). Bandlepipes if enemy team is mixed damage."
   },
   {
     name: "pollogamer22",
@@ -59,7 +59,7 @@ window.otpBuilds = [
       startingItem: "Dark Seal + Refillable Potion",
       coreItems: ["Rylai's Crystal Scepter", "Liandry's Torment", "Deadman's Plate"],
       boots: "Boots of Swiftness",
-      situationalItems: ["Warmog's Armor", "Force of Nature", "Rabadon's Deathcap", "Cosmic Drive"],
+      situationalItems: ["Warmog's Armor", "Force of Nature", "Rabadon's Deathcap", "Cosmic Drive", "Protoplasm Harness"],
       runeSetup: {
         primary: {
           tree: "Precision",
@@ -92,7 +92,7 @@ window.otpBuilds = [
       startingItem: "Dark Seal + Refillable Potion",
       coreItems: ["Liandry's Torment", "Rylai's Crystal Scepter", "Deadman's Plate"],
       boots: "Boots of Swiftness",
-      situationalItems: ["Bloodletter's Curse", "Warmog's Armor", "Rabadon's Deathcap", "Zhonya's Hourglass"],
+      situationalItems: ["Bloodletter's Curse", "Warmog's Armor", "Rabadon's Deathcap", "Zhonya's Hourglass", "Protoplasm Harness"],
       runeSetup: {
         primary: {
           tree: "Precision",
@@ -125,7 +125,7 @@ window.otpBuilds = [
       startingItem: "Doran's Ring + 2 Health Potions",
       coreItems: ["Liandry's Torment", "Rylai's Crystal Scepter", "Deadman's Plate"],
       boots: "Boots of Swiftness",
-      situationalItems: ["Warmog's Armor", "Cosmic Drive", "Force of Nature", "Rabadon's Deathcap"],
+      situationalItems: ["Warmog's Armor", "Cosmic Drive", "Force of Nature", "Rabadon's Deathcap", "Protoplasm Harness"],
       runeSetup: {
         primary: {
           tree: "Precision",
@@ -257,7 +257,7 @@ window.otpBuilds = [
       startingItem: "Doran's Ring + 2 Health Potions",
       coreItems: ["Liandry's Torment", "Rylai's Crystal Scepter", "Deadman's Plate"],
       boots: "Boots of Swiftness",
-      situationalItems: ["Warmog's Armor", "Cosmic Drive", "Force of Nature", "Rabadon's Deathcap"],
+      situationalItems: ["Warmog's Armor", "Cosmic Drive", "Force of Nature", "Rabadon's Deathcap", "Protoplasm Harness", "Bandlepipes"],
       runeSetup: {
         primary: {
           tree: "Precision",
@@ -290,7 +290,7 @@ window.otpBuilds = [
       startingItem: "Doran's Ring + 2 Health Potions",
       coreItems: ["Liandry's Torment", "Rylai's Crystal Scepter", "Rabadon's Deathcap"],
       boots: "Boots of Swiftness",
-      situationalItems: ["Bloodletter's Curse", "Zhonya's Hourglass", "Cosmic Drive", "Deadman's Plate"],
+      situationalItems: ["Bloodletter's Curse", "Zhonya's Hourglass", "Cosmic Drive", "Deadman's Plate", "Protoplasm Harness"],
       runeSetup: {
         primary: {
           tree: "Precision",
@@ -356,7 +356,7 @@ window.otpBuilds = [
       startingItem: "Dark Seal + Refillable Potion",
       coreItems: ["Liandry's Torment", "Rylai's Crystal Scepter", "Deadman's Plate"],
       boots: "Boots of Swiftness",
-      situationalItems: ["Warmog's Armor", "Cosmic Drive", "Force of Nature", "Rabadon's Deathcap"],
+      situationalItems: ["Warmog's Armor", "Cosmic Drive", "Force of Nature", "Rabadon's Deathcap", "Protoplasm Harness", "Bandlepipes"],
       runeSetup: {
         primary: {
           tree: "Precision",
@@ -389,7 +389,7 @@ window.otpBuilds = [
       startingItem: "Dark Seal + Refillable Potion",
       coreItems: ["Liandry's Torment", "Rylai's Crystal Scepter", "Deadman's Plate"],
       boots: "Boots of Swiftness",
-      situationalItems: ["Warmog's Armor", "Force of Nature", "Cosmic Drive", "Bloodletter's Curse"],
+      situationalItems: ["Warmog's Armor", "Force of Nature", "Cosmic Drive", "Bloodletter's Curse", "Protoplasm Harness"],
       runeSetup: {
         primary: {
           tree: "Precision",
@@ -422,7 +422,7 @@ window.otpBuilds = [
       startingItem: "Dark Seal + Refillable Potion",
       coreItems: ["Liandry's Torment", "Rylai's Crystal Scepter", "Deadman's Plate"],
       boots: "Boots of Swiftness",
-      situationalItems: ["Rabadon's Deathcap", "Zhonya's Hourglass", "Cosmic Drive", "Bloodletter's Curse"],
+      situationalItems: ["Rabadon's Deathcap", "Zhonya's Hourglass", "Cosmic Drive", "Bloodletter's Curse", "Protoplasm Harness"],
       runeSetup: {
         primary: {
           tree: "Precision",
@@ -592,8 +592,9 @@ window.buildConsensus = {
     absoluteCore: "Liandry's Torment (Minishcap1: 'ONLY true core item')",
     secondCore: "Rylai's Crystal Scepter (near 100% pickrate, order varies)",
     thirdStandard: "Deadman's Plate (most common 3rd item)",
+    thirdAlternative: "Protoplasm Harness (3rd/4th vs burst — Minishcap1 calls it 'broken'. 600 HP + Lifeline passive for 2500g. Mobalytics standard build across 35k matches.)",
     boots: "Boots of Swiftness (overwhelming consensus)",
-    lateGame: ["Rabadon's Deathcap", "Bloodletter's Curse", "Warmog's Armor", "Cosmic Drive", "Force of Nature", "Zhonya's Hourglass"]
+    lateGame: ["Rabadon's Deathcap", "Bloodletter's Curse", "Warmog's Armor", "Cosmic Drive", "Force of Nature", "Zhonya's Hourglass", "Protoplasm Harness", "Bandlepipes"]
   },
   startingItems: {
     mostCommon: "Doran's Ring + 2 Health Potions (80.6% pickrate per dpm.lol - standard, stable start)",
@@ -634,6 +635,18 @@ window.spicyPicks = {
     player: "Minishcap1",
     description: "Phase Rush is MANDATORY vs Darius, Olaf, Nasus - champions with massive slows. Cannot play these matchups without it.",
     when: "Enemy has heavy slow-spam (Darius W, Olaf Q, Nasus W, etc)"
+  },
+  protoplasm_harness: {
+    player: "Minishcap1",
+    description: "Protoplasm Harness 3rd/4th — Minishcap1 calls it 'broken'. 600 HP + 20 Ability Haste + Lifeline passive that heals based on bonus resistances when you drop low. Turbo broken on Singed — you're running through 5 people and the clutch Lifeline heal saves you every time. Mobalytics recommends it in the standard Singed build across 35k matches (Liandry's → Swifties → Rylai's → Protoplasm).",
+    difficulty: "Easy to build, just slot it in",
+    when: "Vs burst/all-in (Camille, Fiora, Irelia, Riven, Yone), when behind, or when getting focused in teamfights. Replaces Deadman's Plate when you need raw HP + clutch survival over movespeed."
+  },
+  bandlepipes: {
+    player: "Various OTPs",
+    description: "Bandlepipes — 2300g for 200 HP, 15 AH, 20 Armor, 20 MR + movement passive. Cheap hybrid defensive option that gives you a bit of everything. Think of it as budget survivability when enemy team has both AD and AP threats.",
+    difficulty: "Easy, cheap power spike",
+    when: "Enemy team is mixed damage (AD top + AP mid, or Jax/Akali who do mixed). When you need to not explode but don't want to commit to full armor or full MR."
   }
 };
 
